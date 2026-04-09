@@ -1,3 +1,5 @@
+/* Diff Checker - popup.js */
+/* Halit Uzan - 2026 */
 (function () {
   "use strict";
 
