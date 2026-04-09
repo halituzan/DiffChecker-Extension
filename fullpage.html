@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diff Checker — Tam sayfa</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body class="fullpage">
+  <div class="app">
+    <header class="header">
+      <h1>Diff Checker</h1>
+      <p class="subtitle">İki metni satır satır karşılaştırın · + eklenen · − silinen</p>
+    </header>
+
+    <div class="diff-toolbar">
+      <button type="button" id="diff-run" class="btn primary">Karşılaştır</button>
+      <button type="button" id="diff-copy" class="btn secondary" disabled>Özeti kopyala</button>
+      <button type="button" id="diff-clear" class="btn ghost">Temizle</button>
+      <span id="diff-stats" class="diff-stats" aria-live="polite"></span>
+    </div>
+
+    <main class="diff-main" id="diff-main">
+      <div class="diff-columns" id="diff-columns">
+        <div class="diff-col diff-col--left">
+          <label for="diff-left">Sol (A)</label>
+          <textarea id="diff-left" spellcheck="false" placeholder="İlk metin…"></textarea>
+        </div>
+        <div class="diff-col diff-col--right">
+          <label for="diff-right">Sağ (B)</label>
+          <textarea id="diff-right" spellcheck="false" placeholder="İkinci metin…"></textarea>
+        </div>
+      </div>
+      <div
+        class="diff-splitter"
+        id="diff-splitter"
+        role="separator"
+        aria-orientation="horizontal"
+        aria-label="Fark özeti yüksekliği — sürükleyin"
+        tabindex="0"
+        title="Sürükleyerek üst alan ile fark özeti yüksekliğini ayarlayın"
+      ></div>
+      <div class="diff-result-block" id="diff-result-block">
+        <div class="result-head">
+          <span class="result-head__title">Fark özeti</span>
+          <div class="diff-nav" role="group" aria-label="Farklar arasında gezin">
+            <button type="button" id="diff-nav-up" class="btn btn-icon" disabled title="Önceki fark" aria-label="Önceki fark">↑</button>
+            <span id="diff-nav-pos" class="diff-nav__pos" aria-live="polite"></span>
+            <button type="button" id="diff-nav-down" class="btn btn-icon" disabled title="Sonraki fark" aria-label="Sonraki fark">↓</button>
+          </div>
+        </div>
+        <div class="diff-output-wrap">
+          <div id="diff-output" class="diff-output" role="region" aria-label="Satır farkları"></div>
+          <button type="button" class="diff-fs-btn" id="diff-fs-btn" title="Tam ekran" aria-label="Fark özetini tam ekran göster">⛶</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="diff-lines.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
