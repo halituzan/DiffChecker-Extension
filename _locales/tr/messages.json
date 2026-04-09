@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Iki metin arasinda satir bazli fark (diff) gosterir. Arac cubugu simgesi yeni sekmede acilir."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - yeni sekmede ac"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Tam sayfa"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Dil"
+  },
+  "languageOptionAuto": {
+    "message": "Otomatik"
+  },
+  "languageOptionEn": {
+    "message": "Ingilizce"
+  },
+  "languageOptionTr": {
+    "message": "Turkce"
+  },
+  "subtitle": {
+    "message": "Iki metni satir satir karsilastirin - + eklenen - - silinen"
+  },
+  "runButton": {
+    "message": "Karsilastir"
+  },
+  "copySummaryButton": {
+    "message": "Ozeti kopyala"
+  },
+  "copyDoneButton": {
+    "message": "Kopyalandi!"
+  },
+  "clearButton": {
+    "message": "Temizle"
+  },
+  "leftLabel": {
+    "message": "Sol (A)"
+  },
+  "rightLabel": {
+    "message": "Sag (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Ilk metin..."
+  },
+  "rightPlaceholder": {
+    "message": "Ikinci metin..."
+  },
+  "splitterAriaLabel": {
+    "message": "Fark ozeti yuksekligi - surukleyin"
+  },
+  "splitterTitle": {
+    "message": "Surukleyerek ust alan ile fark ozeti yuksekligini ayarlayin"
+  },
+  "resultTitle": {
+    "message": "Fark ozeti"
+  },
+  "navGroupAriaLabel": {
+    "message": "Farklar arasinda gezin"
+  },
+  "navPrevTitle": {
+    "message": "Onceki fark"
+  },
+  "navPrevAriaLabel": {
+    "message": "Onceki fark"
+  },
+  "navNextTitle": {
+    "message": "Sonraki fark"
+  },
+  "navNextAriaLabel": {
+    "message": "Sonraki fark"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Satir farklari"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Tam ekran"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Fark ozetini tam ekran goster"
+  },
+  "fullscreenExitTitle": {
+    "message": "Tam ekrandan cik"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Tam ekrandan cik"
+  },
+  "statsSame": {
+    "message": "Ayni"
+  },
+  "statsAdded": {
+    "message": "Eklenen"
+  },
+  "statsRemoved": {
+    "message": "Silinen"
+  }
+}

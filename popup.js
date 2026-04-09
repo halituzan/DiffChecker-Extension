@@ -3,6 +3,84 @@
 (function () {
   "use strict";
 
+  const UI_LANG_STORAGE_KEY = "diffCheckerUiLanguage";
+  const LOCALE_LOADERS = {
+    en: () => fetch(chrome.runtime.getURL("_locales/en/messages.json")).then((r) => r.json()),
+    tr: () => fetch(chrome.runtime.getURL("_locales/tr/messages.json")).then((r) => r.json())
+  };
+  const loadedLocales = {};
+  let selectedUiLanguage = "auto";
+  let activeUiLanguage = "en";
+  const languageSelect = document.getElementById("language-select");
+
+  function normalizeUiLanguage(lang) {
+    const raw = (lang || "").toLowerCase();
+    if (raw.startsWith("tr")) return "tr";
+    return "en";
+  }
+
+  function getBrowserUiLanguage() {
+    if (typeof chrome !== "undefined" && chrome.i18n && chrome.i18n.getUILanguage) {
+      return chrome.i18n.getUILanguage();
+    }
+    return navigator.language || "en";
+  }
+
+  function resolveActiveUiLanguage() {
+    return selectedUiLanguage === "auto"
+      ? normalizeUiLanguage(getBrowserUiLanguage())
+      : normalizeUiLanguage(selectedUiLanguage);
+  }
+
+  async function ensureLocaleLoaded(lang) {
+    const normalized = normalizeUiLanguage(lang);
+    if (loadedLocales[normalized]) return;
+    const raw = await LOCALE_LOADERS[normalized]();
+    loadedLocales[normalized] = Object.keys(raw).reduce((acc, key) => {
+      acc[key] = raw[key] && typeof raw[key].message === "string" ? raw[key].message : "";
+      return acc;
+    }, {});
+  }
+
+  function t(key, fallback) {
+    const fromSelectedLocale = loadedLocales[activeUiLanguage] && loadedLocales[activeUiLanguage][key];
+    if (fromSelectedLocale) return fromSelectedLocale;
+    if (typeof chrome !== "undefined" && chrome.i18n && chrome.i18n.getMessage) {
+      const msg = chrome.i18n.getMessage(key);
+      if (msg) return msg;
+    }
+    return fallback || key;
+  }
+
+  function localizePage() {
+    document.documentElement.lang = activeUiLanguage;
+
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (!key) return;
+      const msg = t(key, el.textContent);
+      if (msg) el.textContent = msg;
+    });
+    document.querySelectorAll("[data-i18n-title]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-title");
+      if (!key) return;
+      const msg = t(key, el.getAttribute("title") || "");
+      if (msg) el.setAttribute("title", msg);
+    });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (!key) return;
+      const msg = t(key, el.getAttribute("placeholder") || "");
+      if (msg) el.setAttribute("placeholder", msg);
+    });
+    document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-aria-label");
+      if (!key) return;
+      const msg = t(key, el.getAttribute("aria-label") || "");
+      if (msg) el.setAttribute("aria-label", msg);
+    });
+  }
+
   const diffRun = document.getElementById("diff-run");
   const diffCopy = document.getElementById("diff-copy");
   const diffClear = document.getElementById("diff-clear");
@@ -13,6 +91,33 @@
   const diffNavUp = document.getElementById("diff-nav-up");
   const diffNavDown = document.getElementById("diff-nav-down");
   const diffNavPos = document.getElementById("diff-nav-pos");
+
+  async function applyLanguageSelection(newValue) {
+    selectedUiLanguage = newValue === "tr" || newValue === "en" ? newValue : "auto";
+    localStorage.setItem(UI_LANG_STORAGE_KEY, selectedUiLanguage);
+    activeUiLanguage = resolveActiveUiLanguage();
+    await ensureLocaleLoaded(activeUiLanguage);
+    localizePage();
+    updateNavUi();
+    updateFsButtonUi();
+    if (diffOutput.childElementCount > 0) runDiff();
+  }
+
+  async function initLocalization() {
+    const stored = localStorage.getItem(UI_LANG_STORAGE_KEY);
+    selectedUiLanguage = stored === "tr" || stored === "en" || stored === "auto" ? stored : "auto";
+    activeUiLanguage = resolveActiveUiLanguage();
+    await ensureLocaleLoaded("en");
+    await ensureLocaleLoaded("tr");
+    localizePage();
+    if (languageSelect) {
+      languageSelect.value = selectedUiLanguage;
+      languageSelect.addEventListener("change", async (e) => {
+        const value = e.target && e.target.value ? e.target.value : "auto";
+        await applyLanguageSelection(value);
+      });
+    }
+  }
 
   let navChangeIndex = -1;
 
@@ -38,7 +143,7 @@
     if (n === 0) {
       diffNavPos.textContent = "";
     } else if (navChangeIndex < 0) {
-      diffNavPos.textContent = "— / " + n;
+      diffNavPos.textContent = t("navPositionUnknown", "—") + " / " + n;
     } else {
       diffNavPos.textContent = navChangeIndex + 1 + " / " + n;
     }
@@ -90,7 +195,7 @@
       frag.appendChild(row);
     }
     diffOutput.appendChild(frag);
-    diffStats.textContent = `Aynı: ${eq} · Eklenen: ${ins} · Silinen: ${del}`;
+    diffStats.textContent = `${t("statsSame", "Same")}: ${eq} · ${t("statsAdded", "Added")}: ${ins} · ${t("statsRemoved", "Removed")}: ${del}`;
     const plain = parts
       .map((p) => {
         const prefix = p.type === "delete" ? "- " : p.type === "insert" ? "+ " : "  ";
@@ -160,8 +265,15 @@
   function updateFsButtonUi() {
     if (!diffFsBtn || !diffResultBlock) return;
     const on = getFullscreenEl() === diffResultBlock;
-    diffFsBtn.title = on ? "Tam ekrandan çık" : "Tam ekran";
-    diffFsBtn.setAttribute("aria-label", on ? "Tam ekrandan çık" : "Fark özetini tam ekran göster");
+    diffFsBtn.title = on
+      ? t("fullscreenExitTitle", "Exit fullscreen")
+      : t("fullscreenEnterTitle", "Fullscreen");
+    diffFsBtn.setAttribute(
+      "aria-label",
+      on
+        ? t("fullscreenExitAriaLabel", "Exit fullscreen")
+        : t("fullscreenEnterAriaLabel", "Show diff summary in fullscreen")
+    );
     diffFsBtn.textContent = on ? "⤓" : "⛶";
   }
 
@@ -228,25 +340,30 @@
   }
 
   diffCopy.addEventListener("click", async () => {
-    const t = diffOutput.dataset.plain;
-    if (!t) return;
+    const textToCopy = diffOutput.dataset.plain;
+    if (!textToCopy) return;
     try {
-      await navigator.clipboard.writeText(t);
-      diffCopy.textContent = "Kopyalandı!";
+      await navigator.clipboard.writeText(textToCopy);
+      diffCopy.textContent = t("copyDoneButton", "Copied!");
       setTimeout(() => {
-        diffCopy.textContent = "Özeti kopyala";
+        diffCopy.textContent = t("copySummaryButton", "Copy summary");
       }, 1500);
     } catch (e) {
       const ta = document.createElement("textarea");
-      ta.value = t;
+      ta.value = textToCopy;
       document.body.appendChild(ta);
       ta.select();
       document.execCommand("copy");
       document.body.removeChild(ta);
-      diffCopy.textContent = "Kopyalandı!";
+      diffCopy.textContent = t("copyDoneButton", "Copied!");
       setTimeout(() => {
-        diffCopy.textContent = "Özeti kopyala";
+        diffCopy.textContent = t("copySummaryButton", "Copy summary");
       }, 1500);
     }
+  });
+
+  initLocalization().then(() => {
+    updateFsButtonUi();
+    updateNavUi();
   });
 })();

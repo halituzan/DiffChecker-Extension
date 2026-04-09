@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Diff Checker — Tam sayfa</title>
+  <title data-i18n="pageTitle">Diff Checker - Full page</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body class="fullpage">
   <div class="app">
     <header class="header">
-      <h1>Diff Checker</h1>
-      <p class="subtitle">İki metni satır satır karşılaştırın · + eklenen · − silinen</p>
+      <div class="header-main">
+        <h1 data-i18n="appTitle">Diff Checker</h1>
+        <p class="subtitle" data-i18n="subtitle">Compare two texts line by line - + added - - removed</p>
+      </div>
+      <div class="header-lang">
+        <label for="language-select" data-i18n="languageLabel">Language</label>
+        <select id="language-select" class="lang-select" aria-label="Language" data-i18n-aria-label="languageLabel">
+          <option value="auto" data-i18n="languageOptionAuto">Auto</option>
+          <option value="en" data-i18n="languageOptionEn">English</option>
+          <option value="tr" data-i18n="languageOptionTr">Turkce</option>
+        </select>
+      </div>
     </header>
 
     <div class="diff-toolbar">
-      <button type="button" id="diff-run" class="btn primary">Karşılaştır</button>
-      <button type="button" id="diff-copy" class="btn secondary" disabled>Özeti kopyala</button>
-      <button type="button" id="diff-clear" class="btn ghost">Temizle</button>
+      <button type="button" id="diff-run" class="btn primary" data-i18n="runButton">Compare</button>
+      <button type="button" id="diff-copy" class="btn secondary" disabled data-i18n="copySummaryButton">Copy summary</button>
+      <button type="button" id="diff-clear" class="btn ghost" data-i18n="clearButton">Clear</button>
       <span id="diff-stats" class="diff-stats" aria-live="polite"></span>
     </div>
 
     <main class="diff-main" id="diff-main">
       <div class="diff-columns" id="diff-columns">
         <div class="diff-col diff-col--left">
-          <label for="diff-left">Sol (A)</label>
-          <textarea id="diff-left" spellcheck="false" placeholder="İlk metin…"></textarea>
+          <label for="diff-left" data-i18n="leftLabel">Left (A)</label>
+          <textarea id="diff-left" spellcheck="false" placeholder="First text..." data-i18n-placeholder="leftPlaceholder"></textarea>
         </div>
         <div class="diff-col diff-col--right">
-          <label for="diff-right">Sağ (B)</label>
-          <textarea id="diff-right" spellcheck="false" placeholder="İkinci metin…"></textarea>
+          <label for="diff-right" data-i18n="rightLabel">Right (B)</label>
+          <textarea id="diff-right" spellcheck="false" placeholder="Second text..." data-i18n-placeholder="rightPlaceholder"></textarea>
         </div>
       </div>
       <div
@@ -36,25 +46,80 @@
         id="diff-splitter"
         role="separator"
         aria-orientation="horizontal"
-        aria-label="Fark özeti yüksekliği — sürükleyin"
+        aria-label="Diff summary height - drag"
+        data-i18n-aria-label="splitterAriaLabel"
         tabindex="0"
-        title="Sürükleyerek üst alan ile fark özeti yüksekliğini ayarlayın"
+        title="Drag to resize top section and diff summary"
+        data-i18n-title="splitterTitle"
       ></div>
       <div class="diff-result-block" id="diff-result-block">
         <div class="result-head">
-          <span class="result-head__title">Fark özeti</span>
-          <div class="diff-nav" role="group" aria-label="Farklar arasında gezin">
-            <button type="button" id="diff-nav-up" class="btn btn-icon" disabled title="Önceki fark" aria-label="Önceki fark">↑</button>
+          <span class="result-head__title" data-i18n="resultTitle">Diff summary</span>
+          <div class="diff-nav" role="group" aria-label="Navigate differences" data-i18n-aria-label="navGroupAriaLabel">
+            <button type="button" id="diff-nav-up" class="btn btn-icon" disabled title="Previous difference" aria-label="Previous difference" data-i18n-title="navPrevTitle" data-i18n-aria-label="navPrevAriaLabel">↑</button>
             <span id="diff-nav-pos" class="diff-nav__pos" aria-live="polite"></span>
-            <button type="button" id="diff-nav-down" class="btn btn-icon" disabled title="Sonraki fark" aria-label="Sonraki fark">↓</button>
+            <button type="button" id="diff-nav-down" class="btn btn-icon" disabled title="Next difference" aria-label="Next difference" data-i18n-title="navNextTitle" data-i18n-aria-label="navNextAriaLabel">↓</button>
           </div>
         </div>
         <div class="diff-output-wrap">
-          <div id="diff-output" class="diff-output" role="region" aria-label="Satır farkları"></div>
-          <button type="button" class="diff-fs-btn" id="diff-fs-btn" title="Tam ekran" aria-label="Fark özetini tam ekran göster">⛶</button>
+          <div id="diff-output" class="diff-output" role="region" aria-label="Line differences" data-i18n-aria-label="diffOutputAriaLabel"></div>
+          <button type="button" class="diff-fs-btn" id="diff-fs-btn" title="Fullscreen" aria-label="Show diff summary in fullscreen" data-i18n-title="fullscreenEnterTitle" data-i18n-aria-label="fullscreenEnterAriaLabel">⛶</button>
         </div>
       </div>
     </main>
+    <footer class="app-footer" aria-label="External links">
+
+      <div class="social-links">
+        <a
+          class="social-link"
+          href="https://github.com/halituzan/DiffChecker-Extension"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          title="GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.58 2 12.24c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.5 0-.24-.01-.9-.01-1.76-2.78.62-3.36-1.21-3.36-1.21-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.03 1.03-2.75-.1-.27-.45-1.35.1-2.81 0 0 .85-.28 2.78 1.05A9.4 9.4 0 0 1 12 6.84c.85 0 1.71.12 2.5.35 1.93-1.33 2.78-1.05 2.78-1.05.55 1.46.2 2.54.1 2.81.64.72 1.03 1.63 1.03 2.75 0 3.95-2.34 4.82-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.6.69.5A10.23 10.23 0 0 0 22 12.24C22 6.58 17.52 2 12 2z"></path>
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://x.com/uzandev"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter / X"
+          title="Twitter / X"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18.9 2H22l-6.77 7.74L23 22h-6.1l-4.78-6.46L6.5 22H3.4l7.25-8.3L1 2h6.2l4.32 5.9L18.9 2zm-1.07 18h1.7L6.27 3.9H4.45L17.83 20z"></path>
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://www.linkedin.com/in/halituzan"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.94 8.5A2.44 2.44 0 1 1 7 3.62a2.44 2.44 0 0 1-.06 4.88zM4.8 9.93h4.3V22H4.8V9.93zM11.6 9.93h4.11v1.64h.06c.57-1.07 1.97-2.2 4.06-2.2 4.34 0 5.14 2.95 5.14 6.78V22h-4.3v-5.3c0-1.27-.02-2.9-1.71-2.9-1.72 0-1.98 1.39-1.98 2.81V22h-4.3V9.93z"></path>
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://halituzan.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Website"
+          title="Website"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm7.93 9h-3.1a15.8 15.8 0 0 0-1.1-5.06A8.03 8.03 0 0 1 19.93 11zM12 4.08c.92 1.2 1.7 3.22 2.03 5.92H9.97C10.3 7.3 11.08 5.28 12 4.08zM8.27 5.94A15.8 15.8 0 0 0 7.17 11h-3.1a8.03 8.03 0 0 1 4.2-5.06zM4.07 13h3.1c.16 1.8.55 3.56 1.1 5.06A8.03 8.03 0 0 1 4.07 13zM12 19.92c-.92-1.2-1.7-3.22-2.03-5.92h4.06c-.33 2.7-1.11 4.72-2.03 5.92zm3.73-1.86c.55-1.5.94-3.26 1.1-5.06h3.1a8.03 8.03 0 0 1-4.2 5.06z"></path>
+          </svg>
+        </a>
+      </div>
+    </footer>
   </div>
   <script src="diff-lines.js"></script>
   <script src="popup.js"></script>

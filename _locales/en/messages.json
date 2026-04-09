@@ -1,0 +1,107 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Shows line-based differences between two texts. Toolbar icon opens in a new tab."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - open in new tab"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Full page"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "English"
+  },
+  "languageOptionTr": {
+    "message": "Turkish"
+  },
+  "subtitle": {
+    "message": "Compare two texts line by line - + added - - removed"
+  },
+  "runButton": {
+    "message": "Compare"
+  },
+  "copySummaryButton": {
+    "message": "Copy summary"
+  },
+  "copyDoneButton": {
+    "message": "Copied!"
+  },
+  "clearButton": {
+    "message": "Clear"
+  },
+  "leftLabel": {
+    "message": "Left (A)"
+  },
+  "rightLabel": {
+    "message": "Right (B)"
+  },
+  "leftPlaceholder": {
+    "message": "First text..."
+  },
+  "rightPlaceholder": {
+    "message": "Second text..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff summary height - drag"
+  },
+  "splitterTitle": {
+    "message": "Drag to resize top section and diff summary"
+  },
+  "resultTitle": {
+    "message": "Diff summary"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigate differences"
+  },
+  "navPrevTitle": {
+    "message": "Previous difference"
+  },
+  "navPrevAriaLabel": {
+    "message": "Previous difference"
+  },
+  "navNextTitle": {
+    "message": "Next difference"
+  },
+  "navNextAriaLabel": {
+    "message": "Next difference"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Line differences"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Fullscreen"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Show diff summary in fullscreen"
+  },
+  "fullscreenExitTitle": {
+    "message": "Exit fullscreen"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Exit fullscreen"
+  },
+  "statsSame": {
+    "message": "Same"
+  },
+  "statsAdded": {
+    "message": "Added"
+  },
+  "statsRemoved": {
+    "message": "Removed"
+  }
+}
