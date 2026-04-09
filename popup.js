@@ -91,6 +91,41 @@
   const diffNavUp = document.getElementById("diff-nav-up");
   const diffNavDown = document.getElementById("diff-nav-down");
   const diffNavPos = document.getElementById("diff-nav-pos");
+  const diffLeftLines = document.getElementById("diff-left-lines");
+  const diffRightLines = document.getElementById("diff-right-lines");
+
+  function buildLineNumbers(textarea) {
+    const lineCount = textarea.value
+      ? textarea.value.split(/\r\n|\r|\n/).length
+      : 1;
+    const lines = new Array(lineCount);
+    for (let i = 0; i < lineCount; i++) {
+      lines[i] = String(i + 1);
+    }
+    return lines.join("\n");
+  }
+
+  function syncEditorLines(textarea, linesEl) {
+    if (!textarea || !linesEl) return;
+    linesEl.textContent = buildLineNumbers(textarea);
+    const gutter = linesEl.parentElement;
+    if (gutter) {
+      gutter.scrollTop = textarea.scrollTop;
+    }
+  }
+
+  function bindEditorLineNumbers(textarea, linesEl) {
+    if (!textarea || !linesEl) return;
+    const update = () => syncEditorLines(textarea, linesEl);
+    textarea.addEventListener("input", update);
+    textarea.addEventListener("change", update);
+    textarea.addEventListener("paste", () => {
+      requestAnimationFrame(update);
+    });
+    textarea.addEventListener("scroll", update);
+    window.addEventListener("resize", update);
+    update();
+  }
 
   async function applyLanguageSelection(newValue) {
     selectedUiLanguage = newValue === "tr" || newValue === "en" ? newValue : "auto";
@@ -221,6 +256,8 @@
   diffClear.addEventListener("click", () => {
     diffLeft.value = "";
     diffRight.value = "";
+    syncEditorLines(diffLeft, diffLeftLines);
+    syncEditorLines(diffRight, diffRightLines);
     diffOutput.innerHTML = "";
     diffStats.textContent = "";
     diffCopy.disabled = true;
@@ -363,6 +400,8 @@
   });
 
   initLocalization().then(() => {
+    bindEditorLineNumbers(diffLeft, diffLeftLines);
+    bindEditorLineNumbers(diffRight, diffRightLines);
     updateFsButtonUi();
     updateNavUi();
   });

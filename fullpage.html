@@ -34,11 +34,21 @@
       <div class="diff-columns" id="diff-columns">
         <div class="diff-col diff-col--left">
           <label for="diff-left" data-i18n="leftLabel">Left (A)</label>
-          <textarea id="diff-left" spellcheck="false" placeholder="First text..." data-i18n-placeholder="leftPlaceholder"></textarea>
+          <div class="editor-shell">
+            <div class="editor-gutter" aria-hidden="true">
+              <pre id="diff-left-lines" class="editor-lines">1</pre>
+            </div>
+            <textarea id="diff-left" spellcheck="false" placeholder="First text..." data-i18n-placeholder="leftPlaceholder"></textarea>
+          </div>
         </div>
         <div class="diff-col diff-col--right">
           <label for="diff-right" data-i18n="rightLabel">Right (B)</label>
-          <textarea id="diff-right" spellcheck="false" placeholder="Second text..." data-i18n-placeholder="rightPlaceholder"></textarea>
+          <div class="editor-shell">
+            <div class="editor-gutter" aria-hidden="true">
+              <pre id="diff-right-lines" class="editor-lines">1</pre>
+            </div>
+            <textarea id="diff-right" spellcheck="false" placeholder="Second text..." data-i18n-placeholder="rightPlaceholder"></textarea>
+          </div>
         </div>
       </div>
       <div

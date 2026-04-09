@@ -225,14 +225,45 @@ body {
   color: var(--muted);
 }
 
+.editor-shell {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.editor-gutter {
+  flex: 0 0 auto;
+  width: 46px;
+  border-right: 1px solid var(--border);
+  background: #162031;
+  color: #6f85a3;
+  text-align: right;
+  user-select: none;
+  overflow: hidden;
+}
+
+.editor-lines {
+  margin: 0;
+  padding: 12px 8px;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  white-space: pre;
+  font-variant-numeric: tabular-nums;
+}
+
 .diff-col textarea {
   flex: 1 1 auto;
   width: 100%;
   min-height: min(48vh, 680px);
   padding: 12px 14px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface);
+  border: none;
+  border-radius: 0;
+  background: transparent;
   color: var(--text);
   font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
   font-size: 12px;
@@ -242,6 +273,9 @@ body {
 
 .diff-col textarea:focus {
   outline: none;
+}
+
+.editor-shell:focus-within {
   border-color: var(--accent);
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
 }
