@@ -3,7 +3,7 @@
     "message": "Diff Checker"
   },
   "extensionDescription": {
-    "message": "Iki metin arasinda satir bazli fark (diff) gosterir. Arac cubugu simgesi yeni sekmede acilir."
+    "message": "Iki metin arasinda satir bazli fark (diff) gosterir. Arac cubugu: yeni sekme veya popup. Storage: yalnizca yerel acilis tercihi."
   },
   "actionDefaultTitle": {
     "message": "Diff Checker - yeni sekmede ac"

@@ -3,7 +3,7 @@
     "message": "Diff Checker"
   },
   "extensionDescription": {
-    "message": "Shows line-based differences between two texts. Toolbar icon opens in a new tab."
+    "message": "Shows line-based differences between two texts. Toolbar: new tab or popup. Storage: local open-mode preference only."
   },
   "actionDefaultTitle": {
     "message": "Diff Checker - open in new tab"
