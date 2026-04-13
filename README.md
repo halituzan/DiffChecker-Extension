@@ -1,3 +1,4 @@
+<img width="1280" height="800" alt="3" src="https://github.com/user-attachments/assets/91ee9db7-4f53-43fe-b331-609486c397df" />
 # Diff Checker
 
 Chrome için **Manifest V3** tabanlı bir tarayıcı eklentisi. İki metni **satır satır** karşılaştırır; eklenen (`+`) ve silinen (`−`) satırları renkli özet alanında gösterir.
