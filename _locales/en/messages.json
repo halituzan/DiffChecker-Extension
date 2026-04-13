@@ -103,5 +103,50 @@
   },
   "statsRemoved": {
     "message": "Removed"
+  },
+  "outputText1": {
+    "message": "Text 1"
+  },
+  "outputText2": {
+    "message": "Text 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Swap left and right text"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Swap left and right text"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Switch to dark mode"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Switch to dark mode"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Switch to light mode"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Switch to light mode"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "settingsAriaLabel": {
+    "message": "Open or close settings"
+  },
+  "openModeLabel": {
+    "message": "Open Mode"
+  },
+  "openModeTab": {
+    "message": "In a new tab"
+  },
+  "openModePopup": {
+    "message": "In the extension popup"
+  },
+  "openModeHint": {
+    "message": "Takes effect the next time you click the extension icon."
+  },
+  "themeUiLabel": {
+    "message": "Theme"
   }
 }

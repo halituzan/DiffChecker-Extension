@@ -103,5 +103,50 @@
   },
   "statsRemoved": {
     "message": "Silinen"
+  },
+  "outputText1": {
+    "message": "Metin 1"
+  },
+  "outputText2": {
+    "message": "Metin 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Sol ve sag metni degistir"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Sol ve sag metni degistir"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Koyu moda gec"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Koyu moda gec"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Acik moda gec"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Acik moda gec"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "settingsAriaLabel": {
+    "message": "Ayarları aç veya kapat"
+  },
+  "openModeLabel": {
+    "message": "Açılış Modu"
+  },
+  "openModeTab": {
+    "message": "Yeni Sekmede Açılsın"
+  },
+  "openModePopup": {
+    "message": "Popup ile Açılsın"
+  },
+  "openModeHint": {
+    "message": "Bir sonraki uzantı simgesi tıklamasında geçerli olur."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
   }
 }

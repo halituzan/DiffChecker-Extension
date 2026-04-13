@@ -7,27 +7,93 @@
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body class="fullpage">
+  <script src="fullpage-init.js"></script>
   <div class="app">
-    <header class="header">
-      <div class="header-main">
-        <h1 data-i18n="appTitle">Diff Checker</h1>
-        <p class="subtitle" data-i18n="subtitle">Compare two texts line by line - + added - - removed</p>
-      </div>
-      <div class="header-lang">
-        <label for="language-select" data-i18n="languageLabel">Language</label>
-        <select id="language-select" class="lang-select" aria-label="Language" data-i18n-aria-label="languageLabel">
-          <option value="auto" data-i18n="languageOptionAuto">Auto</option>
-          <option value="en" data-i18n="languageOptionEn">English</option>
-          <option value="tr" data-i18n="languageOptionTr">Turkce</option>
-        </select>
-      </div>
-    </header>
+    <div class="app-top">
+      <header class="header">
+        <div class="header-brand">
+          <div class="header-logo">
+            <img
+              class="header-logo__img"
+              src="icons/icon128.png"
+              alt=""
+              width="40"
+              height="40"
+              decoding="async"
+            />
+          </div>
+          <div class="header-main">
+            <h1 data-i18n="appTitle">Diff Checker</h1>
+            <p class="subtitle" data-i18n="subtitle">Compare two texts line by line - + added - - removed</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button
+            type="button"
+            id="header-settings"
+            class="header-icon-btn"
+            popovertarget="settings-panel"
+            data-i18n-title="settingsTitle"
+            data-i18n-aria-label="settingsAriaLabel"
+            aria-expanded="false"
+            aria-controls="settings-panel"
+          >
+            <svg class="header-icon-btn__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.63.06.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1 1 15.6 12 3.6 3.6 0 0 1 12 15.6z"/>
+            </svg>
+          </button>
+        </div>
+      </header>
 
-    <div class="diff-toolbar">
-      <button type="button" id="diff-run" class="btn primary" data-i18n="runButton">Compare</button>
-      <button type="button" id="diff-copy" class="btn secondary" disabled data-i18n="copySummaryButton">Copy summary</button>
-      <button type="button" id="diff-clear" class="btn ghost" data-i18n="clearButton">Clear</button>
-      <span id="diff-stats" class="diff-stats" aria-live="polite"></span>
+      <div class="diff-toolbar">
+        <button type="button" id="diff-run" class="btn primary" data-i18n="runButton">Compare</button>
+        <button type="button" id="diff-copy" class="btn secondary" disabled data-i18n="copySummaryButton">Copy summary</button>
+        <button type="button" id="diff-clear" class="btn ghost" data-i18n="clearButton">Clear</button>
+        <span id="diff-stats" class="diff-stats" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <div id="settings-panel" class="settings-panel" popover="auto">
+      <div class="settings-panel__inner">
+        <div class="settings-field">
+          <label for="language-select" class="settings-field__label" data-i18n="languageLabel">Language</label>
+          <div class="settings-field__controls">
+            <select
+              id="language-select"
+              class="lang-select settings-field__select"
+              aria-label="Language"
+              data-i18n-aria-label="languageLabel"
+            >
+              <option value="auto" data-i18n="languageOptionAuto">Auto</option>
+              <option value="en" data-i18n="languageOptionEn">English</option>
+              <option value="tr" data-i18n="languageOptionTr">Turkce</option>
+            </select>
+            <button
+              type="button"
+              id="theme-toggle"
+              class="header-icon-btn theme-toggle-btn"
+              title=""
+              aria-label=""
+              aria-pressed="false"
+            >
+              <svg class="header-icon-btn__icon theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12Zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11 1h2v3h-2V1Zm0 19h2v3h-2v-3ZM3.515 4.929l1.414-1.414L6.343 4.93 4.93 6.343 3.515 4.93ZM17.657 17.657l1.414-1.414 1.414 1.414-1.414 1.414-1.414-1.414ZM1 11h3v2H1v-2Zm19 0h3v2h-3v-2ZM4.93 17.657 3.515 19.07l1.414 1.414 1.414-1.414-1.414-1.414ZM19.07 4.93l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414Z"/>
+              </svg>
+              <svg class="header-icon-btn__icon theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M21.752 15.002A9.718 9.718 0 0 1 9.502 2.248 9.99 9.99 0 0 0 12 22a9.99 9.99 0 0 0 9.752-6.998Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="settings-field">
+          <label for="open-mode-select" class="settings-field__label" data-i18n="openModeLabel">Open Diff Checker</label>
+          <select id="open-mode-select" class="lang-select settings-field__select" aria-describedby="open-mode-hint">
+            <option value="tab" data-i18n="openModeTab">In a new tab</option>
+            <option value="popup" data-i18n="openModePopup">In the extension popup</option>
+          </select>
+          <p id="open-mode-hint" class="settings-field__hint" data-i18n="openModeHint">Applies when you click the extension icon.</p>
+        </div>
+      </div>
     </div>
 
     <main class="diff-main" id="diff-main">
@@ -72,7 +138,7 @@
           </div>
         </div>
         <div class="diff-output-wrap">
-          <div id="diff-output" class="diff-output" role="region" aria-label="Line differences" data-i18n-aria-label="diffOutputAriaLabel"></div>
+          <div id="diff-output" class="diff-output diff-output--panel" role="region" aria-label="Line differences" data-i18n-aria-label="diffOutputAriaLabel"></div>
           <button type="button" class="diff-fs-btn" id="diff-fs-btn" title="Fullscreen" aria-label="Show diff summary in fullscreen" data-i18n-title="fullscreenEnterTitle" data-i18n-aria-label="fullscreenEnterAriaLabel">⛶</button>
         </div>
       </div>

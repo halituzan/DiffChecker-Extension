@@ -4,6 +4,76 @@
   "use strict";
 
   const UI_LANG_STORAGE_KEY = "diffCheckerUiLanguage";
+  const THEME_STORAGE_KEY = "diffCheckerTheme";
+
+  const HIGHLIGHT_RE =
+    /("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|`(?:[^`\\]|\\.)*`)|\b(function|const|let|var|if|else|return|for|while|async|await|class|import|export|from|try|catch|finally|new|typeof|default|switch|case|break|continue|void|null|undefined|true|false|do|in|of|this|super|extends|static|interface|type|enum|yield|debugger|with)\b/g;
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function highlightCodeLine(line) {
+    if (line === undefined || line === null) return "\u00a0";
+    const s = String(line);
+    if (s.length === 0) return "\u00a0";
+    const pieces = [];
+    let last = 0;
+    let m;
+    HIGHLIGHT_RE.lastIndex = 0;
+    while ((m = HIGHLIGHT_RE.exec(s)) !== null) {
+      if (m.index > last) {
+        pieces.push(escapeHtml(s.slice(last, m.index)));
+      }
+      if (m[1]) {
+        pieces.push('<span class="tok-str">' + escapeHtml(m[1]) + "</span>");
+      } else if (m[2]) {
+        pieces.push('<span class="tok-kw">' + escapeHtml(m[2]) + "</span>");
+      }
+      last = m.index + m[0].length;
+    }
+    if (last < s.length) {
+      pieces.push(escapeHtml(s.slice(last)));
+    }
+    return pieces.join("") || "\u00a0";
+  }
+
+  function partsToSideBySideRows(parts) {
+    const rows = [];
+    let i = 0;
+    while (i < parts.length) {
+      const p = parts[i];
+      if (p.type === "equal") {
+        rows.push({ kind: "equal", left: p.text, right: p.text });
+        i++;
+      } else if (p.type === "delete" && i + 1 < parts.length && parts[i + 1].type === "insert") {
+        rows.push({ kind: "change", left: p.text, right: parts[i + 1].text });
+        i += 2;
+      } else if (p.type === "delete") {
+        rows.push({ kind: "delete", left: p.text, right: "" });
+        i++;
+      } else if (p.type === "insert") {
+        rows.push({ kind: "insert", left: "", right: p.text });
+        i++;
+      } else {
+        i++;
+      }
+    }
+    return rows;
+  }
+
+  function buildPlainFromParts(parts) {
+    return parts
+      .map((p) => {
+        const prefix = p.type === "delete" ? "- " : p.type === "insert" ? "+ " : "  ";
+        return prefix + p.text;
+      })
+      .join("\n");
+  }
   const LOCALE_LOADERS = {
     en: () => fetch(chrome.runtime.getURL("_locales/en/messages.json")).then((r) => r.json()),
     tr: () => fetch(chrome.runtime.getURL("_locales/tr/messages.json")).then((r) => r.json())
@@ -135,7 +205,33 @@
     localizePage();
     updateNavUi();
     updateFsButtonUi();
+    updateThemeToggleUi();
     if (diffOutput.childElementCount > 0) runDiff();
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_STORAGE_KEY);
+    let theme = "light";
+    if (stored === "dark" || stored === "light") {
+      theme = stored;
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      theme = "dark";
+    }
+    document.documentElement.setAttribute("data-theme", theme);
+  }
+
+  function updateThemeToggleUi() {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    const theme = document.documentElement.getAttribute("data-theme") || "light";
+    btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    if (theme === "dark") {
+      btn.title = t("themeSwitchToLightTitle", "Switch to light mode");
+      btn.setAttribute("aria-label", t("themeSwitchToLightAriaLabel", "Switch to light mode"));
+    } else {
+      btn.title = t("themeSwitchToDarkTitle", "Switch to dark mode");
+      btn.setAttribute("aria-label", t("themeSwitchToDarkAriaLabel", "Switch to dark mode"));
+    }
   }
 
   async function initLocalization() {
@@ -156,21 +252,19 @@
 
   let navChangeIndex = -1;
 
-  function getChangeLineElements() {
-    return Array.from(
-      diffOutput.querySelectorAll(".diff-line--insert, .diff-line--delete")
-    );
+  function getChangeRowElements() {
+    return Array.from(diffOutput.querySelectorAll(".side-diff__row:not(.side-diff__row--equal)"));
   }
 
   function updateNavHighlight() {
-    const els = getChangeLineElements();
+    const els = getChangeRowElements();
     els.forEach((el, i) => {
-      el.classList.toggle("diff-line--nav-current", i === navChangeIndex);
+      el.classList.toggle("side-diff__row--nav-current", i === navChangeIndex);
     });
   }
 
   function updateNavUi() {
-    const els = getChangeLineElements();
+    const els = getChangeRowElements();
     const n = els.length;
     if (!diffNavUp || !diffNavDown || !diffNavPos) return;
     diffNavUp.disabled = n === 0;
@@ -185,13 +279,18 @@
   }
 
   function scrollNavCurrentIntoView() {
-    const els = getChangeLineElements();
+    const els = getChangeRowElements();
     if (navChangeIndex < 0 || navChangeIndex >= els.length) return;
-    els[navChangeIndex].scrollIntoView({ block: "nearest", behavior: "smooth" });
+    const row = els[navChangeIndex];
+    const target =
+      row.querySelector(".side-diff__code--left") || row.querySelector(".side-diff__code--right");
+    if (target) {
+      target.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
   }
 
   function goToChange(delta) {
-    const els = getChangeLineElements();
+    const els = getChangeRowElements();
     const n = els.length;
     if (!n) return;
     if (navChangeIndex < 0) {
@@ -206,8 +305,120 @@
 
   function resetDiffNav() {
     navChangeIndex = -1;
-    getChangeLineElements().forEach((el) => el.classList.remove("diff-line--nav-current"));
+    getChangeRowElements().forEach((el) => el.classList.remove("side-diff__row--nav-current"));
     updateNavUi();
+  }
+
+  function renderSideBySideDiff(container, rows) {
+    const root = document.createElement("div");
+    root.className = "side-diff";
+
+    const toolbar = document.createElement("div");
+    toolbar.className = "side-diff__toolbar";
+    const labLeft = document.createElement("span");
+    labLeft.className = "side-diff__label side-diff__label--left";
+    labLeft.textContent = t("outputText1", "Text 1");
+    const labRight = document.createElement("span");
+    labRight.className = "side-diff__label side-diff__label--right";
+    labRight.textContent = t("outputText2", "Text 2");
+    const swapBtn = document.createElement("button");
+    swapBtn.type = "button";
+    swapBtn.id = "diff-swap";
+    swapBtn.className = "side-diff__swap";
+    swapBtn.title = t("swapColumnsTitle", "Swap left and right text");
+    swapBtn.setAttribute("aria-label", t("swapColumnsAriaLabel", "Swap left and right text"));
+    const swapSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    swapSvg.setAttribute("viewBox", "0 0 24 24");
+    swapSvg.setAttribute("aria-hidden", "true");
+    const swapPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    swapPath.setAttribute("fill", "currentColor");
+    swapPath.setAttribute(
+      "d",
+      "M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"
+    );
+    swapSvg.appendChild(swapPath);
+    swapBtn.appendChild(swapSvg);
+    toolbar.appendChild(labLeft);
+    toolbar.appendChild(swapBtn);
+    toolbar.appendChild(labRight);
+
+    const body = document.createElement("div");
+    body.className = "side-diff__body";
+
+    let leftNum = 1;
+    let rightNum = 1;
+
+    for (let r = 0; r < rows.length; r++) {
+      const rowData = rows[r];
+      const row = document.createElement("div");
+      row.className = "side-diff__row side-diff__row--" + rowData.kind;
+
+      let lnLeft = "";
+      let lnRight = "";
+      if (rowData.kind === "equal" || rowData.kind === "change") {
+        lnLeft = String(leftNum++);
+        lnRight = String(rightNum++);
+      } else if (rowData.kind === "delete") {
+        lnLeft = String(leftNum++);
+        lnRight = "";
+      } else if (rowData.kind === "insert") {
+        lnLeft = "";
+        lnRight = String(rightNum++);
+      }
+
+      const cellLnL = document.createElement("div");
+      cellLnL.className = "side-diff__ln";
+      cellLnL.textContent = lnLeft || "\u00a0";
+
+      const cellCodeL = document.createElement("div");
+      cellCodeL.className = "side-diff__code side-diff__code--left";
+      cellCodeL.innerHTML = highlightCodeLine(rowData.left);
+
+      const gutter = document.createElement("div");
+      gutter.className = "side-diff__gutter";
+      gutter.setAttribute("aria-hidden", "true");
+      if (rowData.kind === "equal") {
+        gutter.innerHTML = "";
+      } else if (rowData.kind === "delete") {
+        const icon = document.createElement("span");
+        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--minus";
+        icon.textContent = "\u2212";
+        gutter.appendChild(icon);
+      } else if (rowData.kind === "insert") {
+        const icon = document.createElement("span");
+        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--plus";
+        icon.textContent = "+";
+        gutter.appendChild(icon);
+      } else if (rowData.kind === "change") {
+        const im = document.createElement("span");
+        im.className = "side-diff__gutter-icon side-diff__gutter-icon--minus";
+        im.textContent = "\u2212";
+        const ip = document.createElement("span");
+        ip.className = "side-diff__gutter-icon side-diff__gutter-icon--plus";
+        ip.textContent = "+";
+        gutter.appendChild(im);
+        gutter.appendChild(ip);
+      }
+
+      const cellLnR = document.createElement("div");
+      cellLnR.className = "side-diff__ln side-diff__ln--right";
+      cellLnR.textContent = lnRight || "\u00a0";
+
+      const cellCodeR = document.createElement("div");
+      cellCodeR.className = "side-diff__code side-diff__code--right";
+      cellCodeR.innerHTML = highlightCodeLine(rowData.right);
+
+      row.appendChild(cellLnL);
+      row.appendChild(cellCodeL);
+      row.appendChild(gutter);
+      row.appendChild(cellLnR);
+      row.appendChild(cellCodeR);
+      body.appendChild(row);
+    }
+
+    root.appendChild(toolbar);
+    root.appendChild(body);
+    container.appendChild(root);
   }
 
   function runDiff() {
@@ -217,32 +428,99 @@
     let ins = 0;
     let del = 0;
     let eq = 0;
-    diffOutput.innerHTML = "";
-    const frag = document.createDocumentFragment();
     for (const p of parts) {
       if (p.type === "insert") ins++;
       else if (p.type === "delete") del++;
       else eq++;
-      const row = document.createElement("div");
-      row.className = "diff-line diff-line--" + p.type;
-      const prefix = p.type === "delete" ? "- " : p.type === "insert" ? "+ " : "  ";
-      row.textContent = prefix + p.text;
-      frag.appendChild(row);
     }
-    diffOutput.appendChild(frag);
+    diffOutput.innerHTML = "";
+    const rows = partsToSideBySideRows(parts);
+    if (rows.length > 0) {
+      renderSideBySideDiff(diffOutput, rows);
+    }
     diffStats.textContent = `${t("statsSame", "Same")}: ${eq} · ${t("statsAdded", "Added")}: ${ins} · ${t("statsRemoved", "Removed")}: ${del}`;
-    const plain = parts
-      .map((p) => {
-        const prefix = p.type === "delete" ? "- " : p.type === "insert" ? "+ " : "  ";
-        return prefix + p.text;
-      })
-      .join("\n");
+    const plain = buildPlainFromParts(parts);
     diffOutput.dataset.plain = plain;
     diffCopy.disabled = parts.length === 0;
     navChangeIndex = -1;
     updateNavHighlight();
     updateNavUi();
   }
+
+  const themeToggle = document.getElementById("theme-toggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme") || "light";
+      const next = cur === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem(THEME_STORAGE_KEY, next);
+      updateThemeToggleUi();
+    });
+  }
+
+  const settingsPanel = document.getElementById("settings-panel");
+  const headerSettings = document.getElementById("header-settings");
+  if (headerSettings && settingsPanel) {
+    function positionSettingsPopover() {
+      const btn = headerSettings.getBoundingClientRect();
+      const margin = 8;
+      const w = settingsPanel.offsetWidth;
+      const left = Math.max(margin, Math.min(btn.right - w, window.innerWidth - w - margin));
+      settingsPanel.style.top = btn.bottom + margin + "px";
+      settingsPanel.style.left = left + "px";
+      settingsPanel.style.right = "auto";
+    }
+    settingsPanel.addEventListener("toggle", (e) => {
+      if (e.target !== settingsPanel) return;
+      const open = e.newState === "open";
+      headerSettings.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) {
+        requestAnimationFrame(() => {
+          positionSettingsPopover();
+          requestAnimationFrame(positionSettingsPopover);
+        });
+      }
+    });
+    window.addEventListener("resize", () => {
+      if (typeof settingsPanel.matches === "function" && settingsPanel.matches(":popover-open")) {
+        positionSettingsPopover();
+      }
+    });
+  }
+
+  function initOpenModeUi() {
+    const sel = document.getElementById("open-mode-select");
+    if (!sel || typeof chrome === "undefined" || !chrome.storage || !chrome.storage.local) {
+      return;
+    }
+    chrome.storage.local.get(["openMode"], (r) => {
+      sel.value = r.openMode === "popup" ? "popup" : "tab";
+    });
+    chrome.storage.onChanged.addListener((changes, area) => {
+      if (area !== "local" || !changes.openMode) return;
+      sel.value = changes.openMode.newValue === "popup" ? "popup" : "tab";
+    });
+    sel.addEventListener("change", () => {
+      const v = sel.value;
+      chrome.storage.local.set({ openMode: v });
+      if (typeof chrome !== "undefined" && chrome.runtime && chrome.runtime.sendMessage) {
+        chrome.runtime.sendMessage({ type: "openModeChanged", mode: v }, () => {
+          void chrome.runtime.lastError;
+        });
+      }
+    });
+  }
+
+  diffOutput.addEventListener("click", (e) => {
+    const swap = e.target && e.target.closest && e.target.closest("#diff-swap");
+    if (!swap) return;
+    const tmp = diffLeft.value;
+    diffLeft.value = diffRight.value;
+    diffRight.value = tmp;
+    syncEditorLines(diffLeft, diffLeftLines);
+    syncEditorLines(diffRight, diffRightLines);
+    runDiff();
+  });
 
   diffRun.addEventListener("click", runDiff);
 
@@ -400,6 +678,9 @@
   });
 
   initLocalization().then(() => {
+    initTheme();
+    updateThemeToggleUi();
+    initOpenModeUi();
     bindEditorLineNumbers(diffLeft, diffLeftLines);
     bindEditorLineNumbers(diffRight, diffRightLines);
     updateFsButtonUi();
