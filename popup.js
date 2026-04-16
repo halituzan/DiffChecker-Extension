@@ -42,6 +42,77 @@
     return pieces.join("") || "\u00a0";
   }
 
+  /** Satır içi diff: kısa satırlarda karakter (LCS), uzunlarda kelime/boşluk parçaları. */
+  const INLINE_CHAR_MAX_LEN = 1500;
+  const INLINE_MAX_DP = 2800000;
+
+  function tokenizeInlineWords(s) {
+    if (s === undefined || s === null) return [];
+    const str = String(s);
+    if (str === "") return [];
+    return str.match(/\S+|\s+/g) || [];
+  }
+
+  /** Satır içi eşit parça: sözdizimi yok, nötr metin (değişmeyen kısım açıkça belli olsun). */
+  function inlineEqualPlain(text) {
+    const t = String(text ?? "");
+    if (t.length === 0) return "";
+    return '<span class="diff-inline-same">' + escapeHtml(t) + "</span>";
+  }
+
+  function buildInlineChangeHtml(leftLine, rightLine) {
+    const ls = String(leftLine ?? "");
+    const rs = String(rightLine ?? "");
+    const maxLen = Math.max(ls.length, rs.length);
+    if (maxLen === 0) {
+      return { left: "\u00a0", right: "\u00a0" };
+    }
+    let seqA;
+    let seqB;
+    if (maxLen <= INLINE_CHAR_MAX_LEN) {
+      seqA = Array.from(ls);
+      seqB = Array.from(rs);
+    } else {
+      seqA = tokenizeInlineWords(ls);
+      seqB = tokenizeInlineWords(rs);
+    }
+    const dpCost = seqA.length * seqB.length;
+    if (dpCost > INLINE_MAX_DP || !window.LineDiff || typeof window.LineDiff.computeSequenceDiff !== "function") {
+      return {
+        left: ls.length
+          ? '<span class="diff-inline-chg diff-inline-chg--del">' + escapeHtml(ls) + "</span>"
+          : "\u00a0",
+        right: rs.length
+          ? '<span class="diff-inline-chg diff-inline-chg--ins">' + escapeHtml(rs) + "</span>"
+          : "\u00a0"
+      };
+    }
+    const parts = window.LineDiff.computeSequenceDiff(seqA, seqB);
+    let leftHtml = "";
+    let rightHtml = "";
+    for (let i = 0; i < parts.length; i++) {
+      const p = parts[i];
+      if (p.type === "equal") {
+        const h = inlineEqualPlain(p.text);
+        leftHtml += h;
+        rightHtml += h;
+      } else if (p.type === "delete") {
+        leftHtml +=
+          '<span class="diff-inline-chg diff-inline-chg--del">' +
+          escapeHtml(p.text) +
+          "</span>";
+      } else if (p.type === "insert") {
+        rightHtml +=
+          '<span class="diff-inline-chg diff-inline-chg--ins">' +
+          escapeHtml(p.text) +
+          "</span>";
+      }
+    }
+    if (!leftHtml) leftHtml = "\u00a0";
+    if (!rightHtml) rightHtml = "\u00a0";
+    return { left: leftHtml, right: rightHtml };
+  }
+
   function partsToSideBySideRows(parts) {
     const rows = [];
     let i = 0;
@@ -50,8 +121,20 @@
       if (p.type === "equal") {
         rows.push({ kind: "equal", left: p.text, right: p.text });
         i++;
-      } else if (p.type === "delete" && i + 1 < parts.length && parts[i + 1].type === "insert") {
+      } else if (
+        p.type === "delete" &&
+        i + 1 < parts.length &&
+        parts[i + 1].type === "insert"
+      ) {
         rows.push({ kind: "change", left: p.text, right: parts[i + 1].text });
+        i += 2;
+      } else if (
+        p.type === "insert" &&
+        i + 1 < parts.length &&
+        parts[i + 1].type === "delete"
+      ) {
+        /* LCS geri izlemesi bazen önce insert sonra delete üretir; yine de aynı satırın değişimi */
+        rows.push({ kind: "change", left: parts[i + 1].text, right: p.text });
         i += 2;
       } else if (p.type === "delete") {
         rows.push({ kind: "delete", left: p.text, right: "" });
@@ -352,6 +435,8 @@
       const rowData = rows[r];
       const row = document.createElement("div");
       row.className = "side-diff__row side-diff__row--" + rowData.kind;
+      const inlineChange =
+        rowData.kind === "change" ? buildInlineChangeHtml(rowData.left, rowData.right) : null;
 
       let lnLeft = "";
       let lnRight = "";
@@ -370,48 +455,44 @@
       cellLnL.className = "side-diff__ln";
       cellLnL.textContent = lnLeft || "\u00a0";
 
+      const markL = document.createElement("div");
+      markL.className = "side-diff__mark side-diff__mark--left";
+      markL.setAttribute("aria-hidden", "true");
+
       const cellCodeL = document.createElement("div");
       cellCodeL.className = "side-diff__code side-diff__code--left";
-      cellCodeL.innerHTML = highlightCodeLine(rowData.left);
-
-      const gutter = document.createElement("div");
-      gutter.className = "side-diff__gutter";
-      gutter.setAttribute("aria-hidden", "true");
-      if (rowData.kind === "equal") {
-        gutter.innerHTML = "";
-      } else if (rowData.kind === "delete") {
-        const icon = document.createElement("span");
-        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--minus";
-        icon.textContent = "\u2212";
-        gutter.appendChild(icon);
-      } else if (rowData.kind === "insert") {
-        const icon = document.createElement("span");
-        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--plus";
-        icon.textContent = "+";
-        gutter.appendChild(icon);
-      } else if (rowData.kind === "change") {
-        const im = document.createElement("span");
-        im.className = "side-diff__gutter-icon side-diff__gutter-icon--minus";
-        im.textContent = "\u2212";
-        const ip = document.createElement("span");
-        ip.className = "side-diff__gutter-icon side-diff__gutter-icon--plus";
-        ip.textContent = "+";
-        gutter.appendChild(im);
-        gutter.appendChild(ip);
-      }
+      cellCodeL.innerHTML = inlineChange ? inlineChange.left : highlightCodeLine(rowData.left);
 
       const cellLnR = document.createElement("div");
       cellLnR.className = "side-diff__ln side-diff__ln--right";
       cellLnR.textContent = lnRight || "\u00a0";
 
+      const markR = document.createElement("div");
+      markR.className = "side-diff__mark side-diff__mark--right";
+      markR.setAttribute("aria-hidden", "true");
+
       const cellCodeR = document.createElement("div");
       cellCodeR.className = "side-diff__code side-diff__code--right";
-      cellCodeR.innerHTML = highlightCodeLine(rowData.right);
+      cellCodeR.innerHTML = inlineChange ? inlineChange.right : highlightCodeLine(rowData.right);
+
+      if (rowData.kind === "delete" || rowData.kind === "change") {
+        const icon = document.createElement("span");
+        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--minus";
+        icon.textContent = "\u2212";
+        markL.appendChild(icon);
+      }
+      if (rowData.kind === "insert" || rowData.kind === "change") {
+        const icon = document.createElement("span");
+        icon.className = "side-diff__gutter-icon side-diff__gutter-icon--plus";
+        icon.textContent = "+";
+        markR.appendChild(icon);
+      }
 
       row.appendChild(cellLnL);
+      row.appendChild(markL);
       row.appendChild(cellCodeL);
-      row.appendChild(gutter);
       row.appendChild(cellLnR);
+      row.appendChild(markR);
       row.appendChild(cellCodeR);
       body.appendChild(row);
     }
