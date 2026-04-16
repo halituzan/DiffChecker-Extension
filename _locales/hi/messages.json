@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "दो पाठों के बीच पंक्ति-आधारित अंतर दिखाता है। टूलबार: नया टैब या पॉपअप. भंडारण: केवल स्थानीय ओपन-मोड प्राथमिकता।"
+  },
+  "actionDefaultTitle": {
+    "message": "डिफ चेकर - नए टैब में खोलें"
+  },
+  "pageTitle": {
+    "message": "डिफ चेकर - टेक्स्ट तुलना"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "भाषा"
+  },
+  "languageOptionAuto": {
+    "message": "ऑटो"
+  },
+  "languageOptionEn": {
+    "message": "अंग्रेज़ी"
+  },
+  "languageOptionTr": {
+    "message": "तुर्की"
+  },
+  "subtitle": {
+    "message": "दो पाठों की पंक्ति दर पंक्ति तुलना करें - + जोड़ा गया - - हटाया गया"
+  },
+  "runButton": {
+    "message": "तुलना करना"
+  },
+  "copySummaryButton": {
+    "message": "सारांश कॉपी करें"
+  },
+  "copyDoneButton": {
+    "message": "नकल की गई!"
+  },
+  "clearButton": {
+    "message": "स्पष्ट"
+  },
+  "leftLabel": {
+    "message": "बाएँ (ए)"
+  },
+  "rightLabel": {
+    "message": "दाएं (बी)"
+  },
+  "leftPlaceholder": {
+    "message": "पहला पाठ..."
+  },
+  "rightPlaceholder": {
+    "message": "दूसरा पाठ..."
+  },
+  "splitterAriaLabel": {
+    "message": "अंतर सारांश ऊँचाई - खींचें"
+  },
+  "splitterTitle": {
+    "message": "शीर्ष अनुभाग और भिन्न सारांश का आकार बदलने के लिए खींचें"
+  },
+  "resultTitle": {
+    "message": "अंतर सारांश"
+  },
+  "navGroupAriaLabel": {
+    "message": "मतभेदों को नेविगेट करें"
+  },
+  "navPrevTitle": {
+    "message": "पिछला अंतर"
+  },
+  "navPrevAriaLabel": {
+    "message": "पिछला अंतर"
+  },
+  "navNextTitle": {
+    "message": "अगला अंतर"
+  },
+  "navNextAriaLabel": {
+    "message": "अगला अंतर"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "रेखा भेद"
+  },
+  "fullscreenEnterTitle": {
+    "message": "पूर्ण स्क्रीन"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "फ़ुलस्क्रीन में भिन्न सारांश दिखाएँ"
+  },
+  "fullscreenExitTitle": {
+    "message": "फ़ुलस्क्रीन से बाहर निकलें"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "फ़ुलस्क्रीन से बाहर निकलें"
+  },
+  "statsSame": {
+    "message": "वही"
+  },
+  "statsAdded": {
+    "message": "जोड़ा"
+  },
+  "statsRemoved": {
+    "message": "निकाला गया"
+  },
+  "outputText1": {
+    "message": "पाठ 1"
+  },
+  "outputText2": {
+    "message": "पाठ 2"
+  },
+  "swapColumnsTitle": {
+    "message": "बाएँ और दाएँ पाठ को स्वैप करें"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "बाएँ और दाएँ पाठ को स्वैप करें"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "डार्क मोड पर स्विच करें"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "डार्क मोड पर स्विच करें"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "लाइट मोड पर स्विच करें"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "लाइट मोड पर स्विच करें"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स"
+  },
+  "settingsAriaLabel": {
+    "message": "सेटिंग्स खोलें या बंद करें"
+  },
+  "openModeLabel": {
+    "message": "ओपन मोड"
+  },
+  "openModeTab": {
+    "message": "एक नये टैब में"
+  },
+  "openModePopup": {
+    "message": "एक्सटेंशन पॉपअप में"
+  },
+  "openModeHint": {
+    "message": "अगली बार जब आप एक्सटेंशन आइकन पर क्लिक करेंगे तो यह प्रभावी हो जाएगा।"
+  },
+  "themeUiLabel": {
+    "message": "विषय"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Affiche les différences basées sur les lignes entre deux textes. Barre d'outils : nouvel onglet ou popup. Stockage : préférence locale en mode ouvert uniquement."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - ouvrir dans un nouvel onglet"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Comparaison de texte"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Langue"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Anglais"
+  },
+  "languageOptionTr": {
+    "message": "turc"
+  },
+  "subtitle": {
+    "message": "Comparer deux textes ligne par ligne - + ajouté - - supprimé"
+  },
+  "runButton": {
+    "message": "Comparer"
+  },
+  "copySummaryButton": {
+    "message": "Copier le résumé"
+  },
+  "copyDoneButton": {
+    "message": "Copié!"
+  },
+  "clearButton": {
+    "message": "Clair"
+  },
+  "leftLabel": {
+    "message": "Gauche (A)"
+  },
+  "rightLabel": {
+    "message": "Droite (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Premier texte..."
+  },
+  "rightPlaceholder": {
+    "message": "Deuxième texte..."
+  },
+  "splitterAriaLabel": {
+    "message": "Hauteur du résumé des différences - faites glisser"
+  },
+  "splitterTitle": {
+    "message": "Faites glisser pour redimensionner la section supérieure et le résumé des différences"
+  },
+  "resultTitle": {
+    "message": "Résumé des différences"
+  },
+  "navGroupAriaLabel": {
+    "message": "Naviguer dans les différences"
+  },
+  "navPrevTitle": {
+    "message": "Différence précédente"
+  },
+  "navPrevAriaLabel": {
+    "message": "Différence précédente"
+  },
+  "navNextTitle": {
+    "message": "Différence suivante"
+  },
+  "navNextAriaLabel": {
+    "message": "Différence suivante"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Différences de lignes"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Plein écran"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Afficher le résumé des différences en plein écran"
+  },
+  "fullscreenExitTitle": {
+    "message": "Quitter le plein écran"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Quitter le plein écran"
+  },
+  "statsSame": {
+    "message": "Même"
+  },
+  "statsAdded": {
+    "message": "Ajouté"
+  },
+  "statsRemoved": {
+    "message": "Supprimé"
+  },
+  "outputText1": {
+    "message": "Texte 1"
+  },
+  "outputText2": {
+    "message": "Texte 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Échanger le texte gauche et droit"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Échanger le texte gauche et droit"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Passer en mode sombre"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Passer en mode sombre"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Passer en mode lumière"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Passer en mode lumière"
+  },
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "settingsAriaLabel": {
+    "message": "Ouvrir ou fermer les paramètres"
+  },
+  "openModeLabel": {
+    "message": "Mode ouvert"
+  },
+  "openModeTab": {
+    "message": "Dans un nouvel onglet"
+  },
+  "openModePopup": {
+    "message": "Dans la fenêtre contextuelle de l'extension"
+  },
+  "openModeHint": {
+    "message": "Prend effet la prochaine fois que vous cliquez sur l’icône d’extension."
+  },
+  "themeUiLabel": {
+    "message": "Thème"
+  }
+}

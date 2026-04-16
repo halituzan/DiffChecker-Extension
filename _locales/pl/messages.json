@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Pokazuje różnice liniowe pomiędzy dwoma tekstami. Pasek narzędzi: nowa karta lub wyskakujące okienko. Przechowywanie: tylko preferencje lokalnego trybu otwartego."
+  },
+  "actionDefaultTitle": {
+    "message": "Sprawdzanie różnic - otwórz w nowej karcie"
+  },
+  "pageTitle": {
+    "message": "Sprawdzanie różnic — porównanie tekstu"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Język"
+  },
+  "languageOptionAuto": {
+    "message": "Automatyczny"
+  },
+  "languageOptionEn": {
+    "message": "angielski"
+  },
+  "languageOptionTr": {
+    "message": "turecki"
+  },
+  "subtitle": {
+    "message": "Porównaj dwa teksty wiersz po wierszu - + dodano - - usunięto"
+  },
+  "runButton": {
+    "message": "Porównywać"
+  },
+  "copySummaryButton": {
+    "message": "Skopiuj podsumowanie"
+  },
+  "copyDoneButton": {
+    "message": "Skopiowano!"
+  },
+  "clearButton": {
+    "message": "Jasne"
+  },
+  "leftLabel": {
+    "message": "Lewy (A)"
+  },
+  "rightLabel": {
+    "message": "Prawo (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Pierwszy tekst..."
+  },
+  "rightPlaceholder": {
+    "message": "Drugi tekst..."
+  },
+  "splitterAriaLabel": {
+    "message": "Różnicuj wysokość podsumowania - przeciągnij"
+  },
+  "splitterTitle": {
+    "message": "Przeciągnij, aby zmienić rozmiar górnej sekcji i porównać podsumowanie"
+  },
+  "resultTitle": {
+    "message": "Podsumowanie różnic"
+  },
+  "navGroupAriaLabel": {
+    "message": "Nawiguj po różnicach"
+  },
+  "navPrevTitle": {
+    "message": "Poprzednia różnica"
+  },
+  "navPrevAriaLabel": {
+    "message": "Poprzednia różnica"
+  },
+  "navNextTitle": {
+    "message": "Następna różnica"
+  },
+  "navNextAriaLabel": {
+    "message": "Następna różnica"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Różnice liniowe"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Pełny ekran"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Pokaż podsumowanie różnic na pełnym ekranie"
+  },
+  "fullscreenExitTitle": {
+    "message": "Wyjdź z pełnego ekranu"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Wyjdź z pełnego ekranu"
+  },
+  "statsSame": {
+    "message": "To samo"
+  },
+  "statsAdded": {
+    "message": "W dodatku"
+  },
+  "statsRemoved": {
+    "message": "REMOVED"
+  },
+  "outputText1": {
+    "message": "Tekst 1"
+  },
+  "outputText2": {
+    "message": "Tekst 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Zamień lewy i prawy tekst"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Zamień lewy i prawy tekst"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Przełącz na tryb ciemny"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Przełącz na tryb ciemny"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Przełącz na tryb oświetlenia"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Przełącz na tryb oświetlenia"
+  },
+  "settingsTitle": {
+    "message": "Ustawienia"
+  },
+  "settingsAriaLabel": {
+    "message": "Otwórz lub zamknij ustawienia"
+  },
+  "openModeLabel": {
+    "message": "Tryb otwarty"
+  },
+  "openModeTab": {
+    "message": "W nowej karcie"
+  },
+  "openModePopup": {
+    "message": "W wyskakującym okienku rozszerzenia"
+  },
+  "openModeHint": {
+    "message": "Zacznie obowiązywać po następnym kliknięciu ikony rozszerzenia."
+  },
+  "themeUiLabel": {
+    "message": "Temat"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Mostra diferències basades en línies entre dos textos. Barra d'eines: nova pestanya o finestra emergent. Emmagatzematge: només preferència local en mode obert."
+  },
+  "actionDefaultTitle": {
+    "message": "Comprovador de diferències: obre en una pestanya nova"
+  },
+  "pageTitle": {
+    "message": "Comprovador de diferències - Comparació de text"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Llengua"
+  },
+  "languageOptionAuto": {
+    "message": "Automàtic"
+  },
+  "languageOptionEn": {
+    "message": "Anglès"
+  },
+  "languageOptionTr": {
+    "message": "turc"
+  },
+  "subtitle": {
+    "message": "Compara dos textos línia per línia - + afegit - - eliminat"
+  },
+  "runButton": {
+    "message": "Compara"
+  },
+  "copySummaryButton": {
+    "message": "Copia el resum"
+  },
+  "copyDoneButton": {
+    "message": "Copiat!"
+  },
+  "clearButton": {
+    "message": "Clar"
+  },
+  "leftLabel": {
+    "message": "Esquerra (A)"
+  },
+  "rightLabel": {
+    "message": "Dreta (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Primer text..."
+  },
+  "rightPlaceholder": {
+    "message": "Segon text..."
+  },
+  "splitterAriaLabel": {
+    "message": "Altura de resum de diferència - arrossegament"
+  },
+  "splitterTitle": {
+    "message": "Arrossegueu per canviar la mida de la secció superior i del resum de diferència"
+  },
+  "resultTitle": {
+    "message": "Resum de la diferència"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navegar per diferències"
+  },
+  "navPrevTitle": {
+    "message": "Diferència prèvia"
+  },
+  "navPrevAriaLabel": {
+    "message": "Diferència prèvia"
+  },
+  "navNextTitle": {
+    "message": "Següent diferència"
+  },
+  "navNextAriaLabel": {
+    "message": "Següent diferència"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Diferències de línia"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Pantalla completa"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Mostra el resum de diferències a pantalla completa"
+  },
+  "fullscreenExitTitle": {
+    "message": "Sortir de pantalla completa"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Sortir de pantalla completa"
+  },
+  "statsSame": {
+    "message": "Igual"
+  },
+  "statsAdded": {
+    "message": "Afegit"
+  },
+  "statsRemoved": {
+    "message": "Eliminat"
+  },
+  "outputText1": {
+    "message": "Text 1"
+  },
+  "outputText2": {
+    "message": "Text 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Canvia el text esquerre i dret"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Canvia el text esquerre i dret"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Canvia al mode fosc"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Canvia al mode fosc"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Canvia al mode de llum"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Canvia al mode de llum"
+  },
+  "settingsTitle": {
+    "message": "Configuració"
+  },
+  "settingsAriaLabel": {
+    "message": "Obrir o tancar la configuració"
+  },
+  "openModeLabel": {
+    "message": "Mode obert"
+  },
+  "openModeTab": {
+    "message": "En una pestanya nova"
+  },
+  "openModePopup": {
+    "message": "A la finestra emergent de l'extensió"
+  },
+  "openModeHint": {
+    "message": "Es farà efectiu la propera vegada que feu clic a la icona de l'extensió."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Näitab reapõhiseid erinevusi kahe teksti vahel. Tööriistariba: uus vahekaart või hüpikaken. Salvestus: ainult kohaliku avatud režiimi eelistus."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker – avage uuel vahelehel"
+  },
+  "pageTitle": {
+    "message": "Erinevuste kontrollija – teksti võrdlemine"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Keel"
+  },
+  "languageOptionAuto": {
+    "message": "Automaatne"
+  },
+  "languageOptionEn": {
+    "message": "inglise keel"
+  },
+  "languageOptionTr": {
+    "message": "türgi keel"
+  },
+  "subtitle": {
+    "message": "Võrrelge kahte teksti rida rea ​​haaval - + lisatud - - eemaldatud"
+  },
+  "runButton": {
+    "message": "Võrdle"
+  },
+  "copySummaryButton": {
+    "message": "Kopeeri kokkuvõte"
+  },
+  "copyDoneButton": {
+    "message": "Kopeeritud!"
+  },
+  "clearButton": {
+    "message": "Selge"
+  },
+  "leftLabel": {
+    "message": "Vasak (A)"
+  },
+  "rightLabel": {
+    "message": "Parem (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Esimene tekst..."
+  },
+  "rightPlaceholder": {
+    "message": "Teine tekst..."
+  },
+  "splitterAriaLabel": {
+    "message": "Erinevuste kokkuvõte kõrgus – lohista"
+  },
+  "splitterTitle": {
+    "message": "Lohistage ülemise jaotise suuruse muutmiseks ja erinevuste kokkuvõtteks"
+  },
+  "resultTitle": {
+    "message": "Erinevuste kokkuvõte"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigeerige erinevuste vahel"
+  },
+  "navPrevTitle": {
+    "message": "Eelnev erinevus"
+  },
+  "navPrevAriaLabel": {
+    "message": "Eelnev erinevus"
+  },
+  "navNextTitle": {
+    "message": "Järgmine erinevus"
+  },
+  "navNextAriaLabel": {
+    "message": "Järgmine erinevus"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Ridade erinevused"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Täisekraan"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Kuva erinevuse kokkuvõte täisekraanil"
+  },
+  "fullscreenExitTitle": {
+    "message": "Välju täisekraanilt"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Välju täisekraanilt"
+  },
+  "statsSame": {
+    "message": "Sama"
+  },
+  "statsAdded": {
+    "message": "Lisatud"
+  },
+  "statsRemoved": {
+    "message": "Eemaldatud"
+  },
+  "outputText1": {
+    "message": "Tekst 1"
+  },
+  "outputText2": {
+    "message": "Tekst 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Vahetage vasak ja parem tekst"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Vahetage vasak ja parem tekst"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Lülitage tumedale režiimile"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Lülitage tumedale režiimile"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Lülitage valgusrežiimile"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Lülitage valgusrežiimile"
+  },
+  "settingsTitle": {
+    "message": "Seaded"
+  },
+  "settingsAriaLabel": {
+    "message": "Seadete avamine või sulgemine"
+  },
+  "openModeLabel": {
+    "message": "Ava režiim"
+  },
+  "openModeTab": {
+    "message": "Uuel vahelehel"
+  },
+  "openModePopup": {
+    "message": "Laienduse hüpikaknas"
+  },
+  "openModeHint": {
+    "message": "Jõustub järgmisel korral, kui klõpsate laienduse ikoonil."
+  },
+  "themeUiLabel": {
+    "message": "Teema"
+  }
+}

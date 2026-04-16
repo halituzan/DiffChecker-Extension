@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Megjeleníti a két szöveg közötti vonalalapú különbségeket. Eszköztár: új lap vagy előugró ablak. Tárolás: csak helyi nyitott mód preferenciája."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker – megnyitás új lapon"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Szöveg összehasonlítása"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Nyelv"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "angol"
+  },
+  "languageOptionTr": {
+    "message": "török"
+  },
+  "subtitle": {
+    "message": "Hasonlítson össze két szöveget soronként - + hozzáadva - - eltávolítva"
+  },
+  "runButton": {
+    "message": "Hasonlítsa össze"
+  },
+  "copySummaryButton": {
+    "message": "Összefoglaló másolása"
+  },
+  "copyDoneButton": {
+    "message": "Másolva!"
+  },
+  "clearButton": {
+    "message": "Világos"
+  },
+  "leftLabel": {
+    "message": "Bal (A)"
+  },
+  "rightLabel": {
+    "message": "Jobb (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Az első szöveg..."
+  },
+  "rightPlaceholder": {
+    "message": "Második szöveg..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff összefoglaló magasság - húzás"
+  },
+  "splitterTitle": {
+    "message": "Húzással átméretezheti a felső részt és a különbségösszegzést"
+  },
+  "resultTitle": {
+    "message": "Diff összefoglaló"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigáljon a különbségek között"
+  },
+  "navPrevTitle": {
+    "message": "Korábbi különbség"
+  },
+  "navPrevAriaLabel": {
+    "message": "Korábbi különbség"
+  },
+  "navNextTitle": {
+    "message": "Következő különbség"
+  },
+  "navNextAriaLabel": {
+    "message": "Következő különbség"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Vonalkülönbségek"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Teljes képernyő"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Diff-összegzés megjelenítése teljes képernyőn"
+  },
+  "fullscreenExitTitle": {
+    "message": "Lépjen ki a teljes képernyőről"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Lépjen ki a teljes képernyőről"
+  },
+  "statsSame": {
+    "message": "Azonos"
+  },
+  "statsAdded": {
+    "message": "Hozzáadva"
+  },
+  "statsRemoved": {
+    "message": "Eltávolítva"
+  },
+  "outputText1": {
+    "message": "1. szöveg"
+  },
+  "outputText2": {
+    "message": "2. szöveg"
+  },
+  "swapColumnsTitle": {
+    "message": "Csere bal és jobb szöveget"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Csere bal és jobb szöveget"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Váltson sötét módba"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Váltson sötét módba"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Váltson világos üzemmódba"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Váltson világos üzemmódba"
+  },
+  "settingsTitle": {
+    "message": "Beállítások elemre"
+  },
+  "settingsAriaLabel": {
+    "message": "Nyissa meg vagy zárja be a beállításokat"
+  },
+  "openModeLabel": {
+    "message": "Nyitott mód"
+  },
+  "openModeTab": {
+    "message": "Új lapon"
+  },
+  "openModePopup": {
+    "message": "A kiterjesztés előugró ablakban"
+  },
+  "openModeHint": {
+    "message": "Akkor lép életbe, amikor legközelebb rákattint a bővítmény ikonjára."
+  },
+  "themeUiLabel": {
+    "message": "Téma"
+  }
+}

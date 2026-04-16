@@ -3,13 +3,13 @@
     "message": "Diff Checker"
   },
   "extensionDescription": {
-    "message": "Iki metin arasinda satir bazli fark (diff) gosterir. Arac cubugu: yeni sekme veya popup. Storage: yalnizca yerel acilis tercihi."
+    "message": "İki metin arasındaki satır bazlı farklılıkları gösterir. Araç Çubuğu: yeni sekme veya açılır pencere. Depolama: yalnızca yerel açık mod tercihi."
   },
   "actionDefaultTitle": {
-    "message": "Diff Checker - yeni sekmede ac"
+    "message": "Fark Denetleyicisi - yeni sekmede aç"
   },
   "pageTitle": {
-    "message": "Diff Checker - Metin Karsilastirma"
+    "message": "Fark Denetleyicisi - Metin Karşılaştırma"
   },
   "appTitle": {
     "message": "Diff Checker"
@@ -21,55 +21,55 @@
     "message": "Otomatik"
   },
   "languageOptionEn": {
-    "message": "Ingilizce"
+    "message": "İngilizce"
   },
   "languageOptionTr": {
-    "message": "Turkce"
+    "message": "Türkçe"
   },
   "subtitle": {
-    "message": "Iki metni satir satir karsilastirin - + eklenen - - silinen"
+    "message": "İki metni satır satır karşılaştırın - + eklendi - - kaldırıldı"
   },
   "runButton": {
-    "message": "Karsilastir"
+    "message": "Karşılaştırmak"
   },
   "copySummaryButton": {
-    "message": "Ozeti kopyala"
+    "message": "Özeti kopyala"
   },
   "copyDoneButton": {
-    "message": "Kopyalandi!"
+    "message": "Kopyalandı!"
   },
   "clearButton": {
-    "message": "Temizle"
+    "message": "Temizlemek"
   },
   "leftLabel": {
     "message": "Sol (A)"
   },
   "rightLabel": {
-    "message": "Sag (B)"
+    "message": "Sağ (B)"
   },
   "leftPlaceholder": {
-    "message": "Ilk metin..."
+    "message": "İlk metin..."
   },
   "rightPlaceholder": {
-    "message": "Ikinci metin..."
+    "message": "İkinci metin..."
   },
   "splitterAriaLabel": {
-    "message": "Fark ozeti yuksekligi - surukleyin"
+    "message": "Fark özeti yüksekliği - sürükleyin"
   },
   "splitterTitle": {
-    "message": "Surukleyerek ust alan ile fark ozeti yuksekligini ayarlayin"
+    "message": "Üst bölümü ve fark özetini yeniden boyutlandırmak için sürükleyin"
   },
   "resultTitle": {
-    "message": "Fark ozeti"
+    "message": "Fark özeti"
   },
   "navGroupAriaLabel": {
-    "message": "Farklar arasinda gezin"
+    "message": "Farklılıklar arasında gezinin"
   },
   "navPrevTitle": {
-    "message": "Onceki fark"
+    "message": "Önceki fark"
   },
   "navPrevAriaLabel": {
-    "message": "Onceki fark"
+    "message": "Önceki fark"
   },
   "navNextTitle": {
     "message": "Sonraki fark"
@@ -81,28 +81,28 @@
     "message": "-"
   },
   "diffOutputAriaLabel": {
-    "message": "Satir farklari"
+    "message": "Çizgi farklılıkları"
   },
   "fullscreenEnterTitle": {
     "message": "Tam ekran"
   },
   "fullscreenEnterAriaLabel": {
-    "message": "Fark ozetini tam ekran goster"
+    "message": "Fark özetini tam ekranda göster"
   },
   "fullscreenExitTitle": {
-    "message": "Tam ekrandan cik"
+    "message": "Tam ekrandan çık"
   },
   "fullscreenExitAriaLabel": {
-    "message": "Tam ekrandan cik"
+    "message": "Tam ekrandan çık"
   },
   "statsSame": {
-    "message": "Ayni"
+    "message": "Aynı"
   },
   "statsAdded": {
-    "message": "Eklenen"
+    "message": "Eklendi"
   },
   "statsRemoved": {
-    "message": "Silinen"
+    "message": "Kaldırıldı"
   },
   "outputText1": {
     "message": "Metin 1"
@@ -111,22 +111,22 @@
     "message": "Metin 2"
   },
   "swapColumnsTitle": {
-    "message": "Sol ve sag metni degistir"
+    "message": "Sol ve sağ metni değiştir"
   },
   "swapColumnsAriaLabel": {
-    "message": "Sol ve sag metni degistir"
+    "message": "Sol ve sağ metni değiştir"
   },
   "themeSwitchToDarkTitle": {
-    "message": "Koyu moda gec"
+    "message": "Karanlık moda geç"
   },
   "themeSwitchToDarkAriaLabel": {
-    "message": "Koyu moda gec"
+    "message": "Karanlık moda geç"
   },
   "themeSwitchToLightTitle": {
-    "message": "Acik moda gec"
+    "message": "Işık moduna geç"
   },
   "themeSwitchToLightAriaLabel": {
-    "message": "Acik moda gec"
+    "message": "Işık moduna geç"
   },
   "settingsTitle": {
     "message": "Ayarlar"
@@ -135,16 +135,16 @@
     "message": "Ayarları aç veya kapat"
   },
   "openModeLabel": {
-    "message": "Açılış Modu"
+    "message": "Açık Mod"
   },
   "openModeTab": {
-    "message": "Yeni Sekmede Açılsın"
+    "message": "Yeni bir sekmede"
   },
   "openModePopup": {
-    "message": "Popup ile Açılsın"
+    "message": "Uzantı açılır penceresinde"
   },
   "openModeHint": {
-    "message": "Bir sonraki uzantı simgesi tıklamasında geçerli olur."
+    "message": "Uzantı simgesine bir sonraki tıklayışınızda etkili olur."
   },
   "themeUiLabel": {
     "message": "Tema"

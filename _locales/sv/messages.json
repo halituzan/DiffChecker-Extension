@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Visar linjebaserade skillnader mellan två texter. Verktygsfält: ny flik eller popup. Lagring: endast lokalt öppet läge."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - öppnas i ny flik"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Textjämförelse"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Språk"
+  },
+  "languageOptionAuto": {
+    "message": "Bil"
+  },
+  "languageOptionEn": {
+    "message": "engelska"
+  },
+  "languageOptionTr": {
+    "message": "turkiska"
+  },
+  "subtitle": {
+    "message": "Jämför två texter rad för rad - + tillagd - - borttagen"
+  },
+  "runButton": {
+    "message": "Jämföra"
+  },
+  "copySummaryButton": {
+    "message": "Kopiera sammanfattning"
+  },
+  "copyDoneButton": {
+    "message": "Kopierade!"
+  },
+  "clearButton": {
+    "message": "Rensa"
+  },
+  "leftLabel": {
+    "message": "Vänster (A)"
+  },
+  "rightLabel": {
+    "message": "Höger (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Första texten..."
+  },
+  "rightPlaceholder": {
+    "message": "Andra texten..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff sammanfattning höjd - dra"
+  },
+  "splitterTitle": {
+    "message": "Dra för att ändra storlek på den övre delen och skillnadssammanfattningen"
+  },
+  "resultTitle": {
+    "message": "Diff sammanfattning"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigera i skillnader"
+  },
+  "navPrevTitle": {
+    "message": "Tidigare skillnad"
+  },
+  "navPrevAriaLabel": {
+    "message": "Tidigare skillnad"
+  },
+  "navNextTitle": {
+    "message": "Nästa skillnad"
+  },
+  "navNextAriaLabel": {
+    "message": "Nästa skillnad"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Linjeskillnader"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Helskärm"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Visa skillnadssammanfattning i helskärm"
+  },
+  "fullscreenExitTitle": {
+    "message": "Avsluta helskärm"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Avsluta helskärm"
+  },
+  "statsSame": {
+    "message": "Samma"
+  },
+  "statsAdded": {
+    "message": "Tillagd"
+  },
+  "statsRemoved": {
+    "message": "Borttagen"
+  },
+  "outputText1": {
+    "message": "Text 1"
+  },
+  "outputText2": {
+    "message": "Text 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Byt vänster och höger text"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Byt vänster och höger text"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Växla till mörkt läge"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Växla till mörkt läge"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Växla till ljusläge"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Växla till ljusläge"
+  },
+  "settingsTitle": {
+    "message": "Inställningar"
+  },
+  "settingsAriaLabel": {
+    "message": "Öppna eller stäng inställningar"
+  },
+  "openModeLabel": {
+    "message": "Öppet läge"
+  },
+  "openModeTab": {
+    "message": "I en ny flik"
+  },
+  "openModePopup": {
+    "message": "I förlängningspopupen"
+  },
+  "openModeHint": {
+    "message": "Träder i kraft nästa gång du klickar på tilläggsikonen."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

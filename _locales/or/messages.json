@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "ଦୁଇଟି ଲେଖା ମଧ୍ୟରେ ରେଖା-ଆଧାରିତ ପାର୍ଥକ୍ୟ ଦେଖାଏ | ଟୁଲ୍ ବାର୍: ନୂଆ ଟ୍ୟାବ୍ କିମ୍ବା ପପ୍ଅପ୍ | ସଂରକ୍ଷଣ: କେବଳ ସ୍ଥାନୀୟ ଓପନ୍ ମୋଡ୍ ପସନ୍ଦ |"
+  },
+  "actionDefaultTitle": {
+    "message": "ଡିଫ୍ ଚେକର୍ - ନୂଆ ଟ୍ୟାବ୍ ରେ ଖୋଲ |"
+  },
+  "pageTitle": {
+    "message": "ଡିଫ୍ ଚେକର୍ - ପାଠ୍ୟ ତୁଳନା କରନ୍ତୁ |"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ଭାଷା"
+  },
+  "languageOptionAuto": {
+    "message": "ଅଟୋ |"
+  },
+  "languageOptionEn": {
+    "message": "ଇଂରାଜୀ |"
+  },
+  "languageOptionTr": {
+    "message": "ତୁର୍କୀ"
+  },
+  "subtitle": {
+    "message": "ଧାଡିରେ ଦୁଇଟି ଲେଖା ଧାଡ଼ି ତୁଳନା କରନ୍ତୁ - + ଯୋଡା ଯାଇଛି - - ଅପସାରିତ ହୋଇଛି |"
+  },
+  "runButton": {
+    "message": "ତୁଳନା କରନ୍ତୁ"
+  },
+  "copySummaryButton": {
+    "message": "ସାରାଂଶ କପି କରନ୍ତୁ |"
+  },
+  "copyDoneButton": {
+    "message": "କପି ହୋଇଛି!"
+  },
+  "clearButton": {
+    "message": "ସଫା"
+  },
+  "leftLabel": {
+    "message": "ବାମ (A)"
+  },
+  "rightLabel": {
+    "message": "ଡାହାଣ (ଖ)"
+  },
+  "leftPlaceholder": {
+    "message": "ପ୍ରଥମ ପାଠ ..."
+  },
+  "rightPlaceholder": {
+    "message": "ଦ୍ୱିତୀୟ ପାଠ ..."
+  },
+  "splitterAriaLabel": {
+    "message": "ଡିଫ୍ ସାରାଂଶ ଉଚ୍ଚତା - ଡ୍ରାଗ୍ |"
+  },
+  "splitterTitle": {
+    "message": "ଶୀର୍ଷ ବିଭାଗ ଏବଂ ଡିଫ୍ ସାରାଂଶର ଆକାର ପରିବର୍ତ୍ତନ କରିବାକୁ ଡ୍ରାଗ୍ କରନ୍ତୁ |"
+  },
+  "resultTitle": {
+    "message": "ଡିଫ୍ ସାରାଂଶ"
+  },
+  "navGroupAriaLabel": {
+    "message": "ପାର୍ଥକ୍ୟକୁ ନେଭିଗେଟ୍ କରନ୍ତୁ |"
+  },
+  "navPrevTitle": {
+    "message": "ପୂର୍ବ ପାର୍ଥକ୍ୟ |"
+  },
+  "navPrevAriaLabel": {
+    "message": "ପୂର୍ବ ପାର୍ଥକ୍ୟ |"
+  },
+  "navNextTitle": {
+    "message": "ପରବର୍ତ୍ତୀ ପାର୍ଥକ୍ୟ |"
+  },
+  "navNextAriaLabel": {
+    "message": "ପରବର୍ତ୍ତୀ ପାର୍ଥକ୍ୟ |"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "ରେଖା ପାର୍ଥକ୍ୟ |"
+  },
+  "fullscreenEnterTitle": {
+    "message": "ଫୁଲ୍ ସ୍କ୍ରିନ୍ |"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "ଫୁଲ୍ ସ୍କ୍ରିନ୍ ରେ ଡିଫ୍ ସାରାଂଶ ଦେଖାନ୍ତୁ |"
+  },
+  "fullscreenExitTitle": {
+    "message": "ଫୁଲ୍ ସ୍କ୍ରିନ୍ ଛାଡନ୍ତୁ |"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "ଫୁଲ୍ ସ୍କ୍ରିନ୍ ଛାଡନ୍ତୁ |"
+  },
+  "statsSame": {
+    "message": "ସମାନ |"
+  },
+  "statsAdded": {
+    "message": "ଯୋଡା ଯାଇଛି |"
+  },
+  "statsRemoved": {
+    "message": "ଅପସାରିତ ହୋଇଛି |"
+  },
+  "outputText1": {
+    "message": "ପାଠ 1"
+  },
+  "outputText2": {
+    "message": "ପାଠ 2"
+  },
+  "swapColumnsTitle": {
+    "message": "ବାମ ଏବଂ ଡାହାଣ ପାଠ ସ୍ୱାପ୍ କରନ୍ତୁ |"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "ବାମ ଏବଂ ଡାହାଣ ପାଠ ସ୍ୱାପ୍ କରନ୍ତୁ |"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ଅନ୍ଧାର ମୋଡକୁ ଯାଆନ୍ତୁ |"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ଅନ୍ଧାର ମୋଡକୁ ଯାଆନ୍ତୁ |"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "ହାଲୁକା ମୋଡକୁ ଯାଆନ୍ତୁ |"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "ହାଲୁକା ମୋଡକୁ ଯାଆନ୍ତୁ |"
+  },
+  "settingsTitle": {
+    "message": "ସେଟିଂସମୂହ"
+  },
+  "settingsAriaLabel": {
+    "message": "ସେଟିଂସମୂହ ଖୋଲନ୍ତୁ କିମ୍ବା ବନ୍ଦ କରନ୍ତୁ |"
+  },
+  "openModeLabel": {
+    "message": "ଖୋଲା ମୋଡ୍ |"
+  },
+  "openModeTab": {
+    "message": "ଏକ ନୂତନ ଟ୍ୟାବ୍ ରେ |"
+  },
+  "openModePopup": {
+    "message": "ଏକ୍ସଟେନ୍ସନ୍ ପପ୍ଅପ୍ ରେ |"
+  },
+  "openModeHint": {
+    "message": "ପରବର୍ତ୍ତୀ ଥର ଆପଣ ଏକ୍ସଟେନ୍ସନ୍ ଆଇକନ୍ କ୍ଲିକ୍ କରିବା ପରେ ପ୍ରଭାବ ପକାଇଥାଏ |"
+  },
+  "themeUiLabel": {
+    "message": "ଥିମ୍"
+  }
+}

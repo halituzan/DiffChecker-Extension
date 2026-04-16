@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "تفاوت های مبتنی بر خط بین دو متن را نشان می دهد. نوار ابزار: برگه یا پنجره جدید. ذخیره‌سازی: فقط ترجیح حالت باز محلی."
+  },
+  "actionDefaultTitle": {
+    "message": "بررسی تفاوت - در برگه جدید باز کنید"
+  },
+  "pageTitle": {
+    "message": "جستجوگر تفاوت - مقایسه متن"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "زبان"
+  },
+  "languageOptionAuto": {
+    "message": "خودکار"
+  },
+  "languageOptionEn": {
+    "message": "انگلیسی"
+  },
+  "languageOptionTr": {
+    "message": "ترکی"
+  },
+  "subtitle": {
+    "message": "دو متن را خط به خط مقایسه کنید - + اضافه شده - - حذف شده است"
+  },
+  "runButton": {
+    "message": "مقایسه کنید"
+  },
+  "copySummaryButton": {
+    "message": "خلاصه کپی"
+  },
+  "copyDoneButton": {
+    "message": "کپی شده!"
+  },
+  "clearButton": {
+    "message": "پاک کردن"
+  },
+  "leftLabel": {
+    "message": "چپ (A)"
+  },
+  "rightLabel": {
+    "message": "راست (B)"
+  },
+  "leftPlaceholder": {
+    "message": "متن اول..."
+  },
+  "rightPlaceholder": {
+    "message": "متن دوم..."
+  },
+  "splitterAriaLabel": {
+    "message": "ارتفاع خلاصه تفاوت - بکشید"
+  },
+  "splitterTitle": {
+    "message": "برای تغییر اندازه بخش بالا و خلاصه تفاوت بکشید"
+  },
+  "resultTitle": {
+    "message": "خلاصه تفاوت"
+  },
+  "navGroupAriaLabel": {
+    "message": "پیمایش تفاوت ها"
+  },
+  "navPrevTitle": {
+    "message": "تفاوت قبلی"
+  },
+  "navPrevAriaLabel": {
+    "message": "تفاوت قبلی"
+  },
+  "navNextTitle": {
+    "message": "تفاوت بعدی"
+  },
+  "navNextAriaLabel": {
+    "message": "تفاوت بعدی"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "تفاوت خطوط"
+  },
+  "fullscreenEnterTitle": {
+    "message": "تمام صفحه"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "نمایش خلاصه تفاوت در تمام صفحه"
+  },
+  "fullscreenExitTitle": {
+    "message": "خروج از تمام صفحه"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "خروج از تمام صفحه"
+  },
+  "statsSame": {
+    "message": "همان"
+  },
+  "statsAdded": {
+    "message": "اضافه شد"
+  },
+  "statsRemoved": {
+    "message": "حذف شد"
+  },
+  "outputText1": {
+    "message": "متن 1"
+  },
+  "outputText2": {
+    "message": "متن 2"
+  },
+  "swapColumnsTitle": {
+    "message": "متن چپ و راست را عوض کنید"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "متن چپ و راست را عوض کنید"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "به حالت تاریک بروید"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "به حالت تاریک بروید"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "به حالت نور تغییر دهید"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "به حالت نور تغییر دهید"
+  },
+  "settingsTitle": {
+    "message": "تنظیمات"
+  },
+  "settingsAriaLabel": {
+    "message": "تنظیمات را باز یا ببندید"
+  },
+  "openModeLabel": {
+    "message": "حالت باز"
+  },
+  "openModeTab": {
+    "message": "در یک برگه جدید"
+  },
+  "openModePopup": {
+    "message": "در پاپ آپ افزونه"
+  },
+  "openModeHint": {
+    "message": "دفعه بعد که روی نماد برنامه افزودنی کلیک می کنید اعمال می شود."
+  },
+  "themeUiLabel": {
+    "message": "تم"
+  }
+}

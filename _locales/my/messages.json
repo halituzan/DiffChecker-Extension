@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "စာသားနှစ်ခုကြားတွင် စာကြောင်းအခြေခံ ခြားနားချက်ကို ပြသည်။ ကိရိယာဘား- တက်ဘ်အသစ် သို့မဟုတ် ပေါ့ပ်အပ်။ သိုလှောင်မှု- စက်တွင်း အဖွင့်မုဒ် ဦးစားပေး သီးသန့်။"
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - တက်ဘ်အသစ်တွင် ဖွင့်ပါ။"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - စာသားနှိုင်းယှဉ်"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ဘာသာစကား"
+  },
+  "languageOptionAuto": {
+    "message": "အော်တို"
+  },
+  "languageOptionEn": {
+    "message": "အင်္ဂလိပ်စာ"
+  },
+  "languageOptionTr": {
+    "message": "တူရကီ"
+  },
+  "subtitle": {
+    "message": "စာသားနှစ်ခုကို စာကြောင်းတစ်ကြောင်းချင်း နှိုင်းယှဉ်ပါ - + ထည့်ထားသည် - - ဖယ်ရှားလိုက်ပါ။"
+  },
+  "runButton": {
+    "message": "နှိုင်းယှဥ်ပါ။"
+  },
+  "copySummaryButton": {
+    "message": "အနှစ်ချုပ် ကူးယူသည်။"
+  },
+  "copyDoneButton": {
+    "message": "ကူးယူထားသည်။"
+  },
+  "clearButton": {
+    "message": "ရှင်းပါတယ်။"
+  },
+  "leftLabel": {
+    "message": "ဘယ် (A)၊"
+  },
+  "rightLabel": {
+    "message": "ညာဘက် (B)"
+  },
+  "leftPlaceholder": {
+    "message": "ပထမစာသား..."
+  },
+  "rightPlaceholder": {
+    "message": "ဒုတိယစာသား..."
+  },
+  "splitterAriaLabel": {
+    "message": "ကွာခြားချက် အနှစ်ချုပ် - အမြင့်ဆွဲ"
+  },
+  "splitterTitle": {
+    "message": "အပေါ်ဆုံးအပိုင်းနှင့် ကွဲပြားမှုအကျဉ်းချုပ်ကို အရွယ်အစားပြောင်းရန် ဖိဆွဲပါ။"
+  },
+  "resultTitle": {
+    "message": "ကွဲပြားမှုအကျဉ်းချုပ်"
+  },
+  "navGroupAriaLabel": {
+    "message": "ကွဲပြားမှုများကို ရှာဖွေပါ။"
+  },
+  "navPrevTitle": {
+    "message": "ယခင်ကွာခြားချက်"
+  },
+  "navPrevAriaLabel": {
+    "message": "ယခင်ကွာခြားချက်"
+  },
+  "navNextTitle": {
+    "message": "နောက်တစ်ခုကွာခြားချက်"
+  },
+  "navNextAriaLabel": {
+    "message": "နောက်တစ်ခုကွာခြားချက်"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "လိုင်းကွာခြားချက်များ"
+  },
+  "fullscreenEnterTitle": {
+    "message": "မျက်နှာပြင်အပြည့်"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "မျက်နှာပြင်အပြည့်တွင် ကွဲပြားမှုအကျဉ်းချုပ်ကို ပြပါ။"
+  },
+  "fullscreenExitTitle": {
+    "message": "မျက်နှာပြင်အပြည့်မှ ထွက်ပါ။"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "မျက်နှာပြင်အပြည့်မှ ထွက်ပါ။"
+  },
+  "statsSame": {
+    "message": "အတူတူပါပဲ။"
+  },
+  "statsAdded": {
+    "message": "ထပ်ပြောပါသည်။"
+  },
+  "statsRemoved": {
+    "message": "ဖယ်ရှားခဲ့သည်။"
+  },
+  "outputText1": {
+    "message": "စာသား ၁"
+  },
+  "outputText2": {
+    "message": "စာသား ၂"
+  },
+  "swapColumnsTitle": {
+    "message": "စာသားဘယ်နှင့်ညာ လဲလှယ်ပါ။"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "စာသားဘယ်နှင့်ညာ လဲလှယ်ပါ။"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "အမှောင်မုဒ်သို့ ပြောင်းပါ။"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "အမှောင်မုဒ်သို့ ပြောင်းပါ။"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "အလင်းမုဒ်သို့ ပြောင်းပါ။"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "အလင်းမုဒ်သို့ ပြောင်းပါ။"
+  },
+  "settingsTitle": {
+    "message": "ဆက်တင်များ"
+  },
+  "settingsAriaLabel": {
+    "message": "ဆက်တင်များကို ဖွင့်ပါ သို့မဟုတ် ပိတ်ပါ။"
+  },
+  "openModeLabel": {
+    "message": "မုဒ်ကိုဖွင့်ပါ။"
+  },
+  "openModeTab": {
+    "message": "တက်ဘ်အသစ်တစ်ခုတွင်"
+  },
+  "openModePopup": {
+    "message": "တိုးချဲ့မှု ပေါ့ပ်အပ်တွင်"
+  },
+  "openModeHint": {
+    "message": "တိုးချဲ့အိုင်ကွန်ကို နောက်တစ်ကြိမ် သင်နှိပ်လိုက်သည့်အခါ အကျိုးသက်ရောက်မှုရှိသည်။"
+  },
+  "themeUiLabel": {
+    "message": "အပြင်အဆင်"
+  }
+}

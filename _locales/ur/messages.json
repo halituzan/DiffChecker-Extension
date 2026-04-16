@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "دو متن کے درمیان لائن پر مبنی فرق دکھاتا ہے۔ ٹول بار: نیا ٹیب یا پاپ اپ۔ اسٹوریج: صرف مقامی اوپن موڈ کی ترجیح۔"
+  },
+  "actionDefaultTitle": {
+    "message": "ڈِف چیکر - نئے ٹیب میں کھولیں۔"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - متن کا موازنہ کریں۔"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "زبان"
+  },
+  "languageOptionAuto": {
+    "message": "آٹو"
+  },
+  "languageOptionEn": {
+    "message": "انگریزی"
+  },
+  "languageOptionTr": {
+    "message": "ترکی"
+  },
+  "subtitle": {
+    "message": "دو متنوں کا لائن بہ لائن موازنہ کریں - + شامل - - ہٹا دیا گیا۔"
+  },
+  "runButton": {
+    "message": "موازنہ کریں۔"
+  },
+  "copySummaryButton": {
+    "message": "خلاصہ کاپی کریں۔"
+  },
+  "copyDoneButton": {
+    "message": "نقل کیا گیا!"
+  },
+  "clearButton": {
+    "message": "صاف"
+  },
+  "leftLabel": {
+    "message": "بائیں (A)"
+  },
+  "rightLabel": {
+    "message": "دائیں (B)"
+  },
+  "leftPlaceholder": {
+    "message": "پہلا متن..."
+  },
+  "rightPlaceholder": {
+    "message": "دوسرا متن..."
+  },
+  "splitterAriaLabel": {
+    "message": "مختلف خلاصہ اونچائی - گھسیٹیں۔"
+  },
+  "splitterTitle": {
+    "message": "اوپر والے حصے اور مختلف سمری کا سائز تبدیل کرنے کے لیے گھسیٹیں۔"
+  },
+  "resultTitle": {
+    "message": "اختلاف کا خلاصہ"
+  },
+  "navGroupAriaLabel": {
+    "message": "اختلافات کو نیویگیٹ کریں۔"
+  },
+  "navPrevTitle": {
+    "message": "پچھلا فرق"
+  },
+  "navPrevAriaLabel": {
+    "message": "پچھلا فرق"
+  },
+  "navNextTitle": {
+    "message": "اگلا فرق"
+  },
+  "navNextAriaLabel": {
+    "message": "اگلا فرق"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "لائن کے فرق"
+  },
+  "fullscreenEnterTitle": {
+    "message": "پوری اسکرین"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "پوری اسکرین میں مختلف خلاصہ دکھائیں۔"
+  },
+  "fullscreenExitTitle": {
+    "message": "پوری اسکرین سے باہر نکلیں۔"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "پوری اسکرین سے باہر نکلیں۔"
+  },
+  "statsSame": {
+    "message": "ایک ہی"
+  },
+  "statsAdded": {
+    "message": "شامل کیا گیا۔"
+  },
+  "statsRemoved": {
+    "message": "ہٹا دیا گیا۔"
+  },
+  "outputText1": {
+    "message": "متن 1"
+  },
+  "outputText2": {
+    "message": "متن 2"
+  },
+  "swapColumnsTitle": {
+    "message": "بائیں اور دائیں متن کو تبدیل کریں۔"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "بائیں اور دائیں متن کو تبدیل کریں۔"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ڈارک موڈ پر سوئچ کریں۔"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ڈارک موڈ پر سوئچ کریں۔"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "لائٹ موڈ پر سوئچ کریں۔"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "لائٹ موڈ پر سوئچ کریں۔"
+  },
+  "settingsTitle": {
+    "message": "ترتیبات"
+  },
+  "settingsAriaLabel": {
+    "message": "ترتیبات کھولیں یا بند کریں۔"
+  },
+  "openModeLabel": {
+    "message": "اوپن موڈ"
+  },
+  "openModeTab": {
+    "message": "ایک نئے ٹیب میں"
+  },
+  "openModePopup": {
+    "message": "ایکسٹینشن پاپ اپ میں"
+  },
+  "openModeHint": {
+    "message": "اگلی بار جب آپ ایکسٹینشن آئیکن پر کلک کرتے ہیں تو اثر انداز ہوتا ہے۔"
+  },
+  "themeUiLabel": {
+    "message": "تھیم"
+  }
+}

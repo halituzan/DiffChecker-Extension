@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "రెండు టెక్స్ట్‌ల మధ్య లైన్ ఆధారిత తేడాలను చూపుతుంది. టూల్ బార్: కొత్త ట్యాబ్ లేదా పాప్అప్. నిల్వ: స్థానిక ఓపెన్-మోడ్ ప్రాధాన్యత మాత్రమే."
+  },
+  "actionDefaultTitle": {
+    "message": "డిఫ్ చెకర్ - కొత్త ట్యాబ్‌లో తెరవండి"
+  },
+  "pageTitle": {
+    "message": "డిఫ్ చెకర్ - టెక్స్ట్ సరిపోల్చండి"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "భాష"
+  },
+  "languageOptionAuto": {
+    "message": "ఆటో"
+  },
+  "languageOptionEn": {
+    "message": "ఇంగ్లీష్"
+  },
+  "languageOptionTr": {
+    "message": "టర్కిష్"
+  },
+  "subtitle": {
+    "message": "రెండు వచనాలను లైన్ వారీగా సరిపోల్చండి - + జోడించబడింది - - తీసివేయబడింది"
+  },
+  "runButton": {
+    "message": "సరిపోల్చండి"
+  },
+  "copySummaryButton": {
+    "message": "కాపీ సారాంశం"
+  },
+  "copyDoneButton": {
+    "message": "కాపీ చేయబడింది!"
+  },
+  "clearButton": {
+    "message": "క్లియర్"
+  },
+  "leftLabel": {
+    "message": "ఎడమ (ఎ)"
+  },
+  "rightLabel": {
+    "message": "కుడి (బి)"
+  },
+  "leftPlaceholder": {
+    "message": "మొదటి వచనం..."
+  },
+  "rightPlaceholder": {
+    "message": "రెండవ వచనం..."
+  },
+  "splitterAriaLabel": {
+    "message": "తేడా సారాంశం ఎత్తు - డ్రాగ్"
+  },
+  "splitterTitle": {
+    "message": "ఎగువ విభాగం మరియు తేడా సారాంశం పరిమాణాన్ని మార్చడానికి లాగండి"
+  },
+  "resultTitle": {
+    "message": "తేడా సారాంశం"
+  },
+  "navGroupAriaLabel": {
+    "message": "తేడాలను నావిగేట్ చేయండి"
+  },
+  "navPrevTitle": {
+    "message": "మునుపటి తేడా"
+  },
+  "navPrevAriaLabel": {
+    "message": "మునుపటి తేడా"
+  },
+  "navNextTitle": {
+    "message": "తదుపరి వ్యత్యాసం"
+  },
+  "navNextAriaLabel": {
+    "message": "తదుపరి వ్యత్యాసం"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "లైన్ తేడాలు"
+  },
+  "fullscreenEnterTitle": {
+    "message": "పూర్తి స్క్రీన్"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "పూర్తి స్క్రీన్‌లో తేడా సారాంశాన్ని చూపండి"
+  },
+  "fullscreenExitTitle": {
+    "message": "పూర్తి స్క్రీన్ నుండి నిష్క్రమించండి"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "పూర్తి స్క్రీన్ నుండి నిష్క్రమించండి"
+  },
+  "statsSame": {
+    "message": "అదే"
+  },
+  "statsAdded": {
+    "message": "చేర్చబడింది"
+  },
+  "statsRemoved": {
+    "message": "తీసివేయబడింది"
+  },
+  "outputText1": {
+    "message": "వచనం 1"
+  },
+  "outputText2": {
+    "message": "వచనం 2"
+  },
+  "swapColumnsTitle": {
+    "message": "ఎడమ మరియు కుడి వచనాన్ని మార్చండి"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "ఎడమ మరియు కుడి వచనాన్ని మార్చండి"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "డార్క్ మోడ్‌కి మారండి"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "డార్క్ మోడ్‌కి మారండి"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "లైట్ మోడ్‌కి మారండి"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "లైట్ మోడ్‌కి మారండి"
+  },
+  "settingsTitle": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "settingsAriaLabel": {
+    "message": "సెట్టింగ్‌లను తెరవండి లేదా మూసివేయండి"
+  },
+  "openModeLabel": {
+    "message": "ఓపెన్ మోడ్"
+  },
+  "openModeTab": {
+    "message": "కొత్త ట్యాబ్‌లో"
+  },
+  "openModePopup": {
+    "message": "పొడిగింపు పాప్‌అప్‌లో"
+  },
+  "openModeHint": {
+    "message": "మీరు తదుపరిసారి పొడిగింపు చిహ్నాన్ని క్లిక్ చేసినప్పుడు ప్రభావం చూపుతుంది."
+  },
+  "themeUiLabel": {
+    "message": "థీమ్"
+  }
+}

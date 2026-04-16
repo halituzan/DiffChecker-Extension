@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Nuduhake beda-beda adhedhasar baris antarane rong teks. Toolbar: tab anyar utawa popup. Panyimpenan: mung preferensi mode mbukak lokal."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - mbukak ing tab anyar"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Bandhingake Teks"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Basa"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Inggris"
+  },
+  "languageOptionTr": {
+    "message": "Turki"
+  },
+  "subtitle": {
+    "message": "Mbandhingake rong teks kanthi baris - + ditambahake - - dibusak"
+  },
+  "runButton": {
+    "message": "Mbandhingake"
+  },
+  "copySummaryButton": {
+    "message": "Nyalin ringkesan"
+  },
+  "copyDoneButton": {
+    "message": "Disalin!"
+  },
+  "clearButton": {
+    "message": "Cetha"
+  },
+  "leftLabel": {
+    "message": "Ngiwa (A)"
+  },
+  "rightLabel": {
+    "message": "Kanan (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Teks pisanan ..."
+  },
+  "rightPlaceholder": {
+    "message": "Teks kapindho..."
+  },
+  "splitterAriaLabel": {
+    "message": "Dhuwur ringkesan beda - seret"
+  },
+  "splitterTitle": {
+    "message": "Seret kanggo ngowahi ukuran bagean ndhuwur lan ringkesan beda"
+  },
+  "resultTitle": {
+    "message": "Ringkesan beda"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigasi beda"
+  },
+  "navPrevTitle": {
+    "message": "prabédan sadurungé"
+  },
+  "navPrevAriaLabel": {
+    "message": "prabédan sadurungé"
+  },
+  "navNextTitle": {
+    "message": "Bedane sabanjure"
+  },
+  "navNextAriaLabel": {
+    "message": "Bedane sabanjure"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Bedane garis"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Layar wutuh"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Tampilake ringkesan beda ing layar wutuh"
+  },
+  "fullscreenExitTitle": {
+    "message": "Metu saka layar wutuh"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Metu saka layar wutuh"
+  },
+  "statsSame": {
+    "message": "padha"
+  },
+  "statsAdded": {
+    "message": "Ditambahake"
+  },
+  "statsRemoved": {
+    "message": "Dibusak"
+  },
+  "outputText1": {
+    "message": "Teks 1"
+  },
+  "outputText2": {
+    "message": "Teks 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Ganti teks kiwa lan tengen"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Ganti teks kiwa lan tengen"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Ngalih menyang mode peteng"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Ngalih menyang mode peteng"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Ngalih menyang mode cahya"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Ngalih menyang mode cahya"
+  },
+  "settingsTitle": {
+    "message": "Setelan"
+  },
+  "settingsAriaLabel": {
+    "message": "Mbukak utawa nutup setelan"
+  },
+  "openModeLabel": {
+    "message": "Mode mbukak"
+  },
+  "openModeTab": {
+    "message": "Ing tab anyar"
+  },
+  "openModePopup": {
+    "message": "Ing popup extension"
+  },
+  "openModeHint": {
+    "message": "Efektif yen sampeyan ngeklik lambang ekstensi."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

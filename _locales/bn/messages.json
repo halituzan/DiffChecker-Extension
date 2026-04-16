@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "দুটি পাঠ্যের মধ্যে লাইন-ভিত্তিক পার্থক্য দেখায়। টুলবার: নতুন ট্যাব বা পপআপ। সঞ্চয়স্থান: শুধুমাত্র স্থানীয় ওপেন-মোড পছন্দ।"
+  },
+  "actionDefaultTitle": {
+    "message": "ডিফ চেকার - নতুন ট্যাবে খুলুন"
+  },
+  "pageTitle": {
+    "message": "ডিফ চেকার - টেক্সট তুলনা"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ভাষা"
+  },
+  "languageOptionAuto": {
+    "message": "অটো"
+  },
+  "languageOptionEn": {
+    "message": "ইংরেজি"
+  },
+  "languageOptionTr": {
+    "message": "তুর্কি"
+  },
+  "subtitle": {
+    "message": "লাইন দ্বারা লাইন দুটি পাঠ তুলনা করুন - + যোগ - - সরানো"
+  },
+  "runButton": {
+    "message": "তুলনা করুন"
+  },
+  "copySummaryButton": {
+    "message": "সারাংশ কপি করুন"
+  },
+  "copyDoneButton": {
+    "message": "অনুলিপি করা হয়েছে!"
+  },
+  "clearButton": {
+    "message": "পরিষ্কার"
+  },
+  "leftLabel": {
+    "message": "বাম (A)"
+  },
+  "rightLabel": {
+    "message": "ডান (B)"
+  },
+  "leftPlaceholder": {
+    "message": "প্রথম লেখা..."
+  },
+  "rightPlaceholder": {
+    "message": "দ্বিতীয় পাঠ্য..."
+  },
+  "splitterAriaLabel": {
+    "message": "পার্থক্য সারাংশ উচ্চতা - টানুন"
+  },
+  "splitterTitle": {
+    "message": "শীর্ষ বিভাগ এবং পার্থক্য সারাংশের আকার পরিবর্তন করতে টেনে আনুন"
+  },
+  "resultTitle": {
+    "message": "ভিন্ন সারাংশ"
+  },
+  "navGroupAriaLabel": {
+    "message": "পার্থক্য নেভিগেট করুন"
+  },
+  "navPrevTitle": {
+    "message": "আগের পার্থক্য"
+  },
+  "navPrevAriaLabel": {
+    "message": "আগের পার্থক্য"
+  },
+  "navNextTitle": {
+    "message": "পরবর্তী পার্থক্য"
+  },
+  "navNextAriaLabel": {
+    "message": "পরবর্তী পার্থক্য"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "লাইন পার্থক্য"
+  },
+  "fullscreenEnterTitle": {
+    "message": "ফুলস্ক্রিন"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "পূর্ণস্ক্রীনে ভিন্ন সারাংশ দেখান"
+  },
+  "fullscreenExitTitle": {
+    "message": "পূর্ণস্ক্রীন থেকে প্রস্থান করুন"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "পূর্ণস্ক্রীন থেকে প্রস্থান করুন"
+  },
+  "statsSame": {
+    "message": "একই"
+  },
+  "statsAdded": {
+    "message": "যোগ করা হয়েছে"
+  },
+  "statsRemoved": {
+    "message": "সরানো হয়েছে"
+  },
+  "outputText1": {
+    "message": "পাঠ্য 1"
+  },
+  "outputText2": {
+    "message": "পাঠ্য 2"
+  },
+  "swapColumnsTitle": {
+    "message": "বাম এবং ডান পাঠ্য অদলবদল করুন"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "বাম এবং ডান পাঠ্য অদলবদল করুন"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ডার্ক মোডে স্যুইচ করুন"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ডার্ক মোডে স্যুইচ করুন"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "লাইট মোডে স্যুইচ করুন"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "লাইট মোডে স্যুইচ করুন"
+  },
+  "settingsTitle": {
+    "message": "সেটিংস"
+  },
+  "settingsAriaLabel": {
+    "message": "সেটিংস খুলুন বা বন্ধ করুন"
+  },
+  "openModeLabel": {
+    "message": "ওপেন মোড"
+  },
+  "openModeTab": {
+    "message": "একটি নতুন ট্যাবে"
+  },
+  "openModePopup": {
+    "message": "এক্সটেনশন পপআপে"
+  },
+  "openModeHint": {
+    "message": "পরের বার আপনি যখন এক্সটেনশন আইকনে ক্লিক করবেন তখন এটি কার্যকর হবে৷"
+  },
+  "themeUiLabel": {
+    "message": "থিম"
+  }
+}

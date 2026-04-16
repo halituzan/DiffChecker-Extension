@@ -157,19 +157,137 @@
       })
       .join("\n");
   }
-  const LOCALE_LOADERS = {
-    en: () => fetch(chrome.runtime.getURL("_locales/en/messages.json")).then((r) => r.json()),
-    tr: () => fetch(chrome.runtime.getURL("_locales/tr/messages.json")).then((r) => r.json())
+  const SUPPORTED_UI_LANGUAGES = [
+    "ar",
+    "bg",
+    "bn",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fa",
+    "fi",
+    "fr",
+    "gu",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "jv",
+    "kn",
+    "ko",
+    "lt",
+    "lv",
+    "ml",
+    "mr",
+    "ms",
+    "my",
+    "nl",
+    "no",
+    "or",
+    "pl",
+    "pt_BR",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sr",
+    "sv",
+    "ta",
+    "te",
+    "th",
+    "tr",
+    "uk",
+    "ur",
+    "vi",
+    "zh_CN",
+    "zh_TW"
+  ];
+  const LANGUAGE_OPTION_LABELS = {
+    ar: "Arabic",
+    bg: "Bulgarian",
+    bn: "Bengali",
+    ca: "Catalan",
+    cs: "Czech",
+    da: "Danish",
+    de: "German",
+    el: "Greek",
+    en: "English",
+    es: "Spanish",
+    et: "Estonian",
+    fa: "Persian",
+    fi: "Finnish",
+    fr: "French",
+    gu: "Gujarati",
+    he: "Hebrew",
+    hi: "Hindi",
+    hr: "Croatian",
+    hu: "Hungarian",
+    id: "Indonesian",
+    it: "Italian",
+    ja: "Japanese",
+    jv: "Javanese",
+    kn: "Kannada",
+    ko: "Korean",
+    lt: "Lithuanian",
+    lv: "Latvian",
+    ml: "Malayalam",
+    mr: "Marathi",
+    ms: "Malay",
+    my: "Burmese",
+    nl: "Dutch",
+    no: "Norwegian",
+    or: "Odia",
+    pl: "Polish",
+    pt_BR: "Portuguese (Brazil)",
+    ro: "Romanian",
+    ru: "Russian",
+    sk: "Slovak",
+    sl: "Slovenian",
+    sr: "Serbian",
+    sv: "Swedish",
+    ta: "Tamil",
+    te: "Telugu",
+    th: "Thai",
+    tr: "Turkish",
+    uk: "Ukrainian",
+    ur: "Urdu",
+    vi: "Vietnamese",
+    zh_CN: "Chinese (Simplified)",
+    zh_TW: "Chinese (Traditional)"
   };
+  const DEFAULT_UI_LANGUAGE = "en";
+  const LOCALE_LOADERS = SUPPORTED_UI_LANGUAGES.reduce((acc, lang) => {
+    acc[lang] = () => fetch(chrome.runtime.getURL(`_locales/${lang}/messages.json`)).then((r) => r.json());
+    return acc;
+  }, {});
   const loadedLocales = {};
   let selectedUiLanguage = "auto";
   let activeUiLanguage = "en";
   const languageSelect = document.getElementById("language-select");
 
   function normalizeUiLanguage(lang) {
-    const raw = (lang || "").toLowerCase();
-    if (raw.startsWith("tr")) return "tr";
-    return "en";
+    const raw = String(lang || "").trim();
+    if (!raw) return DEFAULT_UI_LANGUAGE;
+    const normalized = raw.replace(/-/g, "_");
+    const lower = normalized.toLowerCase();
+    if (LOCALE_LOADERS[normalized]) return normalized;
+    if (LOCALE_LOADERS[lower]) return lower;
+    const base = lower.split("_")[0];
+    if (LOCALE_LOADERS[base]) return base;
+    if (base === "zh") {
+      if (lower.includes("tw") || lower.includes("hk") || lower.includes("hant")) return "zh_TW";
+      return "zh_CN";
+    }
+    if (base === "pt") return "pt_BR";
+    return DEFAULT_UI_LANGUAGE;
   }
 
   function getBrowserUiLanguage() {
@@ -183,6 +301,29 @@
     return selectedUiLanguage === "auto"
       ? normalizeUiLanguage(getBrowserUiLanguage())
       : normalizeUiLanguage(selectedUiLanguage);
+  }
+
+  function isSupportedUiLanguage(lang) {
+    return SUPPORTED_UI_LANGUAGES.includes(lang);
+  }
+
+  function normalizeStoredUiLanguage(value) {
+    if (value === "auto") return "auto";
+    const normalized = normalizeUiLanguage(value);
+    return isSupportedUiLanguage(normalized) ? normalized : "auto";
+  }
+
+  function populateLanguageSelectOptions() {
+    if (!languageSelect) return;
+    while (languageSelect.options.length > 1) {
+      languageSelect.remove(1);
+    }
+    SUPPORTED_UI_LANGUAGES.forEach((lang) => {
+      const option = document.createElement("option");
+      option.value = lang;
+      option.textContent = LANGUAGE_OPTION_LABELS[lang] || lang;
+      languageSelect.appendChild(option);
+    });
   }
 
   async function ensureLocaleLoaded(lang) {
@@ -281,7 +422,7 @@
   }
 
   async function applyLanguageSelection(newValue) {
-    selectedUiLanguage = newValue === "tr" || newValue === "en" ? newValue : "auto";
+    selectedUiLanguage = normalizeStoredUiLanguage(newValue);
     localStorage.setItem(UI_LANG_STORAGE_KEY, selectedUiLanguage);
     activeUiLanguage = resolveActiveUiLanguage();
     await ensureLocaleLoaded(activeUiLanguage);
@@ -319,12 +460,15 @@
 
   async function initLocalization() {
     const stored = localStorage.getItem(UI_LANG_STORAGE_KEY);
-    selectedUiLanguage = stored === "tr" || stored === "en" || stored === "auto" ? stored : "auto";
+    selectedUiLanguage = normalizeStoredUiLanguage(stored);
     activeUiLanguage = resolveActiveUiLanguage();
-    await ensureLocaleLoaded("en");
-    await ensureLocaleLoaded("tr");
+    await ensureLocaleLoaded(DEFAULT_UI_LANGUAGE);
+    if (activeUiLanguage !== DEFAULT_UI_LANGUAGE) {
+      await ensureLocaleLoaded(activeUiLanguage);
+    }
     localizePage();
     if (languageSelect) {
+      populateLanguageSelectOptions();
       languageSelect.value = selectedUiLanguage;
       languageSelect.addEventListener("change", async (e) => {
         const value = e.target && e.target.value ? e.target.value : "auto";

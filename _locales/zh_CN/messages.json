@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "显示两个文本之间基于行的差异。工具栏：新选项卡或弹出窗口。存储：仅限本地开放模式首选项。"
+  },
+  "actionDefaultTitle": {
+    "message": "差异检查器 - 在新选项卡中打开"
+  },
+  "pageTitle": {
+    "message": "差异检查器 - 文本比较"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "语言"
+  },
+  "languageOptionAuto": {
+    "message": "汽车"
+  },
+  "languageOptionEn": {
+    "message": "英语"
+  },
+  "languageOptionTr": {
+    "message": "土耳其"
+  },
+  "subtitle": {
+    "message": "逐行比较两个文本 - + 添加 - - 删除"
+  },
+  "runButton": {
+    "message": "比较"
+  },
+  "copySummaryButton": {
+    "message": "复制摘要"
+  },
+  "copyDoneButton": {
+    "message": "复制了！"
+  },
+  "clearButton": {
+    "message": "清除"
+  },
+  "leftLabel": {
+    "message": "左（A）"
+  },
+  "rightLabel": {
+    "message": "右（B）"
+  },
+  "leftPlaceholder": {
+    "message": "第一篇文字..."
+  },
+  "rightPlaceholder": {
+    "message": "第二条文字..."
+  },
+  "splitterAriaLabel": {
+    "message": "差异汇总高度 - 拖动"
+  },
+  "splitterTitle": {
+    "message": "拖动以调整顶部部分和差异摘要的大小"
+  },
+  "resultTitle": {
+    "message": "差异总结"
+  },
+  "navGroupAriaLabel": {
+    "message": "克服差异"
+  },
+  "navPrevTitle": {
+    "message": "之前的差异"
+  },
+  "navPrevAriaLabel": {
+    "message": "之前的差异"
+  },
+  "navNextTitle": {
+    "message": "下一个区别"
+  },
+  "navNextAriaLabel": {
+    "message": "下一个区别"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "线路差异"
+  },
+  "fullscreenEnterTitle": {
+    "message": "全屏"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "全屏显示差异摘要"
+  },
+  "fullscreenExitTitle": {
+    "message": "退出全屏"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "退出全屏"
+  },
+  "statsSame": {
+    "message": "相同的"
+  },
+  "statsAdded": {
+    "message": "额外"
+  },
+  "statsRemoved": {
+    "message": "已删除"
+  },
+  "outputText1": {
+    "message": "文本1"
+  },
+  "outputText2": {
+    "message": "文字2"
+  },
+  "swapColumnsTitle": {
+    "message": "交换左右文本"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "交换左右文本"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "切换到深色模式"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "切换到深色模式"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "切换到灯光模式"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "切换到灯光模式"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "settingsAriaLabel": {
+    "message": "打开或关闭设置"
+  },
+  "openModeLabel": {
+    "message": "开放模式"
+  },
+  "openModeTab": {
+    "message": "在新标签中"
+  },
+  "openModePopup": {
+    "message": "在扩展弹出窗口中"
+  },
+  "openModeHint": {
+    "message": "下次单击扩展图标时生效。"
+  },
+  "themeUiLabel": {
+    "message": "主题"
+  }
+}

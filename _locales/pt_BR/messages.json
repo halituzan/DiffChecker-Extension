@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Mostra diferenças baseadas em linhas entre dois textos. Barra de ferramentas: nova aba ou pop-up. Armazenamento: apenas preferência de modo aberto local."
+  },
+  "actionDefaultTitle": {
+    "message": "Verificador de diferenças - aberto em uma nova guia"
+  },
+  "pageTitle": {
+    "message": "Verificador de diferenças - comparação de texto"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Linguagem"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Inglês"
+  },
+  "languageOptionTr": {
+    "message": "turco"
+  },
+  "subtitle": {
+    "message": "Compare dois textos linha por linha - + adicionado - - removido"
+  },
+  "runButton": {
+    "message": "Comparar"
+  },
+  "copySummaryButton": {
+    "message": "Copiar resumo"
+  },
+  "copyDoneButton": {
+    "message": "Copiado!"
+  },
+  "clearButton": {
+    "message": "Claro"
+  },
+  "leftLabel": {
+    "message": "Esquerda (A)"
+  },
+  "rightLabel": {
+    "message": "Direita (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Primeiro texto..."
+  },
+  "rightPlaceholder": {
+    "message": "Segundo texto..."
+  },
+  "splitterAriaLabel": {
+    "message": "Altura do resumo da diferença - arrastar"
+  },
+  "splitterTitle": {
+    "message": "Arraste para redimensionar a seção superior e o resumo das diferenças"
+  },
+  "resultTitle": {
+    "message": "Resumo das diferenças"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navegue pelas diferenças"
+  },
+  "navPrevTitle": {
+    "message": "Diferença anterior"
+  },
+  "navPrevAriaLabel": {
+    "message": "Diferença anterior"
+  },
+  "navNextTitle": {
+    "message": "Próxima diferença"
+  },
+  "navNextAriaLabel": {
+    "message": "Próxima diferença"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Diferenças de linha"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Tela cheia"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Mostrar resumo de diferenças em tela cheia"
+  },
+  "fullscreenExitTitle": {
+    "message": "Sair da tela cheia"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Sair da tela cheia"
+  },
+  "statsSame": {
+    "message": "Mesmo"
+  },
+  "statsAdded": {
+    "message": "Adicionado"
+  },
+  "statsRemoved": {
+    "message": "Removido"
+  },
+  "outputText1": {
+    "message": "Texto 1"
+  },
+  "outputText2": {
+    "message": "Texto 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Trocar texto esquerdo e direito"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Trocar texto esquerdo e direito"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Mudar para o modo escuro"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Mudar para o modo escuro"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Mudar para o modo claro"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Mudar para o modo claro"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "settingsAriaLabel": {
+    "message": "Abrir ou fechar configurações"
+  },
+  "openModeLabel": {
+    "message": "Modo aberto"
+  },
+  "openModeTab": {
+    "message": "Em uma nova aba"
+  },
+  "openModePopup": {
+    "message": "No pop-up de extensão"
+  },
+  "openModeHint": {
+    "message": "Entra em vigor na próxima vez que você clicar no ícone da extensão."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}
