@@ -1,7 +1,7 @@
 <img width="1280" height="800" alt="3" src="https://github.com/user-attachments/assets/91ee9db7-4f53-43fe-b331-609486c397df" />
 # Diff Checker
 
-Chrome için **Manifest V3** tabanlı bir tarayıcı eklentisi. İki metni **satır satır** karşılaştırır; eklenen (`+`) ve silinen (`−`) satırları renkli özet alanında gösterir.
+Chromium tabanlı tarayıcılar (Chrome, Opera, Edge, Brave vb.) için **Manifest V3** tabanlı bir eklenti. İki metni **satır satır** karşılaştırır; eklenen (`+`) ve silinen (`−`) satırları renkli özet alanında gösterir.
 
 ## Özellikler
 
@@ -15,9 +15,15 @@ Chrome için **Manifest V3** tabanlı bir tarayıcı eklentisi. İki metni **sat
 ## Kurulum (geliştirici)
 
 1. Bu depoyu klonlayın veya indirin.
-2. Chrome’da `chrome://extensions` sayfasını açın.
-3. Sağ üstten **Geliştirici modu**nu açın.
-4. **Paketlenmemiş öğe yükle** ile bu proje klasörünü seçin.
+2. Opera’da `opera://extensions` (veya Chrome'da `chrome://extensions`) sayfasını açın.
+3. **Geliştirici modu**nu açın.
+4. **Paketlenmemiş uzantı yükle** ile bu proje klasörünü seçin.
+
+## Opera Add-ons için paketleme
+
+1. Proje kökündeki dosyaları (ör. `manifest.json`, `background.js`, `fullpage.html`, `_locales/`, `icons/`) tek bir `.zip` dosyasına ekleyin.
+2. Üst klasörü değil, doğrudan eklenti dosyalarını zip'in köküne koyun.
+3. Paketi [Opera Add-ons Developer Dashboard](https://addons.opera.com/developer/) üzerinden yükleyin.
 
 ## Kullanım
 
@@ -40,7 +46,7 @@ Chrome için **Manifest V3** tabanlı bir tarayıcı eklentisi. İki metni **sat
 
 ## Gereksinimler
 
-- Chromium tabanlı tarayıcı (Chrome, Edge, Brave vb.) — **Manifest V3** desteği.
+- Chromium tabanlı tarayıcı (Chrome, Opera, Edge, Brave vb.) — **Manifest V3** desteği.
 
 ## Lisans
 
