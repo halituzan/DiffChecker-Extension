@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "2 つのテキスト間の違いを行ベースで表示します。ツールバー: 新しいタブまたはポップアップ。ストレージ: ローカル オープン モード設定のみ。"
+  },
+  "actionDefaultTitle": {
+    "message": "差分チェッカー - 新しいタブで開きます"
+  },
+  "pageTitle": {
+    "message": "差分チェッカー - テキスト比較"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "言語"
+  },
+  "languageOptionAuto": {
+    "message": "自動"
+  },
+  "languageOptionEn": {
+    "message": "英語"
+  },
+  "languageOptionTr": {
+    "message": "トルコ語"
+  },
+  "subtitle": {
+    "message": "2 つのテキストを 1 行ずつ比較 - + 追加 - - 削除"
+  },
+  "runButton": {
+    "message": "比較する"
+  },
+  "copySummaryButton": {
+    "message": "コピーの概要"
+  },
+  "copyDoneButton": {
+    "message": "コピーしました！"
+  },
+  "clearButton": {
+    "message": "クリア"
+  },
+  "leftLabel": {
+    "message": "左(A)"
+  },
+  "rightLabel": {
+    "message": "右(B)"
+  },
+  "leftPlaceholder": {
+    "message": "最初のテキスト..."
+  },
+  "rightPlaceholder": {
+    "message": "2番目のテキスト..."
+  },
+  "splitterAriaLabel": {
+    "message": "差分サマリーの高さ - ドラッグ"
+  },
+  "splitterTitle": {
+    "message": "ドラッグして上部セクションと差分サマリーのサイズを変更します"
+  },
+  "resultTitle": {
+    "message": "差分概要"
+  },
+  "navGroupAriaLabel": {
+    "message": "相違点をナビゲートする"
+  },
+  "navPrevTitle": {
+    "message": "前回の差分"
+  },
+  "navPrevAriaLabel": {
+    "message": "前回の差分"
+  },
+  "navNextTitle": {
+    "message": "次の違い"
+  },
+  "navNextAriaLabel": {
+    "message": "次の違い"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "ラインの違い"
+  },
+  "fullscreenEnterTitle": {
+    "message": "全画面表示"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "差分の概要を全画面で表示する"
+  },
+  "fullscreenExitTitle": {
+    "message": "全画面表示を終了する"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "全画面表示を終了する"
+  },
+  "statsSame": {
+    "message": "同じ"
+  },
+  "statsAdded": {
+    "message": "追加した"
+  },
+  "statsRemoved": {
+    "message": "削除されました"
+  },
+  "outputText1": {
+    "message": "テキスト 1"
+  },
+  "outputText2": {
+    "message": "テキスト 2"
+  },
+  "swapColumnsTitle": {
+    "message": "左右のテキストを入れ替える"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "左右のテキストを入れ替える"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ダークモードに切り替える"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ダークモードに切り替える"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "ライトモードに切り替える"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "ライトモードに切り替える"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsAriaLabel": {
+    "message": "設定を開くまたは閉じる"
+  },
+  "openModeLabel": {
+    "message": "オープンモード"
+  },
+  "openModeTab": {
+    "message": "新しいタブで"
+  },
+  "openModePopup": {
+    "message": "拡張機能のポップアップで"
+  },
+  "openModeHint": {
+    "message": "次回拡張機能アイコンをクリックしたときに有効になります。"
+  },
+  "themeUiLabel": {
+    "message": "テーマ"
+  }
+}

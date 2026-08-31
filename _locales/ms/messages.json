@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Menunjukkan perbezaan berasaskan baris antara dua teks. Bar alat: tab baharu atau pop timbul. Storan: pilihan mod terbuka setempat sahaja."
+  },
+  "actionDefaultTitle": {
+    "message": "Pemeriksa Perbezaan - buka dalam tab baharu"
+  },
+  "pageTitle": {
+    "message": "Pemeriksa Beza - Bandingkan Teks"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Bahasa"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Inggeris"
+  },
+  "languageOptionTr": {
+    "message": "bahasa Turki"
+  },
+  "subtitle": {
+    "message": "Bandingkan dua teks baris demi baris - + ditambah - - dialih keluar"
+  },
+  "runButton": {
+    "message": "Bandingkan"
+  },
+  "copySummaryButton": {
+    "message": "Salin ringkasan"
+  },
+  "copyDoneButton": {
+    "message": "disalin!"
+  },
+  "clearButton": {
+    "message": "Jelas"
+  },
+  "leftLabel": {
+    "message": "Kiri (A)"
+  },
+  "rightLabel": {
+    "message": "Kanan (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Teks pertama..."
+  },
+  "rightPlaceholder": {
+    "message": "Teks kedua..."
+  },
+  "splitterAriaLabel": {
+    "message": "Ketinggian ringkasan perbezaan - seret"
+  },
+  "splitterTitle": {
+    "message": "Seret untuk mengubah saiz bahagian atas dan ringkasan perbezaan"
+  },
+  "resultTitle": {
+    "message": "Ringkasan perbezaan"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigasi perbezaan"
+  },
+  "navPrevTitle": {
+    "message": "Perbezaan sebelumnya"
+  },
+  "navPrevAriaLabel": {
+    "message": "Perbezaan sebelumnya"
+  },
+  "navNextTitle": {
+    "message": "Perbezaan seterusnya"
+  },
+  "navNextAriaLabel": {
+    "message": "Perbezaan seterusnya"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Perbezaan garis"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Skrin penuh"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Tunjukkan ringkasan perbezaan dalam skrin penuh"
+  },
+  "fullscreenExitTitle": {
+    "message": "Keluar dari skrin penuh"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Keluar dari skrin penuh"
+  },
+  "statsSame": {
+    "message": "sama"
+  },
+  "statsAdded": {
+    "message": "Ditambah"
+  },
+  "statsRemoved": {
+    "message": "Dialih keluar"
+  },
+  "outputText1": {
+    "message": "Teks 1"
+  },
+  "outputText2": {
+    "message": "Teks 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Tukar teks kiri dan kanan"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Tukar teks kiri dan kanan"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Tukar kepada mod gelap"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Tukar kepada mod gelap"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Tukar kepada mod cahaya"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Tukar kepada mod cahaya"
+  },
+  "settingsTitle": {
+    "message": "tetapan"
+  },
+  "settingsAriaLabel": {
+    "message": "Buka atau tutup tetapan"
+  },
+  "openModeLabel": {
+    "message": "Mod Buka"
+  },
+  "openModeTab": {
+    "message": "Dalam tab baharu"
+  },
+  "openModePopup": {
+    "message": "Dalam pop timbul sambungan"
+  },
+  "openModeHint": {
+    "message": "Berkuat kuasa pada kali seterusnya anda mengklik ikon sambungan."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

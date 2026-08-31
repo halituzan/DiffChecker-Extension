@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "แสดงความแตกต่างตามเส้นระหว่างสองข้อความ แถบเครื่องมือ: แท็บใหม่หรือป๊อปอัป ที่เก็บข้อมูล: การตั้งค่าโหมดเปิดในเครื่องเท่านั้น"
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - เปิดในแท็บใหม่"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - เปรียบเทียบข้อความ"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ภาษา"
+  },
+  "languageOptionAuto": {
+    "message": "อัตโนมัติ"
+  },
+  "languageOptionEn": {
+    "message": "ภาษาอังกฤษ"
+  },
+  "languageOptionTr": {
+    "message": "ภาษาตุรกี"
+  },
+  "subtitle": {
+    "message": "เปรียบเทียบสองข้อความทีละบรรทัด - + เพิ่ม - - ลบออก"
+  },
+  "runButton": {
+    "message": "เปรียบเทียบ"
+  },
+  "copySummaryButton": {
+    "message": "คัดลอกสรุป"
+  },
+  "copyDoneButton": {
+    "message": "คัดลอก!"
+  },
+  "clearButton": {
+    "message": "ชัดเจน"
+  },
+  "leftLabel": {
+    "message": "ซ้าย (เอ)"
+  },
+  "rightLabel": {
+    "message": "ขวา (บี)"
+  },
+  "leftPlaceholder": {
+    "message": "ข้อความแรก..."
+  },
+  "rightPlaceholder": {
+    "message": "ข้อความที่สอง..."
+  },
+  "splitterAriaLabel": {
+    "message": "ส่วนต่างสรุปความสูง-ลาก"
+  },
+  "splitterTitle": {
+    "message": "ลากเพื่อปรับขนาดส่วนบนและสรุปความแตกต่าง"
+  },
+  "resultTitle": {
+    "message": "สรุปความแตกต่าง"
+  },
+  "navGroupAriaLabel": {
+    "message": "นำทางความแตกต่าง"
+  },
+  "navPrevTitle": {
+    "message": "ความแตกต่างก่อนหน้านี้"
+  },
+  "navPrevAriaLabel": {
+    "message": "ความแตกต่างก่อนหน้านี้"
+  },
+  "navNextTitle": {
+    "message": "ข้อแตกต่างต่อไป"
+  },
+  "navNextAriaLabel": {
+    "message": "ข้อแตกต่างต่อไป"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "ความแตกต่างของเส้น"
+  },
+  "fullscreenEnterTitle": {
+    "message": "เต็มจอ"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "แสดงผลสรุปความแตกต่างแบบเต็มหน้าจอ"
+  },
+  "fullscreenExitTitle": {
+    "message": "ออกจากโหมดเต็มหน้าจอ"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "ออกจากโหมดเต็มหน้าจอ"
+  },
+  "statsSame": {
+    "message": "เดียวกัน"
+  },
+  "statsAdded": {
+    "message": "เพิ่มแล้ว"
+  },
+  "statsRemoved": {
+    "message": "ลบออก"
+  },
+  "outputText1": {
+    "message": "ข้อความ 1"
+  },
+  "outputText2": {
+    "message": "ข้อความ 2"
+  },
+  "swapColumnsTitle": {
+    "message": "สลับข้อความซ้ายและขวา"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "สลับข้อความซ้ายและขวา"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "สลับไปที่โหมดมืด"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "สลับไปที่โหมดมืด"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "สลับไปที่โหมดแสง"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "สลับไปที่โหมดแสง"
+  },
+  "settingsTitle": {
+    "message": "การตั้งค่า"
+  },
+  "settingsAriaLabel": {
+    "message": "เปิดหรือปิดการตั้งค่า"
+  },
+  "openModeLabel": {
+    "message": "เปิดโหมด"
+  },
+  "openModeTab": {
+    "message": "ในแท็บใหม่"
+  },
+  "openModePopup": {
+    "message": "ในป๊อปอัปส่วนขยาย"
+  },
+  "openModeHint": {
+    "message": "จะมีผลในครั้งถัดไปที่คุณคลิกไอคอนส่วนขยาย"
+  },
+  "themeUiLabel": {
+    "message": "ธีม"
+  }
+}

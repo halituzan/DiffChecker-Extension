@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Viser linjebaserede forskelle mellem to tekster. Værktøjslinje: ny fane eller popup. Opbevaring: Kun præference for lokal åben tilstand."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - åben i ny fane"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Tekstsammenligning"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Sprog"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "engelsk"
+  },
+  "languageOptionTr": {
+    "message": "tyrkisk"
+  },
+  "subtitle": {
+    "message": "Sammenlign to tekster linje for linje - + tilføjet - - fjernet"
+  },
+  "runButton": {
+    "message": "Sammenligne"
+  },
+  "copySummaryButton": {
+    "message": "Kopiér resumé"
+  },
+  "copyDoneButton": {
+    "message": "Kopieret!"
+  },
+  "clearButton": {
+    "message": "Klar"
+  },
+  "leftLabel": {
+    "message": "Venstre (A)"
+  },
+  "rightLabel": {
+    "message": "Højre (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Første tekst..."
+  },
+  "rightPlaceholder": {
+    "message": "Anden tekst..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff summary højde - træk"
+  },
+  "splitterTitle": {
+    "message": "Træk for at ændre størrelse på øverste sektion og forskelsoversigt"
+  },
+  "resultTitle": {
+    "message": "Forskellen resumé"
+  },
+  "navGroupAriaLabel": {
+    "message": "Naviger i forskelle"
+  },
+  "navPrevTitle": {
+    "message": "Tidligere forskel"
+  },
+  "navPrevAriaLabel": {
+    "message": "Tidligere forskel"
+  },
+  "navNextTitle": {
+    "message": "Næste forskel"
+  },
+  "navNextAriaLabel": {
+    "message": "Næste forskel"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Linjeforskelle"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Fuldskærm"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Vis forskelsoversigt i fuldskærm"
+  },
+  "fullscreenExitTitle": {
+    "message": "Afslut fuldskærm"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Afslut fuldskærm"
+  },
+  "statsSame": {
+    "message": "Samme"
+  },
+  "statsAdded": {
+    "message": "Tilføjet"
+  },
+  "statsRemoved": {
+    "message": "Fjernet"
+  },
+  "outputText1": {
+    "message": "Tekst 1"
+  },
+  "outputText2": {
+    "message": "Tekst 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Skift venstre og højre tekst"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Skift venstre og højre tekst"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Skift til mørk tilstand"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Skift til mørk tilstand"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Skift til lystilstand"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Skift til lystilstand"
+  },
+  "settingsTitle": {
+    "message": "Indstillinger"
+  },
+  "settingsAriaLabel": {
+    "message": "Åbn eller luk indstillinger"
+  },
+  "openModeLabel": {
+    "message": "Åben tilstand"
+  },
+  "openModeTab": {
+    "message": "I en ny fane"
+  },
+  "openModePopup": {
+    "message": "I popup-udvidelsen"
+  },
+  "openModeHint": {
+    "message": "Træder i kraft næste gang du klikker på udvidelsesikonet."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

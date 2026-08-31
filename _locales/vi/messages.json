@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Hiển thị sự khác biệt dựa trên dòng giữa hai văn bản. Thanh công cụ: tab mới hoặc cửa sổ bật lên. Lưu trữ: chỉ ưu tiên chế độ mở cục bộ."
+  },
+  "actionDefaultTitle": {
+    "message": "Trình kiểm tra khác biệt - mở trong tab mới"
+  },
+  "pageTitle": {
+    "message": "Trình kiểm tra khác biệt - So sánh văn bản"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Ngôn ngữ"
+  },
+  "languageOptionAuto": {
+    "message": "Tự động"
+  },
+  "languageOptionEn": {
+    "message": "Tiếng Anh"
+  },
+  "languageOptionTr": {
+    "message": "tiếng Thổ Nhĩ Kỳ"
+  },
+  "subtitle": {
+    "message": "So sánh hai văn bản từng dòng - + đã thêm - - đã xóa"
+  },
+  "runButton": {
+    "message": "So sánh"
+  },
+  "copySummaryButton": {
+    "message": "Sao chép tóm tắt"
+  },
+  "copyDoneButton": {
+    "message": "Đã sao chép!"
+  },
+  "clearButton": {
+    "message": "Thông thoáng"
+  },
+  "leftLabel": {
+    "message": "Trái (A)"
+  },
+  "rightLabel": {
+    "message": "Đúng (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Văn bản đầu tiên..."
+  },
+  "rightPlaceholder": {
+    "message": "Văn bản thứ hai..."
+  },
+  "splitterAriaLabel": {
+    "message": "Chiều cao tóm tắt khác biệt - kéo"
+  },
+  "splitterTitle": {
+    "message": "Kéo để thay đổi kích thước phần trên cùng và tóm tắt khác biệt"
+  },
+  "resultTitle": {
+    "message": "Tóm tắt khác biệt"
+  },
+  "navGroupAriaLabel": {
+    "message": "Điều hướng sự khác biệt"
+  },
+  "navPrevTitle": {
+    "message": "Sự khác biệt trước đó"
+  },
+  "navPrevAriaLabel": {
+    "message": "Sự khác biệt trước đó"
+  },
+  "navNextTitle": {
+    "message": "Sự khác biệt tiếp theo"
+  },
+  "navNextAriaLabel": {
+    "message": "Sự khác biệt tiếp theo"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Sự khác biệt về dòng"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Toàn màn hình"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Hiển thị tóm tắt khác biệt ở chế độ toàn màn hình"
+  },
+  "fullscreenExitTitle": {
+    "message": "Thoát toàn màn hình"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Thoát toàn màn hình"
+  },
+  "statsSame": {
+    "message": "Như nhau"
+  },
+  "statsAdded": {
+    "message": "Đã thêm"
+  },
+  "statsRemoved": {
+    "message": "LOẠI BỎ"
+  },
+  "outputText1": {
+    "message": "Văn bản 1"
+  },
+  "outputText2": {
+    "message": "Văn bản 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Hoán đổi văn bản trái và phải"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Hoán đổi văn bản trái và phải"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Chuyển sang chế độ tối"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Chuyển sang chế độ tối"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Chuyển sang chế độ ánh sáng"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Chuyển sang chế độ ánh sáng"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt"
+  },
+  "settingsAriaLabel": {
+    "message": "Mở hoặc đóng cài đặt"
+  },
+  "openModeLabel": {
+    "message": "Chế độ mở"
+  },
+  "openModeTab": {
+    "message": "Trong một tab mới"
+  },
+  "openModePopup": {
+    "message": "Trong cửa sổ bật lên tiện ích mở rộng"
+  },
+  "openModeHint": {
+    "message": "Có hiệu lực vào lần tiếp theo bạn nhấp vào biểu tượng tiện ích mở rộng."
+  },
+  "themeUiLabel": {
+    "message": "chủ đề"
+  }
+}

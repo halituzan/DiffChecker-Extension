@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Afișează diferențele bazate pe rând între două texte. Bara de instrumente: filă nouă sau pop-up. Stocare: numai preferință în modul deschis local."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - deschideți într-o filă nouă"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Comparare text"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Limbă"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "engleză"
+  },
+  "languageOptionTr": {
+    "message": "turc"
+  },
+  "subtitle": {
+    "message": "Comparați două texte rând cu rând - + adăugat - - eliminat"
+  },
+  "runButton": {
+    "message": "Comparaţie"
+  },
+  "copySummaryButton": {
+    "message": "Copiați rezumatul"
+  },
+  "copyDoneButton": {
+    "message": "Copiat!"
+  },
+  "clearButton": {
+    "message": "Clar"
+  },
+  "leftLabel": {
+    "message": "Stânga (A)"
+  },
+  "rightLabel": {
+    "message": "dreapta (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Primul text..."
+  },
+  "rightPlaceholder": {
+    "message": "Al doilea text..."
+  },
+  "splitterAriaLabel": {
+    "message": "Înălțime rezumat diferență - trageți"
+  },
+  "splitterTitle": {
+    "message": "Trageți pentru a redimensiona secțiunea de sus și rezumatul diferenței"
+  },
+  "resultTitle": {
+    "message": "Rezumatul diferențelor"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigați prin diferențe"
+  },
+  "navPrevTitle": {
+    "message": "Diferența anterioară"
+  },
+  "navPrevAriaLabel": {
+    "message": "Diferența anterioară"
+  },
+  "navNextTitle": {
+    "message": "Următoarea diferență"
+  },
+  "navNextAriaLabel": {
+    "message": "Următoarea diferență"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Diferențele de linii"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Ecran complet"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Afișați rezumatul diferențelor pe ecran complet"
+  },
+  "fullscreenExitTitle": {
+    "message": "Ieșiți din ecranul complet"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Ieșiți din ecranul complet"
+  },
+  "statsSame": {
+    "message": "Aceleaşi"
+  },
+  "statsAdded": {
+    "message": "Adăugat"
+  },
+  "statsRemoved": {
+    "message": "Îndepărtat"
+  },
+  "outputText1": {
+    "message": "Textul 1"
+  },
+  "outputText2": {
+    "message": "Textul 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Schimbați textul din stânga și din dreapta"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Schimbați textul din stânga și din dreapta"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Comutați la modul întunecat"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Comutați la modul întunecat"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Comutați în modul de lumină"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Comutați în modul de lumină"
+  },
+  "settingsTitle": {
+    "message": "Setări"
+  },
+  "settingsAriaLabel": {
+    "message": "Deschideți sau închideți setările"
+  },
+  "openModeLabel": {
+    "message": "Modul deschis"
+  },
+  "openModeTab": {
+    "message": "Într-o filă nouă"
+  },
+  "openModePopup": {
+    "message": "În fereastra pop-up de extensie"
+  },
+  "openModeHint": {
+    "message": "Are efect data viitoare când faceți clic pe pictograma extensiei."
+  },
+  "themeUiLabel": {
+    "message": "Temă"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "બે પાઠો વચ્ચે રેખા-આધારિત તફાવતો બતાવે છે. ટૂલબાર: નવી ટેબ અથવા પોપઅપ. સ્ટોરેજ: ફક્ત સ્થાનિક ઓપન-મોડ પસંદગી."
+  },
+  "actionDefaultTitle": {
+    "message": "ડિફ ચેકર - નવી ટેબમાં ખોલો"
+  },
+  "pageTitle": {
+    "message": "ડિફ ચેકર - ટેક્સ્ટ સરખામણી"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ભાષા"
+  },
+  "languageOptionAuto": {
+    "message": "ઓટો"
+  },
+  "languageOptionEn": {
+    "message": "અંગ્રેજી"
+  },
+  "languageOptionTr": {
+    "message": "ટર્કિશ"
+  },
+  "subtitle": {
+    "message": "લીટી દ્વારા બે ટેક્સ્ટની તુલના કરો - + ઉમેરાયેલ - - દૂર કરો"
+  },
+  "runButton": {
+    "message": "સરખામણી કરો"
+  },
+  "copySummaryButton": {
+    "message": "કૉપિ સારાંશ"
+  },
+  "copyDoneButton": {
+    "message": "નકલ કરી!"
+  },
+  "clearButton": {
+    "message": "સાફ કરો"
+  },
+  "leftLabel": {
+    "message": "ડાબે (A)"
+  },
+  "rightLabel": {
+    "message": "જમણે (B)"
+  },
+  "leftPlaceholder": {
+    "message": "પ્રથમ ટેક્સ્ટ..."
+  },
+  "rightPlaceholder": {
+    "message": "બીજું લખાણ..."
+  },
+  "splitterAriaLabel": {
+    "message": "તફાવત સારાંશ ઊંચાઈ - ખેંચો"
+  },
+  "splitterTitle": {
+    "message": "ટોચના વિભાગ અને તફાવત સારાંશનું કદ બદલવા માટે ખેંચો"
+  },
+  "resultTitle": {
+    "message": "તફાવત સારાંશ"
+  },
+  "navGroupAriaLabel": {
+    "message": "તફાવતો નેવિગેટ કરો"
+  },
+  "navPrevTitle": {
+    "message": "અગાઉનો તફાવત"
+  },
+  "navPrevAriaLabel": {
+    "message": "અગાઉનો તફાવત"
+  },
+  "navNextTitle": {
+    "message": "આગામી તફાવત"
+  },
+  "navNextAriaLabel": {
+    "message": "આગામી તફાવત"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "રેખા તફાવતો"
+  },
+  "fullscreenEnterTitle": {
+    "message": "પૂર્ણસ્ક્રીન"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "પૂર્ણસ્ક્રીનમાં તફાવતનો સારાંશ બતાવો"
+  },
+  "fullscreenExitTitle": {
+    "message": "પૂર્ણસ્ક્રીનમાંથી બહાર નીકળો"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "પૂર્ણસ્ક્રીનમાંથી બહાર નીકળો"
+  },
+  "statsSame": {
+    "message": "સમાન"
+  },
+  "statsAdded": {
+    "message": "ઉમેર્યું"
+  },
+  "statsRemoved": {
+    "message": "દૂર કર્યું"
+  },
+  "outputText1": {
+    "message": "ટેક્સ્ટ 1"
+  },
+  "outputText2": {
+    "message": "ટેક્સ્ટ 2"
+  },
+  "swapColumnsTitle": {
+    "message": "ડાબી અને જમણી ટેક્સ્ટ સ્વેપ કરો"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "ડાબી અને જમણી ટેક્સ્ટ સ્વેપ કરો"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ડાર્ક મોડ પર સ્વિચ કરો"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ડાર્ક મોડ પર સ્વિચ કરો"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "લાઇટ મોડ પર સ્વિચ કરો"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "લાઇટ મોડ પર સ્વિચ કરો"
+  },
+  "settingsTitle": {
+    "message": "સેટિંગ્સ"
+  },
+  "settingsAriaLabel": {
+    "message": "સેટિંગ્સ ખોલો અથવા બંધ કરો"
+  },
+  "openModeLabel": {
+    "message": "ઓપન મોડ"
+  },
+  "openModeTab": {
+    "message": "નવી ટેબમાં"
+  },
+  "openModePopup": {
+    "message": "એક્સ્ટેંશન પોપઅપમાં"
+  },
+  "openModeHint": {
+    "message": "આગલી વખતે જ્યારે તમે એક્સ્ટેંશન આયકન પર ક્લિક કરો ત્યારે અસર થાય છે."
+  },
+  "themeUiLabel": {
+    "message": "થીમ"
+  }
+}

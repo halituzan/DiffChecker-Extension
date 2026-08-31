@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Показва разликите на базата на редове между два текста. Лента с инструменти: нов раздел или изскачащ прозорец. Съхранение: предпочитание само за локален отворен режим."
+  },
+  "actionDefaultTitle": {
+    "message": "Проверка на разликите - отваряне в нов раздел"
+  },
+  "pageTitle": {
+    "message": "Проверка на разликите - Сравнение на текст"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "език"
+  },
+  "languageOptionAuto": {
+    "message": "Авто"
+  },
+  "languageOptionEn": {
+    "message": "английски"
+  },
+  "languageOptionTr": {
+    "message": "турски"
+  },
+  "subtitle": {
+    "message": "Сравнете два текста ред по ред - + добавени - - премахнати"
+  },
+  "runButton": {
+    "message": "Сравнете"
+  },
+  "copySummaryButton": {
+    "message": "Копиране на резюмето"
+  },
+  "copyDoneButton": {
+    "message": "Копирано!"
+  },
+  "clearButton": {
+    "message": "ясно"
+  },
+  "leftLabel": {
+    "message": "Ляво (A)"
+  },
+  "rightLabel": {
+    "message": "дясно (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Първи текст..."
+  },
+  "rightPlaceholder": {
+    "message": "Втори текст..."
+  },
+  "splitterAriaLabel": {
+    "message": "Обобщена височина на разликата - плъзгане"
+  },
+  "splitterTitle": {
+    "message": "Плъзнете, за да преоразмерите горната секция и резюмето на разликата"
+  },
+  "resultTitle": {
+    "message": "Обобщение на разликата"
+  },
+  "navGroupAriaLabel": {
+    "message": "Навигирайте в разликите"
+  },
+  "navPrevTitle": {
+    "message": "Предишна разлика"
+  },
+  "navPrevAriaLabel": {
+    "message": "Предишна разлика"
+  },
+  "navNextTitle": {
+    "message": "Следваща разлика"
+  },
+  "navNextAriaLabel": {
+    "message": "Следваща разлика"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Разлики в линиите"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Цял екран"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Показване на резюме на разликата на цял екран"
+  },
+  "fullscreenExitTitle": {
+    "message": "Изход от цял ​​екран"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Изход от цял ​​екран"
+  },
+  "statsSame": {
+    "message": "същото"
+  },
+  "statsAdded": {
+    "message": "Добавено"
+  },
+  "statsRemoved": {
+    "message": "Премахнато"
+  },
+  "outputText1": {
+    "message": "Текст 1"
+  },
+  "outputText2": {
+    "message": "Текст 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Разменете левия и десния текст"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Разменете левия и десния текст"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Преминете към тъмен режим"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Преминете към тъмен режим"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Преминете към светъл режим"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Преминете към светъл режим"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "settingsAriaLabel": {
+    "message": "Отворете или затворете настройките"
+  },
+  "openModeLabel": {
+    "message": "Отворен режим"
+  },
+  "openModeTab": {
+    "message": "В нов раздел"
+  },
+  "openModePopup": {
+    "message": "В изскачащия прозорец на разширението"
+  },
+  "openModeHint": {
+    "message": "Влиза в сила следващия път, когато щракнете върху иконата на разширението."
+  },
+  "themeUiLabel": {
+    "message": "Тема"
+  }
+}

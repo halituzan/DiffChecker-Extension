@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Приказује разлике између два текста на основу линија. Трака са алаткама: нова картица или искачући прозор. Складиштење: само преференција локалног отвореног режима."
+  },
+  "actionDefaultTitle": {
+    "message": "Дифф Цхецкер - отворите у новој картици"
+  },
+  "pageTitle": {
+    "message": "Провера разлика - Поређење текста"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Језик"
+  },
+  "languageOptionAuto": {
+    "message": "Ауто"
+  },
+  "languageOptionEn": {
+    "message": "енглески"
+  },
+  "languageOptionTr": {
+    "message": "турски"
+  },
+  "subtitle": {
+    "message": "Упоредите два текста ред по ред - + додато - - уклоњено"
+  },
+  "runButton": {
+    "message": "Упоредите"
+  },
+  "copySummaryButton": {
+    "message": "Копирај резиме"
+  },
+  "copyDoneButton": {
+    "message": "Копирано!"
+  },
+  "clearButton": {
+    "message": "Јасно"
+  },
+  "leftLabel": {
+    "message": "лево (А)"
+  },
+  "rightLabel": {
+    "message": "десно (Б)"
+  },
+  "leftPlaceholder": {
+    "message": "Први текст..."
+  },
+  "rightPlaceholder": {
+    "message": "Други текст..."
+  },
+  "splitterAriaLabel": {
+    "message": "Висина резимеа разлике - повлачење"
+  },
+  "splitterTitle": {
+    "message": "Превуците да бисте променили величину горњег одељка и резимеа разлике"
+  },
+  "resultTitle": {
+    "message": "Дифф резиме"
+  },
+  "navGroupAriaLabel": {
+    "message": "Крећите се разликама"
+  },
+  "navPrevTitle": {
+    "message": "Претходна разлика"
+  },
+  "navPrevAriaLabel": {
+    "message": "Претходна разлика"
+  },
+  "navNextTitle": {
+    "message": "Следећа разлика"
+  },
+  "navNextAriaLabel": {
+    "message": "Следећа разлика"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Линијске разлике"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Фуллсцреен"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Прикажи резиме разлике у целом екрану"
+  },
+  "fullscreenExitTitle": {
+    "message": "Изађите преко целог екрана"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Изађите преко целог екрана"
+  },
+  "statsSame": {
+    "message": "Исто"
+  },
+  "statsAdded": {
+    "message": "Додато"
+  },
+  "statsRemoved": {
+    "message": "Уклоњено"
+  },
+  "outputText1": {
+    "message": "Текст 1"
+  },
+  "outputText2": {
+    "message": "Текст 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Замените леви и десни текст"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Замените леви и десни текст"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Пребаците се на тамни режим"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Пребаците се на тамни режим"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Пребаците на светлосни режим"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Пребаците на светлосни режим"
+  },
+  "settingsTitle": {
+    "message": "Подешавања"
+  },
+  "settingsAriaLabel": {
+    "message": "Отворите или затворите подешавања"
+  },
+  "openModeLabel": {
+    "message": "Опен Моде"
+  },
+  "openModeTab": {
+    "message": "У новој картици"
+  },
+  "openModePopup": {
+    "message": "У искачућем прозору екстензије"
+  },
+  "openModeHint": {
+    "message": "Ступа на снагу следећи пут када кликнете на икону проширења."
+  },
+  "themeUiLabel": {
+    "message": "Тема"
+  }
+}

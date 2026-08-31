@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Zobrazuje řádkové rozdíly mezi dvěma texty. Panel nástrojů: nová karta nebo vyskakovací okno. Úložiště: pouze místní preference otevřeného režimu."
+  },
+  "actionDefaultTitle": {
+    "message": "Kontrola rozdílů – otevřít na nové kartě"
+  },
+  "pageTitle": {
+    "message": "Kontrola rozdílů – porovnání textu"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Jazyk"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "angličtina"
+  },
+  "languageOptionTr": {
+    "message": "turečtina"
+  },
+  "subtitle": {
+    "message": "Porovnejte dva texty řádek po řádku - + přidáno - - odstraněno"
+  },
+  "runButton": {
+    "message": "Porovnejte"
+  },
+  "copySummaryButton": {
+    "message": "Zkopírujte shrnutí"
+  },
+  "copyDoneButton": {
+    "message": "Zkopírováno!"
+  },
+  "clearButton": {
+    "message": "Jasný"
+  },
+  "leftLabel": {
+    "message": "vlevo (A)"
+  },
+  "rightLabel": {
+    "message": "vpravo (B)"
+  },
+  "leftPlaceholder": {
+    "message": "První text..."
+  },
+  "rightPlaceholder": {
+    "message": "Druhý text..."
+  },
+  "splitterAriaLabel": {
+    "message": "Výška souhrnu rozdílů - tažení"
+  },
+  "splitterTitle": {
+    "message": "Přetažením změníte velikost horní části a souhrnu rozdílů"
+  },
+  "resultTitle": {
+    "message": "Shrnutí rozdílů"
+  },
+  "navGroupAriaLabel": {
+    "message": "Procházet rozdíly"
+  },
+  "navPrevTitle": {
+    "message": "Předchozí rozdíl"
+  },
+  "navPrevAriaLabel": {
+    "message": "Předchozí rozdíl"
+  },
+  "navNextTitle": {
+    "message": "Další rozdíl"
+  },
+  "navNextAriaLabel": {
+    "message": "Další rozdíl"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Rozdíly v řádcích"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Celá obrazovka"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Zobrazit souhrn rozdílů na celé obrazovce"
+  },
+  "fullscreenExitTitle": {
+    "message": "Ukončete celou obrazovku"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Ukončete celou obrazovku"
+  },
+  "statsSame": {
+    "message": "Stejný"
+  },
+  "statsAdded": {
+    "message": "Přidáno"
+  },
+  "statsRemoved": {
+    "message": "Odebráno"
+  },
+  "outputText1": {
+    "message": "Text 1"
+  },
+  "outputText2": {
+    "message": "Text 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Zaměňte levý a pravý text"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Zaměňte levý a pravý text"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Přepněte do tmavého režimu"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Přepněte do tmavého režimu"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Přepněte do světelného režimu"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Přepněte do světelného režimu"
+  },
+  "settingsTitle": {
+    "message": "Nastavení"
+  },
+  "settingsAriaLabel": {
+    "message": "Otevřete nebo zavřete nastavení"
+  },
+  "openModeLabel": {
+    "message": "Otevřený režim"
+  },
+  "openModeTab": {
+    "message": "Na nové kartě"
+  },
+  "openModePopup": {
+    "message": "Ve vyskakovacím okně rozšíření"
+  },
+  "openModeHint": {
+    "message": "Použije se při příštím kliknutí na ikonu rozšíření."
+  },
+  "themeUiLabel": {
+    "message": "Téma"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Menunjukkan perbedaan berbasis garis antara dua teks. Toolbar: tab atau popup baru. Penyimpanan: preferensi mode terbuka lokal saja."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - buka di tab baru"
+  },
+  "pageTitle": {
+    "message": "Pemeriksa Diff - Perbandingan Teks"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Bahasa"
+  },
+  "languageOptionAuto": {
+    "message": "Mobil"
+  },
+  "languageOptionEn": {
+    "message": "Bahasa inggris"
+  },
+  "languageOptionTr": {
+    "message": "Turki"
+  },
+  "subtitle": {
+    "message": "Bandingkan dua teks baris demi baris - + ditambahkan - - dihapus"
+  },
+  "runButton": {
+    "message": "Membandingkan"
+  },
+  "copySummaryButton": {
+    "message": "Salin ringkasan"
+  },
+  "copyDoneButton": {
+    "message": "Disalin!"
+  },
+  "clearButton": {
+    "message": "Jernih"
+  },
+  "leftLabel": {
+    "message": "Kiri (A)"
+  },
+  "rightLabel": {
+    "message": "Kanan (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Teks pertama..."
+  },
+  "rightPlaceholder": {
+    "message": "Teks kedua..."
+  },
+  "splitterAriaLabel": {
+    "message": "Perbedaan tinggi ringkasan - seret"
+  },
+  "splitterTitle": {
+    "message": "Seret untuk mengubah ukuran bagian atas dan ringkasan berbeda"
+  },
+  "resultTitle": {
+    "message": "Ringkasan perbedaan"
+  },
+  "navGroupAriaLabel": {
+    "message": "Jelajahi perbedaan"
+  },
+  "navPrevTitle": {
+    "message": "Perbedaan sebelumnya"
+  },
+  "navPrevAriaLabel": {
+    "message": "Perbedaan sebelumnya"
+  },
+  "navNextTitle": {
+    "message": "Perbedaan berikutnya"
+  },
+  "navNextAriaLabel": {
+    "message": "Perbedaan berikutnya"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Perbedaan garis"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Layar penuh"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Tampilkan ringkasan perbedaan dalam layar penuh"
+  },
+  "fullscreenExitTitle": {
+    "message": "Keluar dari layar penuh"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Keluar dari layar penuh"
+  },
+  "statsSame": {
+    "message": "Sama"
+  },
+  "statsAdded": {
+    "message": "Ditambahkan"
+  },
+  "statsRemoved": {
+    "message": "DIHAPUS"
+  },
+  "outputText1": {
+    "message": "Teks 1"
+  },
+  "outputText2": {
+    "message": "Teks 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Tukar teks kiri dan kanan"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Tukar teks kiri dan kanan"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Beralih ke mode gelap"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Beralih ke mode gelap"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Beralih ke mode terang"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Beralih ke mode terang"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan"
+  },
+  "settingsAriaLabel": {
+    "message": "Buka atau tutup pengaturan"
+  },
+  "openModeLabel": {
+    "message": "Modus Terbuka"
+  },
+  "openModeTab": {
+    "message": "Di tab baru"
+  },
+  "openModePopup": {
+    "message": "Di popup ekstensi"
+  },
+  "openModeHint": {
+    "message": "Berlaku saat berikutnya Anda mengeklik ikon ekstensi."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

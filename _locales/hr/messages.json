@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Prikazuje razlike temeljene na liniji između dva teksta. Alatna traka: nova kartica ili skočni prozor. Pohrana: preferencija samo lokalnog otvorenog načina."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - otvori u novoj kartici"
+  },
+  "pageTitle": {
+    "message": "Provjera razlika - Usporedba teksta"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Jezik"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "engleski"
+  },
+  "languageOptionTr": {
+    "message": "turski"
+  },
+  "subtitle": {
+    "message": "Usporedite dva teksta red po red - + dodano - - uklonjeno"
+  },
+  "runButton": {
+    "message": "Usporedi"
+  },
+  "copySummaryButton": {
+    "message": "Kopiraj sažetak"
+  },
+  "copyDoneButton": {
+    "message": "Kopirano!"
+  },
+  "clearButton": {
+    "message": "Jasan"
+  },
+  "leftLabel": {
+    "message": "Lijevo (A)"
+  },
+  "rightLabel": {
+    "message": "desno (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Prvi tekst..."
+  },
+  "rightPlaceholder": {
+    "message": "Drugi tekst..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff summary height - drag"
+  },
+  "splitterTitle": {
+    "message": "Povucite za promjenu veličine gornjeg odjeljka i sažetka razlike"
+  },
+  "resultTitle": {
+    "message": "Diff sažetak"
+  },
+  "navGroupAriaLabel": {
+    "message": "Krećite se razlikama"
+  },
+  "navPrevTitle": {
+    "message": "Prethodna razlika"
+  },
+  "navPrevAriaLabel": {
+    "message": "Prethodna razlika"
+  },
+  "navNextTitle": {
+    "message": "Sljedeća razlika"
+  },
+  "navNextAriaLabel": {
+    "message": "Sljedeća razlika"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Razlike u linijama"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Cijeli zaslon"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Prikaži sažetak razlika na cijelom zaslonu"
+  },
+  "fullscreenExitTitle": {
+    "message": "Izađi iz cijelog zaslona"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Izađi iz cijelog zaslona"
+  },
+  "statsSame": {
+    "message": "Isti"
+  },
+  "statsAdded": {
+    "message": "Dodano"
+  },
+  "statsRemoved": {
+    "message": "Uklonjeno"
+  },
+  "outputText1": {
+    "message": "Tekst 1"
+  },
+  "outputText2": {
+    "message": "Tekst 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Zamijenite lijevi i desni tekst"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Zamijenite lijevi i desni tekst"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Prebacite se na tamni način rada"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Prebacite se na tamni način rada"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Prebacite se na svjetlosni način rada"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Prebacite se na svjetlosni način rada"
+  },
+  "settingsTitle": {
+    "message": "postavke"
+  },
+  "settingsAriaLabel": {
+    "message": "Otvorite ili zatvorite postavke"
+  },
+  "openModeLabel": {
+    "message": "Otvoreni način rada"
+  },
+  "openModeTab": {
+    "message": "U novoj kartici"
+  },
+  "openModePopup": {
+    "message": "U skočnom prozoru proširenja"
+  },
+  "openModeHint": {
+    "message": "Stupa na snagu sljedeći put kada kliknete ikonu proširenja."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

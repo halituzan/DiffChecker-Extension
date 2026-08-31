@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "ಎರಡು ಪಠ್ಯಗಳ ನಡುವಿನ ಸಾಲು-ಆಧಾರಿತ ವ್ಯತ್ಯಾಸಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಪರಿಕರಪಟ್ಟಿ: ಹೊಸ ಟ್ಯಾಬ್ ಅಥವಾ ಪಾಪ್ಅಪ್. ಸಂಗ್ರಹಣೆ: ಸ್ಥಳೀಯ ಓಪನ್-ಮೋಡ್ ಆದ್ಯತೆ ಮಾತ್ರ."
+  },
+  "actionDefaultTitle": {
+    "message": "ಡಿಫ್ ಚೆಕರ್ - ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"
+  },
+  "pageTitle": {
+    "message": "ಡಿಫ್ ಚೆಕರ್ - ಪಠ್ಯ ಹೋಲಿಕೆ"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ಭಾಷೆ"
+  },
+  "languageOptionAuto": {
+    "message": "ಆಟೋ"
+  },
+  "languageOptionEn": {
+    "message": "ಇಂಗ್ಲೀಷ್"
+  },
+  "languageOptionTr": {
+    "message": "ಟರ್ಕಿಶ್"
+  },
+  "subtitle": {
+    "message": "ಎರಡು ಪಠ್ಯಗಳನ್ನು ಸಾಲಿನಿಂದ ಹೋಲಿಸಿ - + ಸೇರಿಸಲಾಗಿದೆ - - ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+  },
+  "runButton": {
+    "message": "ಹೋಲಿಸಿ"
+  },
+  "copySummaryButton": {
+    "message": "ನಕಲು ಸಾರಾಂಶ"
+  },
+  "copyDoneButton": {
+    "message": "ನಕಲು ಮಾಡಲಾಗಿದೆ!"
+  },
+  "clearButton": {
+    "message": "ತೆರವುಗೊಳಿಸಿ"
+  },
+  "leftLabel": {
+    "message": "ಎಡ (ಎ)"
+  },
+  "rightLabel": {
+    "message": "ಬಲ (ಬಿ)"
+  },
+  "leftPlaceholder": {
+    "message": "ಮೊದಲ ಪಠ್ಯ..."
+  },
+  "rightPlaceholder": {
+    "message": "ಎರಡನೇ ಪಠ್ಯ..."
+  },
+  "splitterAriaLabel": {
+    "message": "ಡಿಫ್ ಸಾರಾಂಶ ಎತ್ತರ - ಡ್ರ್ಯಾಗ್"
+  },
+  "splitterTitle": {
+    "message": "ಮೇಲಿನ ವಿಭಾಗ ಮತ್ತು ವ್ಯತ್ಯಾಸ ಸಾರಾಂಶವನ್ನು ಮರುಗಾತ್ರಗೊಳಿಸಲು ಎಳೆಯಿರಿ"
+  },
+  "resultTitle": {
+    "message": "ವ್ಯತ್ಯಾಸ ಸಾರಾಂಶ"
+  },
+  "navGroupAriaLabel": {
+    "message": "ವ್ಯತ್ಯಾಸಗಳನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"
+  },
+  "navPrevTitle": {
+    "message": "ಹಿಂದಿನ ವ್ಯತ್ಯಾಸ"
+  },
+  "navPrevAriaLabel": {
+    "message": "ಹಿಂದಿನ ವ್ಯತ್ಯಾಸ"
+  },
+  "navNextTitle": {
+    "message": "ಮುಂದಿನ ವ್ಯತ್ಯಾಸ"
+  },
+  "navNextAriaLabel": {
+    "message": "ಮುಂದಿನ ವ್ಯತ್ಯಾಸ"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "ಸಾಲಿನ ವ್ಯತ್ಯಾಸಗಳು"
+  },
+  "fullscreenEnterTitle": {
+    "message": "ಪೂರ್ಣಪರದೆ"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "ಪೂರ್ಣಪರದೆಯಲ್ಲಿ ವ್ಯತ್ಯಾಸದ ಸಾರಾಂಶವನ್ನು ತೋರಿಸಿ"
+  },
+  "fullscreenExitTitle": {
+    "message": "ಪೂರ್ಣಪರದೆಯಿಂದ ನಿರ್ಗಮಿಸಿ"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "ಪೂರ್ಣಪರದೆಯಿಂದ ನಿರ್ಗಮಿಸಿ"
+  },
+  "statsSame": {
+    "message": "ಅದೇ"
+  },
+  "statsAdded": {
+    "message": "ಸೇರಿಸಲಾಗಿದೆ"
+  },
+  "statsRemoved": {
+    "message": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+  },
+  "outputText1": {
+    "message": "ಪಠ್ಯ 1"
+  },
+  "outputText2": {
+    "message": "ಪಠ್ಯ 2"
+  },
+  "swapColumnsTitle": {
+    "message": "ಎಡ ಮತ್ತು ಬಲ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "ಎಡ ಮತ್ತು ಬಲ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ಡಾರ್ಕ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ಡಾರ್ಕ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "ಲೈಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "ಲೈಟ್ ಮೋಡ್‌ಗೆ ಬದಲಿಸಿ"
+  },
+  "settingsTitle": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "settingsAriaLabel": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ ಅಥವಾ ಮುಚ್ಚಿ"
+  },
+  "openModeLabel": {
+    "message": "ಓಪನ್ ಮೋಡ್"
+  },
+  "openModeTab": {
+    "message": "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ"
+  },
+  "openModePopup": {
+    "message": "ವಿಸ್ತರಣೆ ಪಾಪ್ಅಪ್ನಲ್ಲಿ"
+  },
+  "openModeHint": {
+    "message": "ಮುಂದಿನ ಬಾರಿ ನೀವು ವಿಸ್ತರಣೆ ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ."
+  },
+  "themeUiLabel": {
+    "message": "ಥೀಮ್"
+  }
+}

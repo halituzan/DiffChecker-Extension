@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Zeigt zeilenbasierte Unterschiede zwischen zwei Texten an. Symbolleiste: Neuer Tab oder Popup. Speicherung: Nur lokaler offener Modus."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker – in neuem Tab öffnen"
+  },
+  "pageTitle": {
+    "message": "Diff Checker – Textvergleich"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Sprache"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Englisch"
+  },
+  "languageOptionTr": {
+    "message": "Türkisch"
+  },
+  "subtitle": {
+    "message": "Zwei Texte Zeile für Zeile vergleichen - + hinzugefügt - - entfernt"
+  },
+  "runButton": {
+    "message": "Vergleichen"
+  },
+  "copySummaryButton": {
+    "message": "Zusammenfassung kopieren"
+  },
+  "copyDoneButton": {
+    "message": "Kopiert!"
+  },
+  "clearButton": {
+    "message": "Klar"
+  },
+  "leftLabel": {
+    "message": "Links (A)"
+  },
+  "rightLabel": {
+    "message": "Rechts (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Erster Text..."
+  },
+  "rightPlaceholder": {
+    "message": "Zweiter Text..."
+  },
+  "splitterAriaLabel": {
+    "message": "Diff-Zusammenfassungshöhe – Ziehen"
+  },
+  "splitterTitle": {
+    "message": "Ziehen Sie, um die Größe des oberen Abschnitts und der Diff-Zusammenfassung zu ändern"
+  },
+  "resultTitle": {
+    "message": "Diff-Zusammenfassung"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigieren Sie durch Unterschiede"
+  },
+  "navPrevTitle": {
+    "message": "Bisheriger Unterschied"
+  },
+  "navPrevAriaLabel": {
+    "message": "Bisheriger Unterschied"
+  },
+  "navNextTitle": {
+    "message": "Nächster Unterschied"
+  },
+  "navNextAriaLabel": {
+    "message": "Nächster Unterschied"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Linienunterschiede"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Vollbild"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Diff-Zusammenfassung im Vollbildmodus anzeigen"
+  },
+  "fullscreenExitTitle": {
+    "message": "Beenden Sie den Vollbildmodus"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Beenden Sie den Vollbildmodus"
+  },
+  "statsSame": {
+    "message": "Dasselbe"
+  },
+  "statsAdded": {
+    "message": "Hinzugefügt"
+  },
+  "statsRemoved": {
+    "message": "ENTFERNT"
+  },
+  "outputText1": {
+    "message": "Text 1"
+  },
+  "outputText2": {
+    "message": "Text 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Linken und rechten Text vertauschen"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Linken und rechten Text vertauschen"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Wechseln Sie in den Dunkelmodus"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Wechseln Sie in den Dunkelmodus"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Wechseln Sie in den Lichtmodus"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Wechseln Sie in den Lichtmodus"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "settingsAriaLabel": {
+    "message": "Einstellungen öffnen oder schließen"
+  },
+  "openModeLabel": {
+    "message": "Offener Modus"
+  },
+  "openModeTab": {
+    "message": "In einem neuen Tab"
+  },
+  "openModePopup": {
+    "message": "Im Erweiterungs-Popup"
+  },
+  "openModeHint": {
+    "message": "Wird wirksam, wenn Sie das nächste Mal auf das Erweiterungssymbol klicken."
+  },
+  "themeUiLabel": {
+    "message": "Thema"
+  }
+}

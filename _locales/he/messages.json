@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "מציג הבדלים מבוססי קו בין שני טקסטים. סרגל כלים: כרטיסייה חדשה או קופץ. אחסון: העדפת מצב פתוח מקומי בלבד."
+  },
+  "actionDefaultTitle": {
+    "message": "בודק הבדל - פתח בלשונית חדשה"
+  },
+  "pageTitle": {
+    "message": "בודק הבדל - השוואת טקסט"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "שָׂפָה"
+  },
+  "languageOptionAuto": {
+    "message": "אוטומטי"
+  },
+  "languageOptionEn": {
+    "message": "אַנגְלִית"
+  },
+  "languageOptionTr": {
+    "message": "טוּרקִית"
+  },
+  "subtitle": {
+    "message": "השווה שני טקסטים שורה אחר שורה - + הוספה - - הוסר"
+  },
+  "runButton": {
+    "message": "לְהַשְׁווֹת"
+  },
+  "copySummaryButton": {
+    "message": "העתק תקציר"
+  },
+  "copyDoneButton": {
+    "message": "מוּעֲתָק!"
+  },
+  "clearButton": {
+    "message": "בָּרוּר"
+  },
+  "leftLabel": {
+    "message": "שמאל (א)"
+  },
+  "rightLabel": {
+    "message": "ימין (ב)"
+  },
+  "leftPlaceholder": {
+    "message": "טקסט ראשון..."
+  },
+  "rightPlaceholder": {
+    "message": "טקסט שני..."
+  },
+  "splitterAriaLabel": {
+    "message": "גובה סיכום הבדל - גרור"
+  },
+  "splitterTitle": {
+    "message": "גרור כדי לשנות את גודל החלק העליון וסיכום ההבדל"
+  },
+  "resultTitle": {
+    "message": "סיכום ההבדל"
+  },
+  "navGroupAriaLabel": {
+    "message": "נווט בהבדלים"
+  },
+  "navPrevTitle": {
+    "message": "הבדל קודם"
+  },
+  "navPrevAriaLabel": {
+    "message": "הבדל קודם"
+  },
+  "navNextTitle": {
+    "message": "ההבדל הבא"
+  },
+  "navNextAriaLabel": {
+    "message": "ההבדל הבא"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "הבדלי קווים"
+  },
+  "fullscreenEnterTitle": {
+    "message": "מסך מלא"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "הצג את סיכום ההבדל במסך מלא"
+  },
+  "fullscreenExitTitle": {
+    "message": "צא ממסך מלא"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "צא ממסך מלא"
+  },
+  "statsSame": {
+    "message": "אוֹתוֹ"
+  },
+  "statsAdded": {
+    "message": "נוסף"
+  },
+  "statsRemoved": {
+    "message": "הוסר"
+  },
+  "outputText1": {
+    "message": "טקסט 1"
+  },
+  "outputText2": {
+    "message": "טקסט 2"
+  },
+  "swapColumnsTitle": {
+    "message": "החלף טקסט ימינה ושמאלה"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "החלף טקסט ימינה ושמאלה"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "עבור למצב כהה"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "עבור למצב כהה"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "עבור למצב אור"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "עבור למצב אור"
+  },
+  "settingsTitle": {
+    "message": "הגדרות"
+  },
+  "settingsAriaLabel": {
+    "message": "פתח או סגור הגדרות"
+  },
+  "openModeLabel": {
+    "message": "מצב פתוח"
+  },
+  "openModeTab": {
+    "message": "בלשונית חדשה"
+  },
+  "openModePopup": {
+    "message": "בחלון הקופץ של ההרחבה"
+  },
+  "openModeHint": {
+    "message": "ייכנס לתוקף בפעם הבאה שתלחץ על סמל התוסף."
+  },
+  "themeUiLabel": {
+    "message": "נוֹשֵׂא"
+  }
+}

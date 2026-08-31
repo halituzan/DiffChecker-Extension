@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "두 텍스트 간의 행 기반 차이점을 표시합니다. 도구 모음: 새 탭 또는 팝업. 스토리지: 로컬 개방 모드 기본 설정에만 해당됩니다."
+  },
+  "actionDefaultTitle": {
+    "message": "차이점 검사기 - 새 탭에서 열기"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - 텍스트 비교"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "언어"
+  },
+  "languageOptionAuto": {
+    "message": "자동"
+  },
+  "languageOptionEn": {
+    "message": "영어"
+  },
+  "languageOptionTr": {
+    "message": "터키어"
+  },
+  "subtitle": {
+    "message": "두 텍스트를 한 줄씩 비교 - + 추가 - - 제거"
+  },
+  "runButton": {
+    "message": "비교하다"
+  },
+  "copySummaryButton": {
+    "message": "요약 복사"
+  },
+  "copyDoneButton": {
+    "message": "복사되었습니다!"
+  },
+  "clearButton": {
+    "message": "분명한"
+  },
+  "leftLabel": {
+    "message": "왼쪽(A)"
+  },
+  "rightLabel": {
+    "message": "오른쪽(B)"
+  },
+  "leftPlaceholder": {
+    "message": "첫 번째 문자..."
+  },
+  "rightPlaceholder": {
+    "message": "두 번째 문자..."
+  },
+  "splitterAriaLabel": {
+    "message": "차이 요약 높이 - 드래그"
+  },
+  "splitterTitle": {
+    "message": "상단 섹션 및 차이점 요약의 크기를 조정하려면 드래그하세요."
+  },
+  "resultTitle": {
+    "message": "차이점 요약"
+  },
+  "navGroupAriaLabel": {
+    "message": "차이점 탐색"
+  },
+  "navPrevTitle": {
+    "message": "이전 차이"
+  },
+  "navPrevAriaLabel": {
+    "message": "이전 차이"
+  },
+  "navNextTitle": {
+    "message": "다음 차이점"
+  },
+  "navNextAriaLabel": {
+    "message": "다음 차이점"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "선의 차이"
+  },
+  "fullscreenEnterTitle": {
+    "message": "전체 화면"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "전체 화면에 차이점 요약 표시"
+  },
+  "fullscreenExitTitle": {
+    "message": "전체 화면 종료"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "전체 화면 종료"
+  },
+  "statsSame": {
+    "message": "같은"
+  },
+  "statsAdded": {
+    "message": "추가됨"
+  },
+  "statsRemoved": {
+    "message": "제거됨"
+  },
+  "outputText1": {
+    "message": "텍스트 1"
+  },
+  "outputText2": {
+    "message": "텍스트 2"
+  },
+  "swapColumnsTitle": {
+    "message": "왼쪽과 오른쪽 텍스트 바꾸기"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "왼쪽과 오른쪽 텍스트 바꾸기"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "어두운 모드로 전환"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "어두운 모드로 전환"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "조명 모드로 전환"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "조명 모드로 전환"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "settingsAriaLabel": {
+    "message": "설정 열기 또는 닫기"
+  },
+  "openModeLabel": {
+    "message": "오픈 모드"
+  },
+  "openModeTab": {
+    "message": "새 탭에서"
+  },
+  "openModePopup": {
+    "message": "확장 팝업에서"
+  },
+  "openModeHint": {
+    "message": "다음에 확장 아이콘을 클릭하면 적용됩니다."
+  },
+  "themeUiLabel": {
+    "message": "주제"
+  }
+}

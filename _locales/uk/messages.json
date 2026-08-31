@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Показує рядкові відмінності між двома текстами. Панель інструментів: нова вкладка або спливаюче вікно. Зберігання: лише локальний відкритий режим."
+  },
+  "actionDefaultTitle": {
+    "message": "Перевірка відмінностей - відкрити в новій вкладці"
+  },
+  "pageTitle": {
+    "message": "Перевірка відмінностей - порівняння тексту"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Мова"
+  },
+  "languageOptionAuto": {
+    "message": "Авто"
+  },
+  "languageOptionEn": {
+    "message": "англійська"
+  },
+  "languageOptionTr": {
+    "message": "турецька"
+  },
+  "subtitle": {
+    "message": "Порівняйте два тексти рядок за рядком - + додано - - видалено"
+  },
+  "runButton": {
+    "message": "Порівняйте"
+  },
+  "copySummaryButton": {
+    "message": "Копіювати резюме"
+  },
+  "copyDoneButton": {
+    "message": "Скопійовано!"
+  },
+  "clearButton": {
+    "message": "ясно"
+  },
+  "leftLabel": {
+    "message": "Ліворуч (A)"
+  },
+  "rightLabel": {
+    "message": "праворуч (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Перший текст..."
+  },
+  "rightPlaceholder": {
+    "message": "Другий текст..."
+  },
+  "splitterAriaLabel": {
+    "message": "Підсумкова висота різниці - перетягнення"
+  },
+  "splitterTitle": {
+    "message": "Перетягніть, щоб змінити розмір верхнього розділу та підсумку відмінностей"
+  },
+  "resultTitle": {
+    "message": "Підсумок різниці"
+  },
+  "navGroupAriaLabel": {
+    "message": "Орієнтуйтесь на відмінності"
+  },
+  "navPrevTitle": {
+    "message": "Попередня різниця"
+  },
+  "navPrevAriaLabel": {
+    "message": "Попередня різниця"
+  },
+  "navNextTitle": {
+    "message": "Наступна відмінність"
+  },
+  "navNextAriaLabel": {
+    "message": "Наступна відмінність"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Лінійні відмінності"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Повний екран"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Показати підсумок відмінностей на весь екран"
+  },
+  "fullscreenExitTitle": {
+    "message": "Вийти з повноекранного режиму"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Вийти з повноекранного режиму"
+  },
+  "statsSame": {
+    "message": "Те саме"
+  },
+  "statsAdded": {
+    "message": "Додано"
+  },
+  "statsRemoved": {
+    "message": "Видалено"
+  },
+  "outputText1": {
+    "message": "Текст 1"
+  },
+  "outputText2": {
+    "message": "Текст 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Поміняти текст ліворуч і праворуч"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Поміняти текст ліворуч і праворуч"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Переключіться на темний режим"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Переключіться на темний режим"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Переключіться на світлий режим"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Переключіться на світлий режим"
+  },
+  "settingsTitle": {
+    "message": "Налаштування"
+  },
+  "settingsAriaLabel": {
+    "message": "Відкрийте або закрийте налаштування"
+  },
+  "openModeLabel": {
+    "message": "Відкритий режим"
+  },
+  "openModeTab": {
+    "message": "У новій вкладці"
+  },
+  "openModePopup": {
+    "message": "У спливаючому вікні розширення"
+  },
+  "openModeHint": {
+    "message": "Набуває чинності, коли ви наступного разу клацаєте піктограму розширення."
+  },
+  "themeUiLabel": {
+    "message": "Тема"
+  }
+}

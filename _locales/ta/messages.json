@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "இரண்டு உரைகளுக்கு இடையே வரி அடிப்படையிலான வேறுபாடுகளைக் காட்டுகிறது. கருவிப்பட்டி: புதிய தாவல் அல்லது பாப்அப். சேமிப்பகம்: உள்ளூர் திறந்த பயன்முறை விருப்பம் மட்டுமே."
+  },
+  "actionDefaultTitle": {
+    "message": "டிஃப் செக்கர் - புதிய தாவலில் திறக்கவும்"
+  },
+  "pageTitle": {
+    "message": "டிஃப் செக்கர் - உரை ஒப்பிடு"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "மொழி"
+  },
+  "languageOptionAuto": {
+    "message": "ஆட்டோ"
+  },
+  "languageOptionEn": {
+    "message": "ஆங்கிலம்"
+  },
+  "languageOptionTr": {
+    "message": "துருக்கிய"
+  },
+  "subtitle": {
+    "message": "இரண்டு உரைகளை வரிக்கு வரி ஒப்பிடுக - + சேர்க்கப்பட்ட - - நீக்கப்பட்டது"
+  },
+  "runButton": {
+    "message": "ஒப்பிடு"
+  },
+  "copySummaryButton": {
+    "message": "நகல் சுருக்கம்"
+  },
+  "copyDoneButton": {
+    "message": "நகலெடுக்கப்பட்டது!"
+  },
+  "clearButton": {
+    "message": "தெளிவு"
+  },
+  "leftLabel": {
+    "message": "இடது (A)"
+  },
+  "rightLabel": {
+    "message": "வலது (பி)"
+  },
+  "leftPlaceholder": {
+    "message": "முதல் உரை..."
+  },
+  "rightPlaceholder": {
+    "message": "இரண்டாவது உரை..."
+  },
+  "splitterAriaLabel": {
+    "message": "மாறுபட்ட சுருக்கம் உயரம் - இழுத்தல்"
+  },
+  "splitterTitle": {
+    "message": "மேல் பகுதி மற்றும் வேறுபாடு சுருக்கத்தின் அளவை மாற்ற இழுக்கவும்"
+  },
+  "resultTitle": {
+    "message": "மாறுபட்ட சுருக்கம்"
+  },
+  "navGroupAriaLabel": {
+    "message": "வேறுபாடுகளை வழிசெலுத்தவும்"
+  },
+  "navPrevTitle": {
+    "message": "முந்தைய வேறுபாடு"
+  },
+  "navPrevAriaLabel": {
+    "message": "முந்தைய வேறுபாடு"
+  },
+  "navNextTitle": {
+    "message": "அடுத்த வித்தியாசம்"
+  },
+  "navNextAriaLabel": {
+    "message": "அடுத்த வித்தியாசம்"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "வரி வேறுபாடுகள்"
+  },
+  "fullscreenEnterTitle": {
+    "message": "முழுத்திரை"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "முழுத்திரையில் வேறுபாடுகளின் சுருக்கத்தைக் காட்டு"
+  },
+  "fullscreenExitTitle": {
+    "message": "முழுத்திரையிலிருந்து வெளியேறு"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "முழுத்திரையிலிருந்து வெளியேறு"
+  },
+  "statsSame": {
+    "message": "அதே"
+  },
+  "statsAdded": {
+    "message": "சேர்க்கப்பட்டது"
+  },
+  "statsRemoved": {
+    "message": "அகற்றப்பட்டது"
+  },
+  "outputText1": {
+    "message": "உரை 1"
+  },
+  "outputText2": {
+    "message": "உரை 2"
+  },
+  "swapColumnsTitle": {
+    "message": "இடது மற்றும் வலது உரையை மாற்றவும்"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "இடது மற்றும் வலது உரையை மாற்றவும்"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "இருண்ட பயன்முறைக்கு மாறவும்"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "இருண்ட பயன்முறைக்கு மாறவும்"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "ஒளி பயன்முறைக்கு மாறவும்"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "ஒளி பயன்முறைக்கு மாறவும்"
+  },
+  "settingsTitle": {
+    "message": "அமைப்புகள்"
+  },
+  "settingsAriaLabel": {
+    "message": "அமைப்புகளைத் திறக்கவும் அல்லது மூடவும்"
+  },
+  "openModeLabel": {
+    "message": "திறந்த பயன்முறை"
+  },
+  "openModeTab": {
+    "message": "புதிய தாவலில்"
+  },
+  "openModePopup": {
+    "message": "நீட்டிப்பு பாப்அப்பில்"
+  },
+  "openModeHint": {
+    "message": "அடுத்த முறை நீட்டிப்பு ஐகானைக் கிளிக் செய்யும் போது நடைமுறைக்கு வரும்."
+  },
+  "themeUiLabel": {
+    "message": "தீம்"
+  }
+}

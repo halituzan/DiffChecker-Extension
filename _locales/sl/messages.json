@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Prikazuje razlike v vrsticah med dvema besediloma. Orodna vrstica: nov zavihek ali pojavno okno. Shranjevanje: prednost samo v lokalnem odprtem načinu."
+  },
+  "actionDefaultTitle": {
+    "message": "Preverjevalnik razlik - odpri v novem zavihku"
+  },
+  "pageTitle": {
+    "message": "Preverjevalnik razlik - primerjava besedila"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Jezik"
+  },
+  "languageOptionAuto": {
+    "message": "Avto"
+  },
+  "languageOptionEn": {
+    "message": "angleščina"
+  },
+  "languageOptionTr": {
+    "message": "turško"
+  },
+  "subtitle": {
+    "message": "Primerjaj dve besedili vrstico za vrstico - + dodano - - odstranjeno"
+  },
+  "runButton": {
+    "message": "Primerjaj"
+  },
+  "copySummaryButton": {
+    "message": "Kopiraj povzetek"
+  },
+  "copyDoneButton": {
+    "message": "Kopirano!"
+  },
+  "clearButton": {
+    "message": "jasno"
+  },
+  "leftLabel": {
+    "message": "Levo (A)"
+  },
+  "rightLabel": {
+    "message": "desno (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Prvo besedilo..."
+  },
+  "rightPlaceholder": {
+    "message": "Drugo besedilo..."
+  },
+  "splitterAriaLabel": {
+    "message": "Višina povzetka razlike - povlecite"
+  },
+  "splitterTitle": {
+    "message": "Povlecite, da spremenite velikost zgornjega dela in povzetka razlike"
+  },
+  "resultTitle": {
+    "message": "Povzetek razlike"
+  },
+  "navGroupAriaLabel": {
+    "message": "Krmarjenje po razlikah"
+  },
+  "navPrevTitle": {
+    "message": "Prejšnja razlika"
+  },
+  "navPrevAriaLabel": {
+    "message": "Prejšnja razlika"
+  },
+  "navNextTitle": {
+    "message": "Naslednja razlika"
+  },
+  "navNextAriaLabel": {
+    "message": "Naslednja razlika"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Razlike med linijami"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Cel zaslon"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Prikaži povzetek razlike v celozaslonskem načinu"
+  },
+  "fullscreenExitTitle": {
+    "message": "Izhod iz celozaslonskega načina"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Izhod iz celozaslonskega načina"
+  },
+  "statsSame": {
+    "message": "enako"
+  },
+  "statsAdded": {
+    "message": "Dodano"
+  },
+  "statsRemoved": {
+    "message": "Odstranjeno"
+  },
+  "outputText1": {
+    "message": "Besedilo 1"
+  },
+  "outputText2": {
+    "message": "Besedilo 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Zamenjaj levo in desno besedilo"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Zamenjaj levo in desno besedilo"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Preklopite v temni način"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Preklopite v temni način"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Preklopite v svetlobni način"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Preklopite v svetlobni način"
+  },
+  "settingsTitle": {
+    "message": "nastavitve"
+  },
+  "settingsAriaLabel": {
+    "message": "Odpiranje ali zapiranje nastavitev"
+  },
+  "openModeLabel": {
+    "message": "Odprti način"
+  },
+  "openModeTab": {
+    "message": "V novem zavihku"
+  },
+  "openModePopup": {
+    "message": "V pojavnem oknu razširitve"
+  },
+  "openModeHint": {
+    "message": "Uveljavi se naslednjič, ko kliknete ikono razširitve."
+  },
+  "themeUiLabel": {
+    "message": "Tema"
+  }
+}

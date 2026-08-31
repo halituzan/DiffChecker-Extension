@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Toont op regels gebaseerde verschillen tussen twee teksten. Werkbalk: nieuw tabblad of pop-up. Opslag: alleen lokale voorkeur voor open modus."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - openen in nieuw tabblad"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Tekst vergelijken"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Taal"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "Engels"
+  },
+  "languageOptionTr": {
+    "message": "Turks"
+  },
+  "subtitle": {
+    "message": "Vergelijk twee teksten regel voor regel - + toegevoegd - - verwijderd"
+  },
+  "runButton": {
+    "message": "Vergelijken"
+  },
+  "copySummaryButton": {
+    "message": "Samenvatting kopiëren"
+  },
+  "copyDoneButton": {
+    "message": "Gekopieerd!"
+  },
+  "clearButton": {
+    "message": "Duidelijk"
+  },
+  "leftLabel": {
+    "message": "Links (A)"
+  },
+  "rightLabel": {
+    "message": "Rechts (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Eerste tekst..."
+  },
+  "rightPlaceholder": {
+    "message": "Tweede tekst..."
+  },
+  "splitterAriaLabel": {
+    "message": "Hoogte verschil samenvatting - slepen"
+  },
+  "splitterTitle": {
+    "message": "Sleep om het formaat van het bovenste gedeelte en de diff-samenvatting te wijzigen"
+  },
+  "resultTitle": {
+    "message": "Verschil samenvatting"
+  },
+  "navGroupAriaLabel": {
+    "message": "Navigeer door verschillen"
+  },
+  "navPrevTitle": {
+    "message": "Vorig verschil"
+  },
+  "navPrevAriaLabel": {
+    "message": "Vorig verschil"
+  },
+  "navNextTitle": {
+    "message": "Volgende verschil"
+  },
+  "navNextAriaLabel": {
+    "message": "Volgende verschil"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Lijnverschillen"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Volledig scherm"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Toon diff-samenvatting op volledig scherm"
+  },
+  "fullscreenExitTitle": {
+    "message": "Volledig scherm afsluiten"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Volledig scherm afsluiten"
+  },
+  "statsSame": {
+    "message": "Dezelfde"
+  },
+  "statsAdded": {
+    "message": "Toegevoegd"
+  },
+  "statsRemoved": {
+    "message": "VERWIJDERD"
+  },
+  "outputText1": {
+    "message": "Tekst 1"
+  },
+  "outputText2": {
+    "message": "Tekst 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Wissel linker- en rechtertekst om"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Wissel linker- en rechtertekst om"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Schakel over naar de donkere modus"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Schakel over naar de donkere modus"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Schakel over naar de lichtmodus"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Schakel over naar de lichtmodus"
+  },
+  "settingsTitle": {
+    "message": "Instellingen"
+  },
+  "settingsAriaLabel": {
+    "message": "Instellingen openen of sluiten"
+  },
+  "openModeLabel": {
+    "message": "Open modus"
+  },
+  "openModeTab": {
+    "message": "In een nieuw tabblad"
+  },
+  "openModePopup": {
+    "message": "In de extensiepop-up"
+  },
+  "openModeHint": {
+    "message": "Wordt van kracht de volgende keer dat u op het extensiepictogram klikt."
+  },
+  "themeUiLabel": {
+    "message": "Thema"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Rāda uz rindiņām balstītas atšķirības starp diviem tekstiem. Rīkjosla: jauna cilne vai uznirstošais logs. Krātuve: tikai vietējā atvērtā režīma izvēle."
+  },
+  "actionDefaultTitle": {
+    "message": "Atšķirību pārbaudītājs — atveriet jaunā cilnē"
+  },
+  "pageTitle": {
+    "message": "Atšķirību pārbaudītājs — tekstu salīdzinājums"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Valoda"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "angļu valoda"
+  },
+  "languageOptionTr": {
+    "message": "turku"
+  },
+  "subtitle": {
+    "message": "Salīdziniet divus tekstus pēc rindas - + pievienots - - noņemts"
+  },
+  "runButton": {
+    "message": "Salīdziniet"
+  },
+  "copySummaryButton": {
+    "message": "Kopsavilkuma kopēšana"
+  },
+  "copyDoneButton": {
+    "message": "Kopēts!"
+  },
+  "clearButton": {
+    "message": "Skaidrs"
+  },
+  "leftLabel": {
+    "message": "Pa kreisi (A)"
+  },
+  "rightLabel": {
+    "message": "Pa labi (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Pirmais teksts..."
+  },
+  "rightPlaceholder": {
+    "message": "Otrais teksts..."
+  },
+  "splitterAriaLabel": {
+    "message": "Atšķirības kopsavilkuma augstums - velciet"
+  },
+  "splitterTitle": {
+    "message": "Velciet, lai mainītu augšējās sadaļas izmērus un atšķirību kopsavilkumu"
+  },
+  "resultTitle": {
+    "message": "Atšķirību kopsavilkums"
+  },
+  "navGroupAriaLabel": {
+    "message": "Pārlūkojiet atšķirības"
+  },
+  "navPrevTitle": {
+    "message": "Iepriekšējā atšķirība"
+  },
+  "navPrevAriaLabel": {
+    "message": "Iepriekšējā atšķirība"
+  },
+  "navNextTitle": {
+    "message": "Nākamā atšķirība"
+  },
+  "navNextAriaLabel": {
+    "message": "Nākamā atšķirība"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Līniju atšķirības"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Pilnekrāna režīms"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Rādīt atšķirību kopsavilkumu pilnekrāna režīmā"
+  },
+  "fullscreenExitTitle": {
+    "message": "Iziet pilnekrāna režīmā"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Iziet pilnekrāna režīmā"
+  },
+  "statsSame": {
+    "message": "Tas pats"
+  },
+  "statsAdded": {
+    "message": "Pievienots"
+  },
+  "statsRemoved": {
+    "message": "Noņemts"
+  },
+  "outputText1": {
+    "message": "1. teksts"
+  },
+  "outputText2": {
+    "message": "2. teksts"
+  },
+  "swapColumnsTitle": {
+    "message": "Mainiet tekstu pa kreisi un pa labi"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Mainiet tekstu pa kreisi un pa labi"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Pārslēdzieties uz tumšo režīmu"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Pārslēdzieties uz tumšo režīmu"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Pārslēdzieties uz gaismas režīmu"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Pārslēdzieties uz gaismas režīmu"
+  },
+  "settingsTitle": {
+    "message": "Iestatījumi"
+  },
+  "settingsAriaLabel": {
+    "message": "Atveriet vai aizveriet iestatījumus"
+  },
+  "openModeLabel": {
+    "message": "Atvērtais režīms"
+  },
+  "openModeTab": {
+    "message": "Jaunā cilnē"
+  },
+  "openModePopup": {
+    "message": "Paplašinājuma uznirstošajā logā"
+  },
+  "openModeHint": {
+    "message": "Stājas spēkā nākamreiz, kad noklikšķināsit uz paplašinājuma ikonas."
+  },
+  "themeUiLabel": {
+    "message": "Tēma"
+  }
+}

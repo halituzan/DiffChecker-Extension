@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Rodo skirtumus tarp dviejų tekstų eilutėmis. Įrankių juosta: naujas skirtukas arba iššokantis langas. Saugykla: tik vietinis atvirojo režimo pasirinkimas."
+  },
+  "actionDefaultTitle": {
+    "message": "Skirtumų tikrintuvas – atidarykite naujame skirtuke"
+  },
+  "pageTitle": {
+    "message": "Skirtumų tikrintuvas – teksto palyginimas"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Kalba"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "anglų kalba"
+  },
+  "languageOptionTr": {
+    "message": "turkų"
+  },
+  "subtitle": {
+    "message": "Palyginkite du tekstus eilutė po eilutės - + pridėta - - pašalinta"
+  },
+  "runButton": {
+    "message": "Palyginti"
+  },
+  "copySummaryButton": {
+    "message": "Kopijuoti santrauką"
+  },
+  "copyDoneButton": {
+    "message": "Nukopijuota!"
+  },
+  "clearButton": {
+    "message": "Aišku"
+  },
+  "leftLabel": {
+    "message": "Kairė (A)"
+  },
+  "rightLabel": {
+    "message": "Dešinė (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Pirmas tekstas..."
+  },
+  "rightPlaceholder": {
+    "message": "Antras tekstas..."
+  },
+  "splitterAriaLabel": {
+    "message": "Skirtumo suvestinės aukštis – vilkite"
+  },
+  "splitterTitle": {
+    "message": "Vilkite, kad pakeistumėte viršutinės dalies dydį ir skirtumų suvestinę"
+  },
+  "resultTitle": {
+    "message": "Skirtumo santrauka"
+  },
+  "navGroupAriaLabel": {
+    "message": "Naršykite skirtumus"
+  },
+  "navPrevTitle": {
+    "message": "Ankstesnis skirtumas"
+  },
+  "navPrevAriaLabel": {
+    "message": "Ankstesnis skirtumas"
+  },
+  "navNextTitle": {
+    "message": "Kitas skirtumas"
+  },
+  "navNextAriaLabel": {
+    "message": "Kitas skirtumas"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Linijų skirtumai"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Visas ekranas"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Rodyti skirtumų santrauką viso ekrano režimu"
+  },
+  "fullscreenExitTitle": {
+    "message": "Išeikite per visą ekraną"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Išeikite per visą ekraną"
+  },
+  "statsSame": {
+    "message": "Tas pats"
+  },
+  "statsAdded": {
+    "message": "Pridėta"
+  },
+  "statsRemoved": {
+    "message": "Pašalinta"
+  },
+  "outputText1": {
+    "message": "1 tekstas"
+  },
+  "outputText2": {
+    "message": "2 tekstas"
+  },
+  "swapColumnsTitle": {
+    "message": "Sukeiskite tekstą į kairę ir į dešinę"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Sukeiskite tekstą į kairę ir į dešinę"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Perjungti į tamsųjį režimą"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Perjungti į tamsųjį režimą"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Perjungti į šviesos režimą"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Perjungti į šviesos režimą"
+  },
+  "settingsTitle": {
+    "message": "Nustatymai"
+  },
+  "settingsAriaLabel": {
+    "message": "Atidaryti arba uždaryti nustatymus"
+  },
+  "openModeLabel": {
+    "message": "Atidaryti režimą"
+  },
+  "openModeTab": {
+    "message": "Naujame skirtuke"
+  },
+  "openModePopup": {
+    "message": "Iššokančiame plėtinio lange"
+  },
+  "openModeHint": {
+    "message": "Įsigalioja kitą kartą spustelėjus plėtinio piktogramą."
+  },
+  "themeUiLabel": {
+    "message": "tema"
+  }
+}

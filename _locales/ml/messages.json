@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "രണ്ട് ടെക്സ്റ്റുകൾ തമ്മിലുള്ള വരി അടിസ്ഥാനമാക്കിയുള്ള വ്യത്യാസങ്ങൾ കാണിക്കുന്നു. ടൂൾബാർ: പുതിയ ടാബ് അല്ലെങ്കിൽ പോപ്പ്അപ്പ്. സംഭരണം: പ്രാദേശിക ഓപ്പൺ മോഡ് മുൻഗണന മാത്രം."
+  },
+  "actionDefaultTitle": {
+    "message": "ഡിഫ് ചെക്കർ - പുതിയ ടാബിൽ തുറക്കുക"
+  },
+  "pageTitle": {
+    "message": "ഡിഫ് ചെക്കർ - വാചകം താരതമ്യം ചെയ്യുക"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "ഭാഷ"
+  },
+  "languageOptionAuto": {
+    "message": "ഓട്ടോ"
+  },
+  "languageOptionEn": {
+    "message": "ഇംഗ്ലീഷ്"
+  },
+  "languageOptionTr": {
+    "message": "ടർക്കിഷ്"
+  },
+  "subtitle": {
+    "message": "രണ്ട് വാചകങ്ങൾ വരിയായി താരതമ്യം ചെയ്യുക - + ചേർത്തു - - നീക്കംചെയ്തു"
+  },
+  "runButton": {
+    "message": "താരതമ്യം ചെയ്യുക"
+  },
+  "copySummaryButton": {
+    "message": "പകർപ്പ് സംഗ്രഹം"
+  },
+  "copyDoneButton": {
+    "message": "പകർത്തി!"
+  },
+  "clearButton": {
+    "message": "ക്ലിയർ"
+  },
+  "leftLabel": {
+    "message": "ഇടത് (എ)"
+  },
+  "rightLabel": {
+    "message": "വലത് (ബി)"
+  },
+  "leftPlaceholder": {
+    "message": "ആദ്യ വാചകം..."
+  },
+  "rightPlaceholder": {
+    "message": "രണ്ടാമത്തെ വാചകം..."
+  },
+  "splitterAriaLabel": {
+    "message": "വ്യത്യസ്‌ത സംഗ്രഹ ഉയരം - വലിച്ചിടുക"
+  },
+  "splitterTitle": {
+    "message": "മുകളിലെ ഭാഗവും വ്യത്യാസ സംഗ്രഹവും വലുപ്പം മാറ്റാൻ വലിച്ചിടുക"
+  },
+  "resultTitle": {
+    "message": "വ്യത്യസ്ത സംഗ്രഹം"
+  },
+  "navGroupAriaLabel": {
+    "message": "വ്യത്യാസങ്ങൾ നാവിഗേറ്റ് ചെയ്യുക"
+  },
+  "navPrevTitle": {
+    "message": "മുമ്പത്തെ വ്യത്യാസം"
+  },
+  "navPrevAriaLabel": {
+    "message": "മുമ്പത്തെ വ്യത്യാസം"
+  },
+  "navNextTitle": {
+    "message": "അടുത്ത വ്യത്യാസം"
+  },
+  "navNextAriaLabel": {
+    "message": "അടുത്ത വ്യത്യാസം"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "ലൈൻ വ്യത്യാസങ്ങൾ"
+  },
+  "fullscreenEnterTitle": {
+    "message": "പൂർണ്ണ സ്ക്രീൻ"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "പൂർണ്ണസ്‌ക്രീനിൽ വ്യത്യാസങ്ങളുടെ സംഗ്രഹം കാണിക്കുക"
+  },
+  "fullscreenExitTitle": {
+    "message": "പൂർണ്ണസ്‌ക്രീനിൽ നിന്ന് പുറത്തുകടക്കുക"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "പൂർണ്ണസ്‌ക്രീനിൽ നിന്ന് പുറത്തുകടക്കുക"
+  },
+  "statsSame": {
+    "message": "അതേ"
+  },
+  "statsAdded": {
+    "message": "ചേർത്തു"
+  },
+  "statsRemoved": {
+    "message": "നീക്കം ചെയ്തു"
+  },
+  "outputText1": {
+    "message": "വാചകം 1"
+  },
+  "outputText2": {
+    "message": "വാചകം 2"
+  },
+  "swapColumnsTitle": {
+    "message": "ഇടത്തും വലത്തും വാചകം സ്വാപ്പ് ചെയ്യുക"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "ഇടത്തും വലത്തും വാചകം സ്വാപ്പ് ചെയ്യുക"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "ഡാർക്ക് മോഡിലേക്ക് മാറുക"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "ഡാർക്ക് മോഡിലേക്ക് മാറുക"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "ലൈറ്റ് മോഡിലേക്ക് മാറുക"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "ലൈറ്റ് മോഡിലേക്ക് മാറുക"
+  },
+  "settingsTitle": {
+    "message": "ക്രമീകരണങ്ങൾ"
+  },
+  "settingsAriaLabel": {
+    "message": "ക്രമീകരണങ്ങൾ തുറക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക"
+  },
+  "openModeLabel": {
+    "message": "ഓപ്പൺ മോഡ്"
+  },
+  "openModeTab": {
+    "message": "ഒരു പുതിയ ടാബിൽ"
+  },
+  "openModePopup": {
+    "message": "വിപുലീകരണ പോപ്പ്അപ്പിൽ"
+  },
+  "openModeHint": {
+    "message": "അടുത്ത തവണ നിങ്ങൾ വിപുലീകരണ ഐക്കണിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ പ്രാബല്യത്തിൽ വരും."
+  },
+  "themeUiLabel": {
+    "message": "തീം"
+  }
+}

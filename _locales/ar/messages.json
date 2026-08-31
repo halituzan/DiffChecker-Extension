@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "يظهر الاختلافات القائمة على الخط بين نصين. شريط الأدوات: علامة تبويب جديدة أو نافذة منبثقة. التخزين: تفضيل الوضع المفتوح المحلي فقط."
+  },
+  "actionDefaultTitle": {
+    "message": "مدقق الفرق - مفتوح في علامة تبويب جديدة"
+  },
+  "pageTitle": {
+    "message": "مدقق الفرق - مقارنة النص"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "لغة"
+  },
+  "languageOptionAuto": {
+    "message": "آلي"
+  },
+  "languageOptionEn": {
+    "message": "إنجليزي"
+  },
+  "languageOptionTr": {
+    "message": "تركي"
+  },
+  "subtitle": {
+    "message": "قارن بين نصين سطرًا بسطر - + تمت الإضافة - - تمت الإزالة"
+  },
+  "runButton": {
+    "message": "يقارن"
+  },
+  "copySummaryButton": {
+    "message": "نسخ الملخص"
+  },
+  "copyDoneButton": {
+    "message": "منسوخ!"
+  },
+  "clearButton": {
+    "message": "واضح"
+  },
+  "leftLabel": {
+    "message": "اليسار (أ)"
+  },
+  "rightLabel": {
+    "message": "اليمين (ب)"
+  },
+  "leftPlaceholder": {
+    "message": "النص الأول..."
+  },
+  "rightPlaceholder": {
+    "message": "النص الثاني..."
+  },
+  "splitterAriaLabel": {
+    "message": "ارتفاع ملخص الفرق - اسحب"
+  },
+  "splitterTitle": {
+    "message": "اسحب لتغيير حجم القسم العلوي وملخص الفرق"
+  },
+  "resultTitle": {
+    "message": "ملخص الفرق"
+  },
+  "navGroupAriaLabel": {
+    "message": "التنقل في الاختلافات"
+  },
+  "navPrevTitle": {
+    "message": "الفرق السابق"
+  },
+  "navPrevAriaLabel": {
+    "message": "الفرق السابق"
+  },
+  "navNextTitle": {
+    "message": "الفرق التالي"
+  },
+  "navNextAriaLabel": {
+    "message": "الفرق التالي"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "اختلافات الخط"
+  },
+  "fullscreenEnterTitle": {
+    "message": "ملء الشاشة"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "عرض ملخص الفرق في وضع ملء الشاشة"
+  },
+  "fullscreenExitTitle": {
+    "message": "الخروج من وضع ملء الشاشة"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "الخروج من وضع ملء الشاشة"
+  },
+  "statsSame": {
+    "message": "نفس"
+  },
+  "statsAdded": {
+    "message": "تمت الإضافة"
+  },
+  "statsRemoved": {
+    "message": "تمت الإزالة"
+  },
+  "outputText1": {
+    "message": "النص 1"
+  },
+  "outputText2": {
+    "message": "النص 2"
+  },
+  "swapColumnsTitle": {
+    "message": "مبادلة النص الأيسر والأيمن"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "مبادلة النص الأيسر والأيمن"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "التبديل إلى الوضع المظلم"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "التبديل إلى الوضع المظلم"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "التبديل إلى وضع الضوء"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "التبديل إلى وضع الضوء"
+  },
+  "settingsTitle": {
+    "message": "إعدادات"
+  },
+  "settingsAriaLabel": {
+    "message": "فتح أو إغلاق الإعدادات"
+  },
+  "openModeLabel": {
+    "message": "الوضع المفتوح"
+  },
+  "openModeTab": {
+    "message": "في علامة تبويب جديدة"
+  },
+  "openModePopup": {
+    "message": "في النافذة المنبثقة الملحقة"
+  },
+  "openModeHint": {
+    "message": "يسري مفعوله في المرة التالية التي تنقر فيها على أيقونة الامتداد."
+  },
+  "themeUiLabel": {
+    "message": "سمة"
+  }
+}

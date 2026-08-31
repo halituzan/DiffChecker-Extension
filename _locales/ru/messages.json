@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Показывает построчные различия между двумя текстами. Панель инструментов: новая вкладка или всплывающее окно. Хранение: только локальное предпочтение открытого режима."
+  },
+  "actionDefaultTitle": {
+    "message": "Проверка различий – открыть в новой вкладке"
+  },
+  "pageTitle": {
+    "message": "Проверка различий — сравнение текста"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Язык"
+  },
+  "languageOptionAuto": {
+    "message": "Авто"
+  },
+  "languageOptionEn": {
+    "message": "Английский"
+  },
+  "languageOptionTr": {
+    "message": "турецкий"
+  },
+  "subtitle": {
+    "message": "Сравнить два текста построчно - + добавлено - - удалено"
+  },
+  "runButton": {
+    "message": "Сравнивать"
+  },
+  "copySummaryButton": {
+    "message": "Копировать сводку"
+  },
+  "copyDoneButton": {
+    "message": "Скопировано!"
+  },
+  "clearButton": {
+    "message": "Прозрачный"
+  },
+  "leftLabel": {
+    "message": "Левый (А)"
+  },
+  "rightLabel": {
+    "message": "Справа (Б)"
+  },
+  "leftPlaceholder": {
+    "message": "Первый текст..."
+  },
+  "rightPlaceholder": {
+    "message": "Второй текст..."
+  },
+  "splitterAriaLabel": {
+    "message": "Суммарная высота разницы – перетаскивание"
+  },
+  "splitterTitle": {
+    "message": "Перетащите, чтобы изменить размер верхнего раздела и сводки различий"
+  },
+  "resultTitle": {
+    "message": "Сводка различий"
+  },
+  "navGroupAriaLabel": {
+    "message": "Навигация по различиям"
+  },
+  "navPrevTitle": {
+    "message": "Предыдущая разница"
+  },
+  "navPrevAriaLabel": {
+    "message": "Предыдущая разница"
+  },
+  "navNextTitle": {
+    "message": "Следующее отличие"
+  },
+  "navNextAriaLabel": {
+    "message": "Следующее отличие"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Различия в линиях"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Полноэкранный"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Показать сводку различий в полноэкранном режиме"
+  },
+  "fullscreenExitTitle": {
+    "message": "Выйти из полноэкранного режима"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Выйти из полноэкранного режима"
+  },
+  "statsSame": {
+    "message": "Такой же"
+  },
+  "statsAdded": {
+    "message": "Добавлен"
+  },
+  "statsRemoved": {
+    "message": "Удаленный"
+  },
+  "outputText1": {
+    "message": "Текст 1"
+  },
+  "outputText2": {
+    "message": "Текст 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Поменять местами левый и правый текст"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Поменять местами левый и правый текст"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Переключиться в темный режим"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Переключиться в темный режим"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Переключиться в светлый режим"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Переключиться в светлый режим"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "settingsAriaLabel": {
+    "message": "Открыть или закрыть настройки"
+  },
+  "openModeLabel": {
+    "message": "Открытый режим"
+  },
+  "openModeTab": {
+    "message": "В новой вкладке"
+  },
+  "openModePopup": {
+    "message": "Во всплывающем окне расширения"
+  },
+  "openModeHint": {
+    "message": "Вступит в силу при следующем щелчке по значку расширения."
+  },
+  "themeUiLabel": {
+    "message": "Тема"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Näyttää rivipohjaiset erot kahden tekstin välillä. Työkalupalkki: uusi välilehti tai ponnahdusikkuna. Tallennus: vain paikallinen avoimen tilan asetus."
+  },
+  "actionDefaultTitle": {
+    "message": "Diff Checker - avaa uudessa välilehdessä"
+  },
+  "pageTitle": {
+    "message": "Diff Checker - Tekstin vertailu"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Kieli"
+  },
+  "languageOptionAuto": {
+    "message": "Auto"
+  },
+  "languageOptionEn": {
+    "message": "englanti"
+  },
+  "languageOptionTr": {
+    "message": "turkkilainen"
+  },
+  "subtitle": {
+    "message": "Vertaa kahta tekstiä rivi riviltä - + lisätty - - poistettu"
+  },
+  "runButton": {
+    "message": "Vertaa"
+  },
+  "copySummaryButton": {
+    "message": "Kopioi yhteenveto"
+  },
+  "copyDoneButton": {
+    "message": "Kopioitu!"
+  },
+  "clearButton": {
+    "message": "Selkeä"
+  },
+  "leftLabel": {
+    "message": "Vasen (A)"
+  },
+  "rightLabel": {
+    "message": "Oikea (B)"
+  },
+  "leftPlaceholder": {
+    "message": "Ensimmäinen teksti..."
+  },
+  "rightPlaceholder": {
+    "message": "Toinen teksti..."
+  },
+  "splitterAriaLabel": {
+    "message": "Eron yhteenvetokorkeus - vedä"
+  },
+  "splitterTitle": {
+    "message": "Muuta yläosan kokoa ja erojen yhteenvetoa vetämällä"
+  },
+  "resultTitle": {
+    "message": "Eron yhteenveto"
+  },
+  "navGroupAriaLabel": {
+    "message": "Selaa eroja"
+  },
+  "navPrevTitle": {
+    "message": "Edellinen ero"
+  },
+  "navPrevAriaLabel": {
+    "message": "Edellinen ero"
+  },
+  "navNextTitle": {
+    "message": "Seuraava ero"
+  },
+  "navNextAriaLabel": {
+    "message": "Seuraava ero"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Linjojen erot"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Koko näyttö"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Näytä eroyhteenveto koko näytössä"
+  },
+  "fullscreenExitTitle": {
+    "message": "Poistu koko näytöstä"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Poistu koko näytöstä"
+  },
+  "statsSame": {
+    "message": "Sama"
+  },
+  "statsAdded": {
+    "message": "Lisätty"
+  },
+  "statsRemoved": {
+    "message": "Poistettu"
+  },
+  "outputText1": {
+    "message": "Teksti 1"
+  },
+  "outputText2": {
+    "message": "Teksti 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Vaihda vasenta ja oikeaa tekstiä"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Vaihda vasenta ja oikeaa tekstiä"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Vaihda pimeään tilaan"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Vaihda pimeään tilaan"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Vaihda valotilaan"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Vaihda valotilaan"
+  },
+  "settingsTitle": {
+    "message": "Asetukset"
+  },
+  "settingsAriaLabel": {
+    "message": "Avaa tai sulje asetukset"
+  },
+  "openModeLabel": {
+    "message": "Avaa tila"
+  },
+  "openModeTab": {
+    "message": "Uudella välilehdellä"
+  },
+  "openModePopup": {
+    "message": "Laajennuksen ponnahdusikkunassa"
+  },
+  "openModeHint": {
+    "message": "Tulee voimaan, kun seuraavan kerran napsautat laajennuskuvaketta."
+  },
+  "themeUiLabel": {
+    "message": "Teema"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "Εμφανίζει διαφορές με βάση τη γραμμή μεταξύ δύο κειμένων. Γραμμή εργαλείων: νέα καρτέλα ή αναδυόμενο παράθυρο. Αποθήκευση: τοπική προτίμηση ανοιχτής λειτουργίας μόνο."
+  },
+  "actionDefaultTitle": {
+    "message": "Έλεγχος διαφορών - άνοιγμα σε νέα καρτέλα"
+  },
+  "pageTitle": {
+    "message": "Έλεγχος διαφορών - Σύγκριση κειμένου"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "Γλώσσα"
+  },
+  "languageOptionAuto": {
+    "message": "Αυτο"
+  },
+  "languageOptionEn": {
+    "message": "αγγλικός"
+  },
+  "languageOptionTr": {
+    "message": "τούρκικος"
+  },
+  "subtitle": {
+    "message": "Συγκρίνετε δύο κείμενα γραμμή προς γραμμή - + προστέθηκε - - αφαιρέθηκε"
+  },
+  "runButton": {
+    "message": "Συγκρίνω"
+  },
+  "copySummaryButton": {
+    "message": "Αντιγραφή περίληψης"
+  },
+  "copyDoneButton": {
+    "message": "Αντιγράφηκε!"
+  },
+  "clearButton": {
+    "message": "Σαφής"
+  },
+  "leftLabel": {
+    "message": "Αριστερά (Α)"
+  },
+  "rightLabel": {
+    "message": "Δεξιά (Β)"
+  },
+  "leftPlaceholder": {
+    "message": "Πρώτο κείμενο..."
+  },
+  "rightPlaceholder": {
+    "message": "Δεύτερο κείμενο..."
+  },
+  "splitterAriaLabel": {
+    "message": "Ύψος σύνοψης διαφοράς - σύρετε"
+  },
+  "splitterTitle": {
+    "message": "Σύρετε για να αλλάξετε το μέγεθος της επάνω ενότητας και τη σύνοψη διαφορών"
+  },
+  "resultTitle": {
+    "message": "Περίληψη διαφορών"
+  },
+  "navGroupAriaLabel": {
+    "message": "Πλοηγηθείτε στις διαφορές"
+  },
+  "navPrevTitle": {
+    "message": "Προηγούμενη διαφορά"
+  },
+  "navPrevAriaLabel": {
+    "message": "Προηγούμενη διαφορά"
+  },
+  "navNextTitle": {
+    "message": "Επόμενη διαφορά"
+  },
+  "navNextAriaLabel": {
+    "message": "Επόμενη διαφορά"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "Διαφορές γραμμών"
+  },
+  "fullscreenEnterTitle": {
+    "message": "Πλήρης οθόνη"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "Εμφάνιση περίληψης διαφορών σε πλήρη οθόνη"
+  },
+  "fullscreenExitTitle": {
+    "message": "Έξοδος από πλήρη οθόνη"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "Έξοδος από πλήρη οθόνη"
+  },
+  "statsSame": {
+    "message": "Ιδιο"
+  },
+  "statsAdded": {
+    "message": "Προστέθηκε"
+  },
+  "statsRemoved": {
+    "message": "Καταργήθηκε"
+  },
+  "outputText1": {
+    "message": "Κείμενο 1"
+  },
+  "outputText2": {
+    "message": "Κείμενο 2"
+  },
+  "swapColumnsTitle": {
+    "message": "Εναλλαγή αριστερού και δεξιού κειμένου"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "Εναλλαγή αριστερού και δεξιού κειμένου"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "Μετάβαση σε σκοτεινή λειτουργία"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "Μετάβαση σε σκοτεινή λειτουργία"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "Μετάβαση σε λειτουργία φωτός"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "Μετάβαση σε λειτουργία φωτός"
+  },
+  "settingsTitle": {
+    "message": "Ρυθμίσεις"
+  },
+  "settingsAriaLabel": {
+    "message": "Ανοίξτε ή κλείστε τις ρυθμίσεις"
+  },
+  "openModeLabel": {
+    "message": "Άνοιγμα λειτουργίας"
+  },
+  "openModeTab": {
+    "message": "Σε νέα καρτέλα"
+  },
+  "openModePopup": {
+    "message": "Στο αναδυόμενο παράθυρο επέκτασης"
+  },
+  "openModeHint": {
+    "message": "Εφαρμόζεται την επόμενη φορά που θα κάνετε κλικ στο εικονίδιο της επέκτασης."
+  },
+  "themeUiLabel": {
+    "message": "Θέμα"
+  }
+}

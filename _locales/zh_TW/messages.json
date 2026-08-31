@@ -1,0 +1,152 @@
+{
+  "extensionName": {
+    "message": "Diff Checker"
+  },
+  "extensionDescription": {
+    "message": "顯示兩個文字之間基於行的差異。工具列：新分頁或彈出視窗。儲存：僅限本地開放模式首選項。"
+  },
+  "actionDefaultTitle": {
+    "message": "差異檢查器 - 在新分頁中開啟"
+  },
+  "pageTitle": {
+    "message": "差異檢查器 - 文字比較"
+  },
+  "appTitle": {
+    "message": "Diff Checker"
+  },
+  "languageLabel": {
+    "message": "語言"
+  },
+  "languageOptionAuto": {
+    "message": "汽車"
+  },
+  "languageOptionEn": {
+    "message": "英語"
+  },
+  "languageOptionTr": {
+    "message": "土耳其"
+  },
+  "subtitle": {
+    "message": "逐行比較兩個文字 - + 新增 - - 刪除"
+  },
+  "runButton": {
+    "message": "比較"
+  },
+  "copySummaryButton": {
+    "message": "複製摘要"
+  },
+  "copyDoneButton": {
+    "message": "複製了！"
+  },
+  "clearButton": {
+    "message": "清除"
+  },
+  "leftLabel": {
+    "message": "左（A）"
+  },
+  "rightLabel": {
+    "message": "右（B）"
+  },
+  "leftPlaceholder": {
+    "message": "第一篇文字..."
+  },
+  "rightPlaceholder": {
+    "message": "第二條文字..."
+  },
+  "splitterAriaLabel": {
+    "message": "差異匯總高度 - 拖曳"
+  },
+  "splitterTitle": {
+    "message": "拖曳以調整頂部部分和差異摘要的大小"
+  },
+  "resultTitle": {
+    "message": "差異總結"
+  },
+  "navGroupAriaLabel": {
+    "message": "克服差異"
+  },
+  "navPrevTitle": {
+    "message": "之前的差異"
+  },
+  "navPrevAriaLabel": {
+    "message": "之前的差異"
+  },
+  "navNextTitle": {
+    "message": "下一個區別"
+  },
+  "navNextAriaLabel": {
+    "message": "下一個區別"
+  },
+  "navPositionUnknown": {
+    "message": "-"
+  },
+  "diffOutputAriaLabel": {
+    "message": "線路差異"
+  },
+  "fullscreenEnterTitle": {
+    "message": "全螢幕"
+  },
+  "fullscreenEnterAriaLabel": {
+    "message": "全螢幕顯示差異摘要"
+  },
+  "fullscreenExitTitle": {
+    "message": "退出全螢幕"
+  },
+  "fullscreenExitAriaLabel": {
+    "message": "退出全螢幕"
+  },
+  "statsSame": {
+    "message": "相同的"
+  },
+  "statsAdded": {
+    "message": "額外"
+  },
+  "statsRemoved": {
+    "message": "已刪除"
+  },
+  "outputText1": {
+    "message": "文字1"
+  },
+  "outputText2": {
+    "message": "文字2"
+  },
+  "swapColumnsTitle": {
+    "message": "交換左右文本"
+  },
+  "swapColumnsAriaLabel": {
+    "message": "交換左右文本"
+  },
+  "themeSwitchToDarkTitle": {
+    "message": "切換到深色模式"
+  },
+  "themeSwitchToDarkAriaLabel": {
+    "message": "切換到深色模式"
+  },
+  "themeSwitchToLightTitle": {
+    "message": "切換到燈光模式"
+  },
+  "themeSwitchToLightAriaLabel": {
+    "message": "切換到燈光模式"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsAriaLabel": {
+    "message": "開啟或關閉設定"
+  },
+  "openModeLabel": {
+    "message": "開放模式"
+  },
+  "openModeTab": {
+    "message": "在新標籤中"
+  },
+  "openModePopup": {
+    "message": "在擴充彈出視窗中"
+  },
+  "openModeHint": {
+    "message": "下次點擊擴充圖示時生效。"
+  },
+  "themeUiLabel": {
+    "message": "主題"
+  }
+}
