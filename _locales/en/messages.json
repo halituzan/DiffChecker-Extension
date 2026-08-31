@@ -148,5 +148,47 @@
   },
   "themeUiLabel": {
     "message": "Theme"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Tools"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Format"
+  },
+  "jsonMinifyButton": {
+    "message": "Minify"
+  },
+  "jsonCopyButton": {
+    "message": "Copy"
+  },
+  "jsonInputLabel": {
+    "message": "JSON input"
+  },
+  "jsonOutputLabel": {
+    "message": "Formatted output"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Syntax-highlighted JSON output"
+  },
+  "jsonEmptyError": {
+    "message": "Paste JSON first."
+  },
+  "jsonParseError": {
+    "message": "Invalid JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formatted."
+  },
+  "jsonMinifyOk": {
+    "message": "Minified."
   }
 }

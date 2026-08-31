@@ -148,5 +148,47 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Araclar"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Bicimlendir"
+  },
+  "jsonMinifyButton": {
+    "message": "Sikistir"
+  },
+  "jsonCopyButton": {
+    "message": "Kopyala"
+  },
+  "jsonInputLabel": {
+    "message": "JSON girisi"
+  },
+  "jsonOutputLabel": {
+    "message": "Bicimlendirilmis cikti"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Renklendirilmis JSON cikti"
+  },
+  "jsonEmptyError": {
+    "message": "Once JSON yapistirin."
+  },
+  "jsonParseError": {
+    "message": "Gecersiz JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Bicimlendirildi."
+  },
+  "jsonMinifyOk": {
+    "message": "Sikistirildi."
   }
 }

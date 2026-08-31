@@ -205,6 +205,10 @@
     return fallback || key;
   }
 
+  window.DiffCheckerI18n = {
+    t: t
+  };
+
   function localizePage() {
     document.documentElement.lang = activeUiLanguage;
 
@@ -289,6 +293,7 @@
     updateNavUi();
     updateFsButtonUi();
     updateThemeToggleUi();
+    document.dispatchEvent(new CustomEvent("diffchecker:languagechange"));
     if (diffOutput.childElementCount > 0) runDiff();
   }
 
