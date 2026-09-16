@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "İki metni satır satır karşılaştırın - + eklendi - - kaldırıldı"
   },
+  "subtitleJson": {
+    "message": "JSON bicimlendir, sıkıştır ve dogrula"
+  },
+  "subtitleImage": {
+    "message": "Gorselleri PNG, JPEG, WebP ve AVIF arasinda donustur"
+  },
   "runButton": {
     "message": "Karşılaştırmak"
   },
@@ -162,7 +168,7 @@
     "message": "Bicimlendir"
   },
   "jsonMinifyButton": {
-    "message": "Sikistir"
+    "message": "Sıkıştır"
   },
   "jsonCopyButton": {
     "message": "Kopyala"
@@ -189,6 +195,90 @@
     "message": "Bicimlendirildi."
   },
   "jsonMinifyOk": {
-    "message": "Sikistirildi."
+    "message": "Sıkıştırildi."
+  },
+  "toolTabImage": {
+    "message": "Gorsel"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Cikti formati"
+  },
+  "imgQualityLabel": {
+    "message": "Kalite"
+  },
+  "imgBackgroundLabel": {
+    "message": "Arka plan"
+  },
+  "imgConvertButton": {
+    "message": "Donustur"
+  },
+  "imgDownloadButton": {
+    "message": "Indir"
+  },
+  "imgSourceLabel": {
+    "message": "Kaynak gorsel"
+  },
+  "imgOutputLabel": {
+    "message": "Donusturulmus gorsel"
+  },
+  "imgDropTitle": {
+    "message": "Gorseli buraya birakin"
+  },
+  "imgDropHint": {
+    "message": "veya tiklayarak secin · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Gorsel ekle"
+  },
+  "imgOutputEmpty": {
+    "message": "Donusturulmus gorsel burada gorunecek"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Donusturulmus gorsel onizlemesi"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Bilinmiyor"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Once bir gorsel ekleyin."
+  },
+  "imgInvalidFile": {
+    "message": "Gecerli bir gorsel dosyasi secin."
+  },
+  "imgDecodeError": {
+    "message": "Bu gorsel okunamadi."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Bu cikti formati tarayicinizda desteklenmiyor."
+  },
+  "imgConverting": {
+    "message": "Donusturuluyor…"
+  },
+  "imgConvertOk": {
+    "message": "Donusturuldu."
+  },
+  "imgConvertError": {
+    "message": "Donusum basarisiz."
+  },
+  "imgLoadedOk": {
+    "message": "Gorsel yuklendi."
   }
 }

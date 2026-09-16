@@ -175,9 +175,24 @@
     syncInputLines();
   }
 
+  const TOOL_SUBTITLE_KEYS = {
+    diff: ["subtitle", "Compare two texts line by line - + added - - removed"],
+    json: ["subtitleJson", "Format, minify and validate JSON"],
+    image: ["subtitleImage", "Convert images between PNG, JPEG, WebP and AVIF"]
+  };
+
+  function updateToolSubtitle(tool) {
+    const el = document.getElementById("app-subtitle");
+    if (!el) return;
+    const keys = TOOL_SUBTITLE_KEYS[tool] || TOOL_SUBTITLE_KEYS.diff;
+    el.textContent = t(keys[0], keys[1]);
+  }
+
   function switchTool(tool) {
-    const next = tool === "json" ? "json" : "diff";
+    const valid = ["diff", "json", "image"];
+    const next = valid.includes(tool) ? tool : "diff";
     document.body.setAttribute("data-tool", next);
+    updateToolSubtitle(next);
 
     document.querySelectorAll(".tool-tab").forEach((btn) => {
       const selected = btn.getAttribute("data-tool") === next;
@@ -187,7 +202,12 @@
 
     document.querySelectorAll("[data-panel]").forEach((el) => {
       const match = el.getAttribute("data-panel") === next;
-      if (el.classList.contains("tool-panel") || el.id === "diff-toolbar" || el.id === "json-toolbar") {
+      if (
+        el.classList.contains("tool-panel") ||
+        el.id === "diff-toolbar" ||
+        el.id === "json-toolbar" ||
+        el.id === "img-toolbar"
+      ) {
         el.hidden = !match;
       }
     });
@@ -196,6 +216,13 @@
       syncInputLines();
       requestAnimationFrame(() => {
         if (jsonInput) jsonInput.focus();
+      });
+    } else if (next === "image") {
+      document.dispatchEvent(new CustomEvent("diffchecker:imagetool"));
+    } else if (next === "diff") {
+      requestAnimationFrame(() => {
+        const diffLeft = document.getElementById("diff-left");
+        if (diffLeft) diffLeft.focus();
       });
     }
   }
@@ -227,6 +254,7 @@
     if (jsonCopy && !jsonCopy.disabled) {
       jsonCopy.textContent = t("jsonCopyButton", "Copy");
     }
+    updateToolSubtitle(document.body.getAttribute("data-tool") || "diff");
   });
 
   switchTool("diff");

@@ -6,7 +6,7 @@
   <title data-i18n="pageTitle">Diff Checker - Text Compare</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
-<body class="fullpage">
+<body class="fullpage" data-tool="diff">
   <script src="fullpage-init.js"></script>
   <div class="app">
     <div class="app-top">
@@ -24,7 +24,7 @@
           </div>
           <div class="header-main">
             <h1 data-i18n="appTitle">Diff Checker</h1>
-            <p class="subtitle" data-i18n="subtitle">Compare two texts line by line - + added - - removed</p>
+            <p class="subtitle" id="app-subtitle" data-i18n="subtitle">Compare two texts line by line - + added - - removed</p>
           </div>
         </div>
         <nav class="tool-tabs" role="tablist" aria-label="Tools" data-i18n-aria-label="toolTabsAriaLabel">
@@ -51,6 +51,18 @@
             data-i18n="toolTabJson"
           >
             JSON
+          </button>
+          <button
+            type="button"
+            class="tool-tab"
+            id="tool-tab-image"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-image"
+            data-tool="image"
+            data-i18n="toolTabImage"
+          >
+            Image
           </button>
         </nav>
         <div class="header-actions">
@@ -84,6 +96,28 @@
         <button type="button" id="json-copy" class="btn secondary" disabled data-i18n="jsonCopyButton">Copy</button>
         <button type="button" id="json-clear" class="btn ghost" data-i18n="clearButton">Clear</button>
         <span id="json-status" class="json-status" aria-live="polite"></span>
+      </div>
+
+      <div class="img-toolbar" id="img-toolbar" data-panel="image" hidden>
+        <label class="img-toolbar__field" for="img-format-select">
+          <span class="img-toolbar__label" data-i18n="imgTargetFormatLabel">Output format</span>
+          <select id="img-format-select" class="lang-select img-toolbar__select" aria-label="Output format" data-i18n-aria-label="imgTargetFormatLabel"></select>
+        </label>
+        <label class="img-toolbar__field" id="img-quality-wrap" hidden>
+          <span class="img-toolbar__label" data-i18n="imgQualityLabel">Quality</span>
+          <span class="img-toolbar__quality">
+            <input type="range" id="img-quality" min="1" max="100" value="92" aria-valuemin="1" aria-valuemax="100" aria-valuenow="92" />
+            <span id="img-quality-value" class="img-toolbar__quality-value" aria-hidden="true">92%</span>
+          </span>
+        </label>
+        <label class="img-toolbar__field img-toolbar__field--color" id="img-bg-wrap" hidden>
+          <span class="img-toolbar__label" data-i18n="imgBackgroundLabel">Background</span>
+          <input type="color" id="img-bg-color" value="#ffffff" aria-label="Background color" data-i18n-aria-label="imgBackgroundLabel" />
+        </label>
+        <button type="button" id="img-convert" class="btn primary" disabled data-i18n="imgConvertButton">Convert</button>
+        <button type="button" id="img-download" class="btn secondary" disabled data-i18n="imgDownloadButton">Download</button>
+        <button type="button" id="img-clear" class="btn ghost" data-i18n="clearButton">Clear</button>
+        <span id="img-status" class="img-status" aria-live="polite"></span>
       </div>
     </div>
 
@@ -173,6 +207,50 @@
           <div class="diff-output-wrap">
             <div id="diff-output" class="diff-output diff-output--panel" role="region" aria-label="Line differences" data-i18n-aria-label="diffOutputAriaLabel"></div>
             <button type="button" class="diff-fs-btn" id="diff-fs-btn" title="Fullscreen" aria-label="Show diff summary in fullscreen" data-i18n-title="fullscreenEnterTitle" data-i18n-aria-label="fullscreenEnterAriaLabel">⛶</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div id="panel-image" class="tool-panel" role="tabpanel" aria-labelledby="tool-tab-image" data-panel="image" hidden>
+      <main class="img-main" id="img-main">
+        <div class="img-columns">
+          <div class="img-col img-col--source">
+            <label data-i18n="imgSourceLabel">Source image</label>
+            <div
+              id="img-drop"
+              class="img-drop"
+              tabindex="0"
+              role="button"
+              aria-label="Add image"
+              data-i18n-aria-label="imgDropAriaLabel"
+            >
+              <input type="file" id="img-file-input" accept="image/*" hidden />
+              <div class="img-drop__placeholder">
+                <svg class="img-drop__icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M19 7v2.99s-1.99.01-2 0V7h-3l4-4 4 4h-3zm-4 1V19H7V5h5.17L15 8zm2 0 3.41-3.41L22 9.17V19h-5V9zM5 21h14a2 2 0 0 0 2-2V7l-5-5H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2z"/>
+                </svg>
+                <span class="img-drop__title" data-i18n="imgDropTitle">Drop an image here</span>
+                <span class="img-drop__hint" data-i18n="imgDropHint">or click to browse · PNG, JPEG, WebP, GIF, BMP, AVIF…</span>
+              </div>
+              <img id="img-source-preview" class="img-preview" alt="" hidden decoding="async" />
+            </div>
+            <p id="img-source-info" class="img-meta" aria-live="polite"></p>
+          </div>
+          <div class="img-col img-col--output">
+            <label data-i18n="imgOutputLabel">Converted image</label>
+            <div class="img-output-shell">
+              <div class="img-output-empty" id="img-output-empty" data-i18n="imgOutputEmpty">Converted image will appear here</div>
+              <img
+                id="img-output-preview"
+                class="img-preview img-preview--output"
+                alt=""
+                hidden
+                decoding="async"
+                data-i18n-aria-label="imgOutputPreviewAriaLabel"
+              />
+            </div>
+            <p id="img-output-info" class="img-meta" aria-live="polite"></p>
           </div>
         </div>
       </main>
@@ -270,5 +348,6 @@
   <script src="diff-lines.js"></script>
   <script src="popup.js"></script>
   <script src="json-formatter.js"></script>
+  <script src="image-converter.js"></script>
 </body>
 </html>

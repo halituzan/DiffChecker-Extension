@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Compare two texts line by line - + added - - removed"
   },
+  "subtitleJson": {
+    "message": "Format, minify and validate JSON"
+  },
+  "subtitleImage": {
+    "message": "Convert images between PNG, JPEG, WebP and AVIF"
+  },
   "runButton": {
     "message": "Compare"
   },
@@ -190,5 +196,89 @@
   },
   "jsonMinifyOk": {
     "message": "Minified."
+  },
+  "toolTabImage": {
+    "message": "Image"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Output format"
+  },
+  "imgQualityLabel": {
+    "message": "Quality"
+  },
+  "imgBackgroundLabel": {
+    "message": "Background"
+  },
+  "imgConvertButton": {
+    "message": "Convert"
+  },
+  "imgDownloadButton": {
+    "message": "Download"
+  },
+  "imgSourceLabel": {
+    "message": "Source image"
+  },
+  "imgOutputLabel": {
+    "message": "Converted image"
+  },
+  "imgDropTitle": {
+    "message": "Drop an image here"
+  },
+  "imgDropHint": {
+    "message": "or click to browse · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Add image"
+  },
+  "imgOutputEmpty": {
+    "message": "Converted image will appear here"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Converted image preview"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Unknown"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Add an image first."
+  },
+  "imgInvalidFile": {
+    "message": "Select a valid image file."
+  },
+  "imgDecodeError": {
+    "message": "Could not read this image."
+  },
+  "imgUnsupportedFormat": {
+    "message": "This output format is not supported in your browser."
+  },
+  "imgConverting": {
+    "message": "Converting…"
+  },
+  "imgConvertOk": {
+    "message": "Converted."
+  },
+  "imgConvertError": {
+    "message": "Conversion failed."
+  },
+  "imgLoadedOk": {
+    "message": "Image loaded."
   }
 }
