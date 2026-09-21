@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "يظهر الاختلافات القائمة على الخط بين نصين. شريط الأدوات: علامة تبويب جديدة أو نافذة منبثقة. التخزين: تفضيل الوضع المفتوح المحلي فقط."
@@ -12,7 +12,7 @@
     "message": "مدقق الفرق - مقارنة النص"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "لغة"

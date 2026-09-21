@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Menunjukkan perbezaan berasaskan baris antara dua teks. Bar alat: tab baharu atau pop timbul. Storan: pilihan mod terbuka setempat sahaja."
@@ -12,7 +12,7 @@
     "message": "Pemeriksa Beza - Bandingkan Teks"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Bahasa"

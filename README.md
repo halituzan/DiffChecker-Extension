@@ -1,5 +1,5 @@
 <img width="1280" height="800" alt="3" src="https://github.com/user-attachments/assets/91ee9db7-4f53-43fe-b331-609486c397df" />
-# Diff Checker
+# Diff Checker - JSON Format - Image Converter
 
 Chromium tabanlı tarayıcılar (Chrome, Opera, Edge, Brave vb.) için **Manifest V3** tabanlı bir eklenti. İki metni **satır satır** karşılaştırır; eklenen (`+`) ve silinen (`−`) satırları renkli özet alanında gösterir.
 
@@ -27,7 +27,7 @@ Chromium tabanlı tarayıcılar (Chrome, Opera, Edge, Brave vb.) için **Manifes
 
 ## Kullanım
 
-1. Araç çubuğundaki **Diff Checker** simgesine tıklayın; arayüz yeni sekmede açılır.
+1. Araç çubuğundaki **Diff Checker - JSON Format - Image Converter** simgesine tıklayın; arayüz yeni sekmede açılır.
 2. Sol (**A**) ve sağ (**B**) alanlara metinleri yapıştırın veya yazın.
 3. **Karşılaştır** ile diff üretin.
 4. İsterseniz ayraç ile yüksekliği, sağ alttaki ikon ile tam ekranı kullanın.

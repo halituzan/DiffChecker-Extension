@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Toont op regels gebaseerde verschillen tussen twee teksten. Werkbalk: nieuw tabblad of pop-up. Opslag: alleen lokale voorkeur voor open modus."
@@ -12,7 +12,7 @@
     "message": "Diff Checker - Tekst vergelijken"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Taal"

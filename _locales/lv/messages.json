@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Rāda uz rindiņām balstītas atšķirības starp diviem tekstiem. Rīkjosla: jauna cilne vai uznirstošais logs. Krātuve: tikai vietējā atvērtā režīma izvēle."
@@ -12,7 +12,7 @@
     "message": "Atšķirību pārbaudītājs — tekstu salīdzinājums"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Valoda"

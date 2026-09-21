@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "இரண்டு உரைகளுக்கு இடையே வரி அடிப்படையிலான வேறுபாடுகளைக் காட்டுகிறது. கருவிப்பட்டி: புதிய தாவல் அல்லது பாப்அப். சேமிப்பகம்: உள்ளூர் திறந்த பயன்முறை விருப்பம் மட்டுமே."
@@ -12,7 +12,7 @@
     "message": "டிஃப் செக்கர் - உரை ஒப்பிடு"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "மொழி"

@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "ಎರಡು ಪಠ್ಯಗಳ ನಡುವಿನ ಸಾಲು-ಆಧಾರಿತ ವ್ಯತ್ಯಾಸಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಪರಿಕರಪಟ್ಟಿ: ಹೊಸ ಟ್ಯಾಬ್ ಅಥವಾ ಪಾಪ್ಅಪ್. ಸಂಗ್ರಹಣೆ: ಸ್ಥಳೀಯ ಓಪನ್-ಮೋಡ್ ಆದ್ಯತೆ ಮಾತ್ರ."
@@ -12,7 +12,7 @@
     "message": "ಡಿಫ್ ಚೆಕರ್ - ಪಠ್ಯ ಹೋಲಿಕೆ"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ಭಾಷೆ"

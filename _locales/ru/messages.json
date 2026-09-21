@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Показывает построчные различия между двумя текстами. Панель инструментов: новая вкладка или всплывающее окно. Хранение: только локальное предпочтение открытого режима."
@@ -12,7 +12,7 @@
     "message": "Проверка различий — сравнение текста"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Язык"

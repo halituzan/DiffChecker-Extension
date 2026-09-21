@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "두 텍스트 간의 행 기반 차이점을 표시합니다. 도구 모음: 새 탭 또는 팝업. 스토리지: 로컬 개방 모드 기본 설정에만 해당됩니다."
@@ -12,7 +12,7 @@
     "message": "Diff Checker - 텍스트 비교"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "언어"

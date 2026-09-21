@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "दो पाठों के बीच पंक्ति-आधारित अंतर दिखाता है। टूलबार: नया टैब या पॉपअप. भंडारण: केवल स्थानीय ओपन-मोड प्राथमिकता।"
@@ -12,7 +12,7 @@
     "message": "डिफ चेकर - टेक्स्ट तुलना"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "भाषा"

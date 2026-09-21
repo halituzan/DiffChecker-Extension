@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "İki metin arasındaki satır bazlı farklılıkları gösterir. Araç Çubuğu: yeni sekme veya açılır pencere. Depolama: yalnızca yerel açık mod tercihi."
@@ -12,7 +12,7 @@
     "message": "Fark Denetleyicisi - Metin Karşılaştırma"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Dil"

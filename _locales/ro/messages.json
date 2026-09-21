@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Afișează diferențele bazate pe rând între două texte. Bara de instrumente: filă nouă sau pop-up. Stocare: numai preferință în modul deschis local."
@@ -12,7 +12,7 @@
     "message": "Diff Checker - Comparare text"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Limbă"

@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "दोन मजकुरांमधील रेषा-आधारित फरक दर्शविते. टूलबार: नवीन टॅब किंवा पॉपअप. स्टोरेज: फक्त स्थानिक ओपन-मोड प्राधान्य."
@@ -12,7 +12,7 @@
     "message": "भिन्न तपासक - मजकूर तुलना"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "भाषा"

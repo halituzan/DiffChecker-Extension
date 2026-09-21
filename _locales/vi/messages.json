@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Hiển thị sự khác biệt dựa trên dòng giữa hai văn bản. Thanh công cụ: tab mới hoặc cửa sổ bật lên. Lưu trữ: chỉ ưu tiên chế độ mở cục bộ."
@@ -12,7 +12,7 @@
     "message": "Trình kiểm tra khác biệt - So sánh văn bản"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Ngôn ngữ"
