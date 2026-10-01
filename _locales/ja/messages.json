@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "2 つのテキスト間の違いを行ベースで表示します。ツールバー: 新しいタブまたはポップアップ。ストレージ: ローカル オープン モード設定のみ。"
@@ -12,7 +12,7 @@
     "message": "差分チェッカー - テキスト比較"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "言語"

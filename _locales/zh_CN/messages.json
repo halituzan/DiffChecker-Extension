@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "显示两个文本之间基于行的差异。工具栏：新选项卡或弹出窗口。存储：仅限本地开放模式首选项。"
@@ -12,7 +12,7 @@
     "message": "差异检查器 - 文本比较"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "语言"

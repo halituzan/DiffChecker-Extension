@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Shows line-based differences between two texts. Toolbar: new tab or popup. Storage: local open-mode preference only."
@@ -12,7 +12,7 @@
     "message": "Diff Checker - Text Compare"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Language"

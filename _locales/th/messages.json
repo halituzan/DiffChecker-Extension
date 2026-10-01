@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "แสดงความแตกต่างตามเส้นระหว่างสองข้อความ แถบเครื่องมือ: แท็บใหม่หรือป๊อปอัป ที่เก็บข้อมูล: การตั้งค่าโหมดเปิดในเครื่องเท่านั้น"
@@ -12,7 +12,7 @@
     "message": "Diff Checker - เปรียบเทียบข้อความ"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ภาษา"

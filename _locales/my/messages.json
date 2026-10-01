@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "စာသားနှစ်ခုကြားတွင် စာကြောင်းအခြေခံ ခြားနားချက်ကို ပြသည်။ ကိရိယာဘား- တက်ဘ်အသစ် သို့မဟုတ် ပေါ့ပ်အပ်။ သိုလှောင်မှု- စက်တွင်း အဖွင့်မုဒ် ဦးစားပေး သီးသန့်။"
@@ -12,7 +12,7 @@
     "message": "Diff Checker - စာသားနှိုင်းယှဉ်"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ဘာသာစကား"

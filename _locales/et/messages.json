@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Näitab reapõhiseid erinevusi kahe teksti vahel. Tööriistariba: uus vahekaart või hüpikaken. Salvestus: ainult kohaliku avatud režiimi eelistus."
@@ -12,7 +12,7 @@
     "message": "Erinevuste kontrollija – teksti võrdlemine"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Keel"

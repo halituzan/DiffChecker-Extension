@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Prikazuje razlike v vrsticah med dvema besediloma. Orodna vrstica: nov zavihek ali pojavno okno. Shranjevanje: prednost samo v lokalnem odprtem načinu."
@@ -12,7 +12,7 @@
     "message": "Preverjevalnik razlik - primerjava besedila"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Jezik"

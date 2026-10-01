@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Εμφανίζει διαφορές με βάση τη γραμμή μεταξύ δύο κειμένων. Γραμμή εργαλείων: νέα καρτέλα ή αναδυόμενο παράθυρο. Αποθήκευση: τοπική προτίμηση ανοιχτής λειτουργίας μόνο."
@@ -12,7 +12,7 @@
     "message": "Έλεγχος διαφορών - Σύγκριση κειμένου"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Γλώσσα"

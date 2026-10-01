@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "రెండు టెక్స్ట్‌ల మధ్య లైన్ ఆధారిత తేడాలను చూపుతుంది. టూల్ బార్: కొత్త ట్యాబ్ లేదా పాప్అప్. నిల్వ: స్థానిక ఓపెన్-మోడ్ ప్రాధాన్యత మాత్రమే."
@@ -12,7 +12,7 @@
     "message": "డిఫ్ చెకర్ - టెక్స్ట్ సరిపోల్చండి"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "భాష"

@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "تفاوت های مبتنی بر خط بین دو متن را نشان می دهد. نوار ابزار: برگه یا پنجره جدید. ذخیره‌سازی: فقط ترجیح حالت باز محلی."
@@ -12,7 +12,7 @@
     "message": "جستجوگر تفاوت - مقایسه متن"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "زبان"

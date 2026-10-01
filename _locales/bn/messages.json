@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "দুটি পাঠ্যের মধ্যে লাইন-ভিত্তিক পার্থক্য দেখায়। টুলবার: নতুন ট্যাব বা পপআপ। সঞ্চয়স্থান: শুধুমাত্র স্থানীয় ওপেন-মোড পছন্দ।"
@@ -12,7 +12,7 @@
     "message": "ডিফ চেকার - টেক্সট তুলনা"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ভাষা"

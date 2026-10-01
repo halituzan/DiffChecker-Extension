@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "બે પાઠો વચ્ચે રેખા-આધારિત તફાવતો બતાવે છે. ટૂલબાર: નવી ટેબ અથવા પોપઅપ. સ્ટોરેજ: ફક્ત સ્થાનિક ઓપન-મોડ પસંદગી."
@@ -12,7 +12,7 @@
     "message": "ડિફ ચેકર - ટેક્સ્ટ સરખામણી"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ભાષા"

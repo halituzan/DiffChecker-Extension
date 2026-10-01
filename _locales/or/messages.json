@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "ଦୁଇଟି ଲେଖା ମଧ୍ୟରେ ରେଖା-ଆଧାରିତ ପାର୍ଥକ୍ୟ ଦେଖାଏ | ଟୁଲ୍ ବାର୍: ନୂଆ ଟ୍ୟାବ୍ କିମ୍ବା ପପ୍ଅପ୍ | ସଂରକ୍ଷଣ: କେବଳ ସ୍ଥାନୀୟ ଓପନ୍ ମୋଡ୍ ପସନ୍ଦ |"
@@ -12,7 +12,7 @@
     "message": "ଡିଫ୍ ଚେକର୍ - ପାଠ୍ୟ ତୁଳନା କରନ୍ତୁ |"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ଭାଷା"

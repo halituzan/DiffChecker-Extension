@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Mostra le differenze basate sulla riga tra due testi. Barra degli strumenti: nuova scheda o popup. Archiviazione: solo preferenza in modalità aperta locale."
@@ -12,7 +12,7 @@
     "message": "Controllo differenze: confronto testo"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Lingua"

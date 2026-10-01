@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Prikazuje razlike temeljene na liniji između dva teksta. Alatna traka: nova kartica ili skočni prozor. Pohrana: preferencija samo lokalnog otvorenog načina."
@@ -12,7 +12,7 @@
     "message": "Provjera razlika - Usporedba teksta"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Jezik"

@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "دو متن کے درمیان لائن پر مبنی فرق دکھاتا ہے۔ ٹول بار: نیا ٹیب یا پاپ اپ۔ اسٹوریج: صرف مقامی اوپن موڈ کی ترجیح۔"
@@ -12,7 +12,7 @@
     "message": "Diff Checker - متن کا موازنہ کریں۔"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "زبان"

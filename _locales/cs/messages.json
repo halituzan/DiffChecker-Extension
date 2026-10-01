@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "Zobrazuje řádkové rozdíly mezi dvěma texty. Panel nástrojů: nová karta nebo vyskakovací okno. Úložiště: pouze místní preference otevřeného režimu."
@@ -12,7 +12,7 @@
     "message": "Kontrola rozdílů – porovnání textu"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "Jazyk"

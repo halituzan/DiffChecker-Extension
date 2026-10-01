@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "extensionDescription": {
     "message": "രണ്ട് ടെക്സ്റ്റുകൾ തമ്മിലുള്ള വരി അടിസ്ഥാനമാക്കിയുള്ള വ്യത്യാസങ്ങൾ കാണിക്കുന്നു. ടൂൾബാർ: പുതിയ ടാബ് അല്ലെങ്കിൽ പോപ്പ്അപ്പ്. സംഭരണം: പ്രാദേശിക ഓപ്പൺ മോഡ് മുൻഗണന മാത്രം."
@@ -12,7 +12,7 @@
     "message": "ഡിഫ് ചെക്കർ - വാചകം താരതമ്യം ചെയ്യുക"
   },
   "appTitle": {
-    "message": "Diff Checker"
+    "message": "Diff Checker - JSON Format - Image Converter"
   },
   "languageLabel": {
     "message": "ഭാഷ"
