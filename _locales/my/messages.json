@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "စာသားနှစ်ခုကို စာကြောင်းတစ်ကြောင်းချင်း နှိုင်းယှဉ်ပါ - + ထည့်ထားသည် - - ဖယ်ရှားလိုက်ပါ။"
   },
+  "subtitleJson": {
+    "message": "JSON ကို ပုံစံချ၊ ချုံ့၊ စစ်ဆေးပြီး TypeScript အမျိုးအစားများ တင်ပို့ပါ"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP နှင့် AVIF အကြား ပုံများ ပြောင်းပါ"
+  },
   "runButton": {
     "message": "နှိုင်းယှဥ်ပါ။"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "အပြင်အဆင်"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ကိရိယာများ"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ပုံစံချ"
+  },
+  "jsonMinifyButton": {
+    "message": "ချုံ့"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "ကူးယူ"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ထည့်သွင်းမှု"
+  },
+  "jsonOutputLabel": {
+    "message": "ပုံစံချပြီး ထွက်ရှိမှု"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript အမျိုးအစားများ"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "စကားသံအရောင်ခြယ် JSON ထွက်ရှိမှု"
+  },
+  "jsonEmptyError": {
+    "message": "အရင် JSON ကူးထည့်ပါ။"
+  },
+  "jsonParseError": {
+    "message": "မမှန်ကန်သော JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ပုံစံချပြီး။"
+  },
+  "jsonMinifyOk": {
+    "message": "ချုံ့ပြီး။"
+  },
+  "jsonTypeExportOk": {
+    "message": "အမျိုးအစားများ တင်ပို့ပြီး။"
+  },
+  "toolTabImage": {
+    "message": "ပုံ"
+  },
+  "imgTargetFormatLabel": {
+    "message": "ထွက်ရှိမှု ပုံစံ"
+  },
+  "imgQualityLabel": {
+    "message": "အရည်အသွေး"
+  },
+  "imgBackgroundLabel": {
+    "message": "နောက်ခံ"
+  },
+  "imgConvertButton": {
+    "message": "ပြောင်း"
+  },
+  "imgDownloadButton": {
+    "message": "ဒေါင်းလုဒ်"
+  },
+  "imgSourceLabel": {
+    "message": "မူရင်းပုံ"
+  },
+  "imgOutputLabel": {
+    "message": "ပြောင်းပြီးပုံ"
+  },
+  "imgDropTitle": {
+    "message": "ဤနေရာတွင် ပုံချပါ"
+  },
+  "imgDropHint": {
+    "message": "သို့မဟုတ် ရှာဖွေရန် နှိပ်ပါ · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "ပုံထည့်ပါ"
+  },
+  "imgOutputEmpty": {
+    "message": "ပြောင်းပြီးပုံ ဤနေရာတွင် ပေါ်ပါမည်"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "ပြောင်းပြီးပုံ အကြိုကြည့်ရှုမှု"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "မသိ"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "အရင် ပုံတစ်ပုံ ထည့်ပါ။"
+  },
+  "imgInvalidFile": {
+    "message": "မှန်ကန်သော ပုံဖိုင် ရွေးပါ။"
+  },
+  "imgDecodeError": {
+    "message": "ဤပုံကို ဖတ်၍မရပါ။"
+  },
+  "imgUnsupportedFormat": {
+    "message": "ဤထွက်ရှိမှု ပုံစံကို သင့်ဘရောက်ဇာတွင် မပံ့ပိုးပါ။"
+  },
+  "imgConverting": {
+    "message": "ပြောင်းနေသည်…"
+  },
+  "imgConvertOk": {
+    "message": "ပြောင်းပြီး။"
+  },
+  "imgConvertError": {
+    "message": "ပြောင်းခြင်း မအောင်မြင်ပါ။"
+  },
+  "imgLoadedOk": {
+    "message": "ပုံ တင်ပြီး။"
   }
 }

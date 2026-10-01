@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Jämför två texter rad för rad - + tillagd - - borttagen"
   },
+  "subtitleJson": {
+    "message": "Formatera, minifiera och validera JSON och exportera TypeScript-typer"
+  },
+  "subtitleImage": {
+    "message": "Konvertera bilder mellan PNG, JPEG, WebP och AVIF"
+  },
   "runButton": {
     "message": "Jämföra"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Verktyg"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatera"
+  },
+  "jsonMinifyButton": {
+    "message": "Minifiera"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopiera"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-indata"
+  },
+  "jsonOutputLabel": {
+    "message": "Formaterad utdata"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript-typer"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON-utdata med syntaxmarkering"
+  },
+  "jsonEmptyError": {
+    "message": "Klistra in JSON först."
+  },
+  "jsonParseError": {
+    "message": "Ogiltig JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formaterad."
+  },
+  "jsonMinifyOk": {
+    "message": "Minifierad."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typer exporterade."
+  },
+  "toolTabImage": {
+    "message": "Bild"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Utdataformat"
+  },
+  "imgQualityLabel": {
+    "message": "Kvalitet"
+  },
+  "imgBackgroundLabel": {
+    "message": "Bakgrund"
+  },
+  "imgConvertButton": {
+    "message": "Konvertera"
+  },
+  "imgDownloadButton": {
+    "message": "Ladda ner"
+  },
+  "imgSourceLabel": {
+    "message": "Källbild"
+  },
+  "imgOutputLabel": {
+    "message": "Konverterad bild"
+  },
+  "imgDropTitle": {
+    "message": "Släpp en bild här"
+  },
+  "imgDropHint": {
+    "message": "eller klicka för att bläddra · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Lägg till bild"
+  },
+  "imgOutputEmpty": {
+    "message": "Den konverterade bilden visas här"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Förhandsgranskning av konverterad bild"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Okänd"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Lägg till en bild först."
+  },
+  "imgInvalidFile": {
+    "message": "Välj en giltig bildfil."
+  },
+  "imgDecodeError": {
+    "message": "Den här bilden kunde inte läsas."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Det här utdataformatet stöds inte i din webbläsare."
+  },
+  "imgConverting": {
+    "message": "Konverterar…"
+  },
+  "imgConvertOk": {
+    "message": "Konverterad."
+  },
+  "imgConvertError": {
+    "message": "Konverteringen misslyckades."
+  },
+  "imgLoadedOk": {
+    "message": "Bild inläst."
   }
 }

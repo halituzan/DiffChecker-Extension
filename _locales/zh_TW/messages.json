@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "逐行比較兩個文字 - + 新增 - - 刪除"
   },
+  "subtitleJson": {
+    "message": "格式化、壓縮並驗證 JSON，並匯出 TypeScript 類型"
+  },
+  "subtitleImage": {
+    "message": "在 PNG、JPEG、WebP 和 AVIF 之間轉換影像"
+  },
   "runButton": {
     "message": "比較"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "主題"
+  },
+  "toolTabsAriaLabel": {
+    "message": "工具"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "格式化"
+  },
+  "jsonMinifyButton": {
+    "message": "壓縮"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "複製"
+  },
+  "jsonInputLabel": {
+    "message": "JSON 輸入"
+  },
+  "jsonOutputLabel": {
+    "message": "格式化輸出"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript 類型"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "具語法醒目提示的 JSON 輸出"
+  },
+  "jsonEmptyError": {
+    "message": "請先貼上 JSON。"
+  },
+  "jsonParseError": {
+    "message": "無效的 JSON"
+  },
+  "jsonFormatOk": {
+    "message": "已格式化。"
+  },
+  "jsonMinifyOk": {
+    "message": "已壓縮。"
+  },
+  "jsonTypeExportOk": {
+    "message": "類型已匯出。"
+  },
+  "toolTabImage": {
+    "message": "影像"
+  },
+  "imgTargetFormatLabel": {
+    "message": "輸出格式"
+  },
+  "imgQualityLabel": {
+    "message": "品質"
+  },
+  "imgBackgroundLabel": {
+    "message": "背景"
+  },
+  "imgConvertButton": {
+    "message": "轉換"
+  },
+  "imgDownloadButton": {
+    "message": "下載"
+  },
+  "imgSourceLabel": {
+    "message": "來源影像"
+  },
+  "imgOutputLabel": {
+    "message": "轉換後的影像"
+  },
+  "imgDropTitle": {
+    "message": "將影像拖放到此處"
+  },
+  "imgDropHint": {
+    "message": "或點一下以瀏覽 · PNG、JPEG、WebP、GIF、BMP、AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "加入影像"
+  },
+  "imgOutputEmpty": {
+    "message": "轉換後的影像會顯示在此處"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "轉換後影像預覽"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "未知"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "請先加入影像。"
+  },
+  "imgInvalidFile": {
+    "message": "請選擇有效的影像檔。"
+  },
+  "imgDecodeError": {
+    "message": "無法讀取此影像。"
+  },
+  "imgUnsupportedFormat": {
+    "message": "您的瀏覽器不支援此輸出格式。"
+  },
+  "imgConverting": {
+    "message": "正在轉換…"
+  },
+  "imgConvertOk": {
+    "message": "已轉換。"
+  },
+  "imgConvertError": {
+    "message": "轉換失敗。"
+  },
+  "imgLoadedOk": {
+    "message": "影像已載入。"
   }
 }

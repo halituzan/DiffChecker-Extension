@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Porovnajte dva texty riadok po riadku - + pridané - - odstránené"
   },
+  "subtitleJson": {
+    "message": "Formátujte, minifikujte a overujte JSON a exportujte typy TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Konvertujte obrázky medzi PNG, JPEG, WebP a AVIF"
+  },
   "runButton": {
     "message": "Porovnaj"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Téma"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Nástroje"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formátovať"
+  },
+  "jsonMinifyButton": {
+    "message": "Minifikovať"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopírovať"
+  },
+  "jsonInputLabel": {
+    "message": "Vstup JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Formátovaný výstup"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Typy TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON výstup so zvýraznením syntaxe"
+  },
+  "jsonEmptyError": {
+    "message": "Najprv vložte JSON."
+  },
+  "jsonParseError": {
+    "message": "Neplatný JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formátované."
+  },
+  "jsonMinifyOk": {
+    "message": "Minifikované."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typy exportované."
+  },
+  "toolTabImage": {
+    "message": "Obrázok"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Výstupný formát"
+  },
+  "imgQualityLabel": {
+    "message": "Kvalita"
+  },
+  "imgBackgroundLabel": {
+    "message": "Pozadie"
+  },
+  "imgConvertButton": {
+    "message": "Konvertovať"
+  },
+  "imgDownloadButton": {
+    "message": "Stiahnuť"
+  },
+  "imgSourceLabel": {
+    "message": "Zdrojový obrázok"
+  },
+  "imgOutputLabel": {
+    "message": "Konvertovaný obrázok"
+  },
+  "imgDropTitle": {
+    "message": "Presuňte sem obrázok"
+  },
+  "imgDropHint": {
+    "message": "alebo kliknite na prehliadanie · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Pridať obrázok"
+  },
+  "imgOutputEmpty": {
+    "message": "Konvertovaný obrázok sa zobrazí tu"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Náhľad konvertovaného obrázka"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Neznámy"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Najprv pridajte obrázok."
+  },
+  "imgInvalidFile": {
+    "message": "Vyberte platný súbor obrázka."
+  },
+  "imgDecodeError": {
+    "message": "Tento obrázok sa nepodarilo načítať."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Tento výstupný formát nie je vo vašom prehliadači podporovaný."
+  },
+  "imgConverting": {
+    "message": "Konvertovanie…"
+  },
+  "imgConvertOk": {
+    "message": "Konvertované."
+  },
+  "imgConvertError": {
+    "message": "Konverzia zlyhala."
+  },
+  "imgLoadedOk": {
+    "message": "Obrázok načítaný."
   }
 }

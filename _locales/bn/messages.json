@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "লাইন দ্বারা লাইন দুটি পাঠ তুলনা করুন - + যোগ - - সরানো"
   },
+  "subtitleJson": {
+    "message": "JSON ফরম্যাট, মিনিফাই, যাচাই করুন এবং TypeScript টাইপ এক্সপোর্ট করুন"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP এবং AVIF-এর মধ্যে ছবি রূপান্তর করুন"
+  },
   "runButton": {
     "message": "তুলনা করুন"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "থিম"
+  },
+  "toolTabsAriaLabel": {
+    "message": "টুলস"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ফরম্যাট"
+  },
+  "jsonMinifyButton": {
+    "message": "মিনিফাই"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "কপি"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ইনপুট"
+  },
+  "jsonOutputLabel": {
+    "message": "ফরম্যাট করা আউটপুট"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript টাইপ"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "সিনট্যাক্স হাইলাইট করা JSON আউটপুট"
+  },
+  "jsonEmptyError": {
+    "message": "আগে JSON পেস্ট করুন।"
+  },
+  "jsonParseError": {
+    "message": "অবৈধ JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ফরম্যাট হয়েছে।"
+  },
+  "jsonMinifyOk": {
+    "message": "মিনিফাই হয়েছে।"
+  },
+  "jsonTypeExportOk": {
+    "message": "টাইপ এক্সপোর্ট হয়েছে।"
+  },
+  "toolTabImage": {
+    "message": "ছবি"
+  },
+  "imgTargetFormatLabel": {
+    "message": "আউটপুট ফরম্যাট"
+  },
+  "imgQualityLabel": {
+    "message": "গুণমান"
+  },
+  "imgBackgroundLabel": {
+    "message": "পটভূমি"
+  },
+  "imgConvertButton": {
+    "message": "রূপান্তর"
+  },
+  "imgDownloadButton": {
+    "message": "ডাউনলোড"
+  },
+  "imgSourceLabel": {
+    "message": "উৎস ছবি"
+  },
+  "imgOutputLabel": {
+    "message": "রূপান্তরিত ছবি"
+  },
+  "imgDropTitle": {
+    "message": "এখানে একটি ছবি রাখুন"
+  },
+  "imgDropHint": {
+    "message": "অথবা ব্রাউজ করতে ক্লিক করুন · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "ছবি যোগ করুন"
+  },
+  "imgOutputEmpty": {
+    "message": "রূপান্তরিত ছবি এখানে দেখা যাবে"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "রূপান্তরিত ছবির প্রিভিউ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "অজানা"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "আগে একটি ছবি যোগ করুন।"
+  },
+  "imgInvalidFile": {
+    "message": "একটি বৈধ ছবির ফাইল নির্বাচন করুন।"
+  },
+  "imgDecodeError": {
+    "message": "এই ছবি পড়া যায়নি।"
+  },
+  "imgUnsupportedFormat": {
+    "message": "এই আউটপুট ফরম্যাট আপনার ব্রাউজারে সমর্থিত নয়।"
+  },
+  "imgConverting": {
+    "message": "রূপান্তর হচ্ছে…"
+  },
+  "imgConvertOk": {
+    "message": "রূপান্তর হয়েছে।"
+  },
+  "imgConvertError": {
+    "message": "রূপান্তর ব্যর্থ।"
+  },
+  "imgLoadedOk": {
+    "message": "ছবি লোড হয়েছে।"
   }
 }

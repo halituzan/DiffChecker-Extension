@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "લીટી દ્વારા બે ટેક્સ્ટની તુલના કરો - + ઉમેરાયેલ - - દૂર કરો"
   },
+  "subtitleJson": {
+    "message": "JSON ફોર્મેટ, મિનિફાય અને માન્ય કરો અને TypeScript પ્રકારો નિકાસ કરો"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP અને AVIF વચ્ચે છબીઓ રૂપાંતરિત કરો"
+  },
   "runButton": {
     "message": "સરખામણી કરો"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "થીમ"
+  },
+  "toolTabsAriaLabel": {
+    "message": "સાધનો"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ફોર્મેટ"
+  },
+  "jsonMinifyButton": {
+    "message": "મિનિફાય"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "કૉપિ"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ઇનપુટ"
+  },
+  "jsonOutputLabel": {
+    "message": "ફોર્મેટ કરેલ આઉટપુટ"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript પ્રકારો"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "સિન્ટૅક્સ હાઇલાઇટ કરેલ JSON આઉટપુટ"
+  },
+  "jsonEmptyError": {
+    "message": "પહેલા JSON પેસ્ટ કરો."
+  },
+  "jsonParseError": {
+    "message": "અમાન્ય JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ફોર્મેટ થયું."
+  },
+  "jsonMinifyOk": {
+    "message": "મિનિફાય થયું."
+  },
+  "jsonTypeExportOk": {
+    "message": "પ્રકારો નિકાસ થયા."
+  },
+  "toolTabImage": {
+    "message": "છબી"
+  },
+  "imgTargetFormatLabel": {
+    "message": "આઉટપુટ ફોર્મેટ"
+  },
+  "imgQualityLabel": {
+    "message": "ગુણવત્તા"
+  },
+  "imgBackgroundLabel": {
+    "message": "પૃષ્ઠભૂમિ"
+  },
+  "imgConvertButton": {
+    "message": "રૂપાંતર"
+  },
+  "imgDownloadButton": {
+    "message": "ડાઉનલોડ"
+  },
+  "imgSourceLabel": {
+    "message": "સ્રોત છબી"
+  },
+  "imgOutputLabel": {
+    "message": "રૂપાંતરિત છબી"
+  },
+  "imgDropTitle": {
+    "message": "અહીં છબી મૂકો"
+  },
+  "imgDropHint": {
+    "message": "અથવા બ્રાઉઝ કરવા ક્લિક કરો · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "છબી ઉમેરો"
+  },
+  "imgOutputEmpty": {
+    "message": "રૂપાંતરિત છબી અહીં દેખાશે"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "રૂપાંતરિત છબીનું પૂર્વાવલોકન"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "અજ્ઞાત"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "પહેલા છબી ઉમેરો."
+  },
+  "imgInvalidFile": {
+    "message": "માન્ય છબી ફાઇલ પસંદ કરો."
+  },
+  "imgDecodeError": {
+    "message": "આ છબી વાંચી શકાઈ નહીં."
+  },
+  "imgUnsupportedFormat": {
+    "message": "આ આઉટપુટ ફોર્મેટ તમારા બ્રાઉઝરમાં સમર્થિત નથી."
+  },
+  "imgConverting": {
+    "message": "રૂપાંતર થઈ રહ્યું છે…"
+  },
+  "imgConvertOk": {
+    "message": "રૂપાંતર થયું."
+  },
+  "imgConvertError": {
+    "message": "રૂપાંતર નિષ્ફળ."
+  },
+  "imgLoadedOk": {
+    "message": "છબી લોડ થઈ."
   }
 }

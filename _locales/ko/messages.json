@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "두 텍스트를 한 줄씩 비교 - + 추가 - - 제거"
   },
+  "subtitleJson": {
+    "message": "JSON 서식 지정·축소·검증 및 TypeScript 타입 내보내기"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP, AVIF 간 이미지 변환"
+  },
   "runButton": {
     "message": "비교하다"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "주제"
+  },
+  "toolTabsAriaLabel": {
+    "message": "도구"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "서식"
+  },
+  "jsonMinifyButton": {
+    "message": "축소"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "복사"
+  },
+  "jsonInputLabel": {
+    "message": "JSON 입력"
+  },
+  "jsonOutputLabel": {
+    "message": "서식 지정된 출력"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript 타입"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "구문 강조 JSON 출력"
+  },
+  "jsonEmptyError": {
+    "message": "먼저 JSON을 붙여넣으세요."
+  },
+  "jsonParseError": {
+    "message": "잘못된 JSON"
+  },
+  "jsonFormatOk": {
+    "message": "서식 지정됨."
+  },
+  "jsonMinifyOk": {
+    "message": "축소됨."
+  },
+  "jsonTypeExportOk": {
+    "message": "타입이 내보내졌습니다."
+  },
+  "toolTabImage": {
+    "message": "이미지"
+  },
+  "imgTargetFormatLabel": {
+    "message": "출력 형식"
+  },
+  "imgQualityLabel": {
+    "message": "품질"
+  },
+  "imgBackgroundLabel": {
+    "message": "배경"
+  },
+  "imgConvertButton": {
+    "message": "변환"
+  },
+  "imgDownloadButton": {
+    "message": "다운로드"
+  },
+  "imgSourceLabel": {
+    "message": "원본 이미지"
+  },
+  "imgOutputLabel": {
+    "message": "변환된 이미지"
+  },
+  "imgDropTitle": {
+    "message": "여기에 이미지를 놓으세요"
+  },
+  "imgDropHint": {
+    "message": "또는 클릭하여 찾아보기 · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "이미지 추가"
+  },
+  "imgOutputEmpty": {
+    "message": "변환된 이미지가 여기에 표시됩니다"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "변환된 이미지 미리보기"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "알 수 없음"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "먼저 이미지를 추가하세요."
+  },
+  "imgInvalidFile": {
+    "message": "유효한 이미지 파일을 선택하세요."
+  },
+  "imgDecodeError": {
+    "message": "이 이미지를 읽을 수 없습니다."
+  },
+  "imgUnsupportedFormat": {
+    "message": "이 출력 형식은 브라우저에서 지원되지 않습니다."
+  },
+  "imgConverting": {
+    "message": "변환 중…"
+  },
+  "imgConvertOk": {
+    "message": "변환됨."
+  },
+  "imgConvertError": {
+    "message": "변환에 실패했습니다."
+  },
+  "imgLoadedOk": {
+    "message": "이미지가 로드되었습니다."
   }
 }

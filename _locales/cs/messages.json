@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Porovnejte dva texty řádek po řádku - + přidáno - - odstraněno"
   },
+  "subtitleJson": {
+    "message": "Formátujte, minifikujte a ověřujte JSON a exportujte typy TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Převádějte obrázky mezi PNG, JPEG, WebP a AVIF"
+  },
   "runButton": {
     "message": "Porovnejte"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Téma"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Nástroje"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formátovat"
+  },
+  "jsonMinifyButton": {
+    "message": "Minifikovat"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopírovat"
+  },
+  "jsonInputLabel": {
+    "message": "Vstup JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Formátovaný výstup"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Typy TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON výstup se zvýrazněním syntaxe"
+  },
+  "jsonEmptyError": {
+    "message": "Nejdříve vložte JSON."
+  },
+  "jsonParseError": {
+    "message": "Neplatný JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formátováno."
+  },
+  "jsonMinifyOk": {
+    "message": "Minifikováno."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typy exportovány."
+  },
+  "toolTabImage": {
+    "message": "Obrázek"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Výstupní formát"
+  },
+  "imgQualityLabel": {
+    "message": "Kvalita"
+  },
+  "imgBackgroundLabel": {
+    "message": "Pozadí"
+  },
+  "imgConvertButton": {
+    "message": "Převést"
+  },
+  "imgDownloadButton": {
+    "message": "Stáhnout"
+  },
+  "imgSourceLabel": {
+    "message": "Zdrojový obrázek"
+  },
+  "imgOutputLabel": {
+    "message": "Převedený obrázek"
+  },
+  "imgDropTitle": {
+    "message": "Přetáhněte sem obrázek"
+  },
+  "imgDropHint": {
+    "message": "nebo klikněte pro výběr · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Přidat obrázek"
+  },
+  "imgOutputEmpty": {
+    "message": "Převedený obrázek se zobrazí zde"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Náhled převedeného obrázku"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Neznámý"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Nejdříve přidejte obrázek."
+  },
+  "imgInvalidFile": {
+    "message": "Vyberte platný soubor obrázku."
+  },
+  "imgDecodeError": {
+    "message": "Tento obrázek nelze načíst."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Tento výstupní formát není ve vašem prohlížeči podporován."
+  },
+  "imgConverting": {
+    "message": "Převádění…"
+  },
+  "imgConvertOk": {
+    "message": "Převedeno."
+  },
+  "imgConvertError": {
+    "message": "Převod selhal."
+  },
+  "imgLoadedOk": {
+    "message": "Obrázek načten."
   }
 }

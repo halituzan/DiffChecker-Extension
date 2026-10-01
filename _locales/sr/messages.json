@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Упоредите два текста ред по ред - + додато - - уклоњено"
   },
+  "subtitleJson": {
+    "message": "Форматирајте, минификујте и проверите JSON и извезите TypeScript типове"
+  },
+  "subtitleImage": {
+    "message": "Конвертујте слике између PNG, JPEG, WebP и AVIF"
+  },
   "runButton": {
     "message": "Упоредите"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Тема"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Алати"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Форматирај"
+  },
+  "jsonMinifyButton": {
+    "message": "Минификуј"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Копирај"
+  },
+  "jsonInputLabel": {
+    "message": "JSON унос"
+  },
+  "jsonOutputLabel": {
+    "message": "Форматирани излаз"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript типови"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON излаз са истицањем синтаксе"
+  },
+  "jsonEmptyError": {
+    "message": "Прво налепите JSON."
+  },
+  "jsonParseError": {
+    "message": "Неважећи JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Форматирано."
+  },
+  "jsonMinifyOk": {
+    "message": "Минификовано."
+  },
+  "jsonTypeExportOk": {
+    "message": "Типови извезени."
+  },
+  "toolTabImage": {
+    "message": "Слика"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Излазни формат"
+  },
+  "imgQualityLabel": {
+    "message": "Квалитет"
+  },
+  "imgBackgroundLabel": {
+    "message": "Позадина"
+  },
+  "imgConvertButton": {
+    "message": "Конвертуј"
+  },
+  "imgDownloadButton": {
+    "message": "Преузми"
+  },
+  "imgSourceLabel": {
+    "message": "Изворна слика"
+  },
+  "imgOutputLabel": {
+    "message": "Конвертована слика"
+  },
+  "imgDropTitle": {
+    "message": "Испустите слику овде"
+  },
+  "imgDropHint": {
+    "message": "или кликните за преглед · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Додај слику"
+  },
+  "imgOutputEmpty": {
+    "message": "Конвертована слика ће се појавити овде"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Преглед конвертоване слике"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Непознато"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Прво додајте слику."
+  },
+  "imgInvalidFile": {
+    "message": "Изаберите важећу датотеку слике."
+  },
+  "imgDecodeError": {
+    "message": "Ова слика није могла да се прочита."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Овај излазни формат није подржан у вашем прегледачу."
+  },
+  "imgConverting": {
+    "message": "Конвертовање…"
+  },
+  "imgConvertOk": {
+    "message": "Конвертовано."
+  },
+  "imgConvertError": {
+    "message": "Конвертовање није успело."
+  },
+  "imgLoadedOk": {
+    "message": "Слика учитана."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "ଧାଡିରେ ଦୁଇଟି ଲେଖା ଧାଡ଼ି ତୁଳନା କରନ୍ତୁ - + ଯୋଡା ଯାଇଛି - - ଅପସାରିତ ହୋଇଛି |"
   },
+  "subtitleJson": {
+    "message": "JSON ଫର୍ମାଟ, ମିନିଫାଇ ଏବଂ ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ TypeScript ପ୍ରକାର ରପ୍ତାନି କରନ୍ତୁ"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP ଏବଂ AVIF ମଧ୍ୟରେ ଚିତ୍ର ରୂପାନ୍ତର କରନ୍ତୁ"
+  },
   "runButton": {
     "message": "ତୁଳନା କରନ୍ତୁ"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "ଥିମ୍"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ଉପକରଣ"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ଫର୍ମାଟ"
+  },
+  "jsonMinifyButton": {
+    "message": "ମିନିଫାଇ"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "କପି"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ଇନପୁଟ"
+  },
+  "jsonOutputLabel": {
+    "message": "ଫର୍ମାଟ ହୋଇଥିବା ଆଉଟପୁଟ"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript ପ୍ରକାର"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "ସିଣ୍ଟାକ୍ସ ହାଇଲାଇଟ ହୋଇଥିବା JSON ଆଉଟପୁଟ"
+  },
+  "jsonEmptyError": {
+    "message": "ପ୍ରଥମେ JSON ପେଷ୍ଟ କରନ୍ତୁ।"
+  },
+  "jsonParseError": {
+    "message": "ଅବୈଧ JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ଫର୍ମାଟ ହେଲା।"
+  },
+  "jsonMinifyOk": {
+    "message": "ମିନିଫାଇ ହେଲା।"
+  },
+  "jsonTypeExportOk": {
+    "message": "ପ୍ରକାର ରପ୍ତାନି ହେଲା।"
+  },
+  "toolTabImage": {
+    "message": "ଚିତ୍ର"
+  },
+  "imgTargetFormatLabel": {
+    "message": "ଆଉଟପୁଟ ଫର୍ମାଟ"
+  },
+  "imgQualityLabel": {
+    "message": "ଗୁଣବତ୍ତା"
+  },
+  "imgBackgroundLabel": {
+    "message": "ପୃଷ୍ଠଭୂମି"
+  },
+  "imgConvertButton": {
+    "message": "ରୂପାନ୍ତର"
+  },
+  "imgDownloadButton": {
+    "message": "ଡାଉନଲୋଡ"
+  },
+  "imgSourceLabel": {
+    "message": "ଉତ୍ସ ଚିତ୍ର"
+  },
+  "imgOutputLabel": {
+    "message": "ରୂପାନ୍ତରିତ ଚିତ୍ର"
+  },
+  "imgDropTitle": {
+    "message": "ଏଠାରେ ଏକ ଚିତ୍ର ଛାଡନ୍ତୁ"
+  },
+  "imgDropHint": {
+    "message": "କିମ୍ବା ବ୍ରାଉଜ କରିବାକୁ କ୍ଲିକ କରନ୍ତୁ · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "ଚିତ୍ର ଯୋଡନ୍ତୁ"
+  },
+  "imgOutputEmpty": {
+    "message": "ରୂପାନ୍ତରିତ ଚିତ୍ର ଏଠାରେ ଦେଖାଯିବ"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "ରୂପାନ୍ତରିତ ଚିତ୍ରର ପୂର୍ବାବଲୋକନ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "ଅଜ୍ଞାତ"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "ପ୍ରଥମେ ଏକ ଚିତ୍ର ଯୋଡନ୍ତୁ।"
+  },
+  "imgInvalidFile": {
+    "message": "ଏକ ବୈଧ ଚିତ୍ର ଫାଇଲ ବାଛନ୍ତୁ।"
+  },
+  "imgDecodeError": {
+    "message": "ଏହି ଚିତ୍ର ପଢ଼ାଯାଇ ପାରିଲା ନାହିଁ।"
+  },
+  "imgUnsupportedFormat": {
+    "message": "ଏହି ଆଉଟପୁଟ ଫର୍ମାଟ ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ସମର୍ଥିତ ନୁହେଁ।"
+  },
+  "imgConverting": {
+    "message": "ରୂପାନ୍ତର ହେଉଛି…"
+  },
+  "imgConvertOk": {
+    "message": "ରୂପାନ୍ତର ହେଲା।"
+  },
+  "imgConvertError": {
+    "message": "ରୂପାନ୍ତର ବିଫଳ।"
+  },
+  "imgLoadedOk": {
+    "message": "ଚିତ୍ର ଲୋଡ ହେଲା।"
   }
 }

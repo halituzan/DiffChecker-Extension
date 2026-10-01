@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Võrrelge kahte teksti rida rea ​​haaval - + lisatud - - eemaldatud"
   },
+  "subtitleJson": {
+    "message": "Vorminda, minimeeri ja valideeri JSONi ning ekspordi TypeScripti tüübid"
+  },
+  "subtitleImage": {
+    "message": "Teisenda pilte PNG, JPEG, WebP ja AVIF vahel"
+  },
   "runButton": {
     "message": "Võrdle"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Teema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Tööriistad"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Vorminda"
+  },
+  "jsonMinifyButton": {
+    "message": "Minimeeri"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopeeri"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-sisend"
+  },
+  "jsonOutputLabel": {
+    "message": "Vormindatud väljund"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScripti tüübid"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Süntaksiga esiletõstetud JSON-väljund"
+  },
+  "jsonEmptyError": {
+    "message": "Kleebi esmalt JSON."
+  },
+  "jsonParseError": {
+    "message": "Vigane JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Vormindatud."
+  },
+  "jsonMinifyOk": {
+    "message": "Minimeeritud."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tüübid eksporditud."
+  },
+  "toolTabImage": {
+    "message": "Pilt"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Väljundvorming"
+  },
+  "imgQualityLabel": {
+    "message": "Kvaliteet"
+  },
+  "imgBackgroundLabel": {
+    "message": "Taust"
+  },
+  "imgConvertButton": {
+    "message": "Teisenda"
+  },
+  "imgDownloadButton": {
+    "message": "Laadi alla"
+  },
+  "imgSourceLabel": {
+    "message": "Lähtepilt"
+  },
+  "imgOutputLabel": {
+    "message": "Teisendatud pilt"
+  },
+  "imgDropTitle": {
+    "message": "Lohista pilt siia"
+  },
+  "imgDropHint": {
+    "message": "või klõpsa sirvimiseks · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Lisa pilt"
+  },
+  "imgOutputEmpty": {
+    "message": "Teisendatud pilt kuvatakse siin"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Teisendatud pildi eelvaade"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Tundmatu"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Lisa esmalt pilt."
+  },
+  "imgInvalidFile": {
+    "message": "Vali kehtiv pildifail."
+  },
+  "imgDecodeError": {
+    "message": "Seda pilti ei saanud lugeda."
+  },
+  "imgUnsupportedFormat": {
+    "message": "See väljundvorming pole teie brauseris toetatud."
+  },
+  "imgConverting": {
+    "message": "Teisendamine…"
+  },
+  "imgConvertOk": {
+    "message": "Teisendatud."
+  },
+  "imgConvertError": {
+    "message": "Teisendamine ebaõnnestus."
+  },
+  "imgLoadedOk": {
+    "message": "Pilt laaditud."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "2 つのテキストを 1 行ずつ比較 - + 追加 - - 削除"
   },
+  "subtitleJson": {
+    "message": "JSONの整形・圧縮・検証とTypeScript型のエクスポート"
+  },
+  "subtitleImage": {
+    "message": "PNG、JPEG、WebP、AVIF間で画像を変換"
+  },
   "runButton": {
     "message": "比較する"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "テーマ"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ツール"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "整形"
+  },
+  "jsonMinifyButton": {
+    "message": "圧縮"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "コピー"
+  },
+  "jsonInputLabel": {
+    "message": "JSON入力"
+  },
+  "jsonOutputLabel": {
+    "message": "整形済み出力"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript型"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "構文ハイライト付きJSON出力"
+  },
+  "jsonEmptyError": {
+    "message": "先にJSONを貼り付けてください。"
+  },
+  "jsonParseError": {
+    "message": "無効なJSON"
+  },
+  "jsonFormatOk": {
+    "message": "整形しました。"
+  },
+  "jsonMinifyOk": {
+    "message": "圧縮しました。"
+  },
+  "jsonTypeExportOk": {
+    "message": "型をエクスポートしました。"
+  },
+  "toolTabImage": {
+    "message": "画像"
+  },
+  "imgTargetFormatLabel": {
+    "message": "出力形式"
+  },
+  "imgQualityLabel": {
+    "message": "品質"
+  },
+  "imgBackgroundLabel": {
+    "message": "背景"
+  },
+  "imgConvertButton": {
+    "message": "変換"
+  },
+  "imgDownloadButton": {
+    "message": "ダウンロード"
+  },
+  "imgSourceLabel": {
+    "message": "元の画像"
+  },
+  "imgOutputLabel": {
+    "message": "変換後の画像"
+  },
+  "imgDropTitle": {
+    "message": "ここに画像をドロップ"
+  },
+  "imgDropHint": {
+    "message": "またはクリックして選択 · PNG、JPEG、WebP、GIF、BMP、AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "画像を追加"
+  },
+  "imgOutputEmpty": {
+    "message": "変換後の画像がここに表示されます"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "変換後の画像プレビュー"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "不明"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "先に画像を追加してください。"
+  },
+  "imgInvalidFile": {
+    "message": "有効な画像ファイルを選択してください。"
+  },
+  "imgDecodeError": {
+    "message": "この画像を読み取れませんでした。"
+  },
+  "imgUnsupportedFormat": {
+    "message": "この出力形式はお使いのブラウザでサポートされていません。"
+  },
+  "imgConverting": {
+    "message": "変換中…"
+  },
+  "imgConvertOk": {
+    "message": "変換しました。"
+  },
+  "imgConvertError": {
+    "message": "変換に失敗しました。"
+  },
+  "imgLoadedOk": {
+    "message": "画像を読み込みました。"
   }
 }

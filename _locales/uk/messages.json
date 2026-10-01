@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Порівняйте два тексти рядок за рядком - + додано - - видалено"
   },
+  "subtitleJson": {
+    "message": "Форматуйте, мініфікуйте та перевіряйте JSON і експортуйте типи TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Конвертуйте зображення між PNG, JPEG, WebP і AVIF"
+  },
   "runButton": {
     "message": "Порівняйте"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Тема"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Інструменти"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Форматувати"
+  },
+  "jsonMinifyButton": {
+    "message": "Мініфікувати"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Копіювати"
+  },
+  "jsonInputLabel": {
+    "message": "Ввід JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Форматований вивід"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Типи TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Вивід JSON з підсвіткою синтаксису"
+  },
+  "jsonEmptyError": {
+    "message": "Спочатку вставте JSON."
+  },
+  "jsonParseError": {
+    "message": "Недійсний JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Відформатовано."
+  },
+  "jsonMinifyOk": {
+    "message": "Мініфіковано."
+  },
+  "jsonTypeExportOk": {
+    "message": "Типи експортовано."
+  },
+  "toolTabImage": {
+    "message": "Зображення"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Формат виводу"
+  },
+  "imgQualityLabel": {
+    "message": "Якість"
+  },
+  "imgBackgroundLabel": {
+    "message": "Тло"
+  },
+  "imgConvertButton": {
+    "message": "Конвертувати"
+  },
+  "imgDownloadButton": {
+    "message": "Завантажити"
+  },
+  "imgSourceLabel": {
+    "message": "Вихідне зображення"
+  },
+  "imgOutputLabel": {
+    "message": "Конвертоване зображення"
+  },
+  "imgDropTitle": {
+    "message": "Перетягніть зображення сюди"
+  },
+  "imgDropHint": {
+    "message": "або натисніть, щоб вибрати · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Додати зображення"
+  },
+  "imgOutputEmpty": {
+    "message": "Конвертоване зображення з’явиться тут"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Попередній перегляд конвертованого зображення"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Невідомо"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Спочатку додайте зображення."
+  },
+  "imgInvalidFile": {
+    "message": "Виберіть дійсний файл зображення."
+  },
+  "imgDecodeError": {
+    "message": "Не вдалося прочитати це зображення."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Цей формат виводу не підтримується у вашому браузері."
+  },
+  "imgConverting": {
+    "message": "Конвертування…"
+  },
+  "imgConvertOk": {
+    "message": "Конвертовано."
+  },
+  "imgConvertError": {
+    "message": "Помилка конвертування."
+  },
+  "imgLoadedOk": {
+    "message": "Зображення завантажено."
   }
 }

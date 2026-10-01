@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "逐行比较两个文本 - + 添加 - - 删除"
   },
+  "subtitleJson": {
+    "message": "格式化、压缩并验证 JSON，并导出 TypeScript 类型"
+  },
+  "subtitleImage": {
+    "message": "在 PNG、JPEG、WebP 和 AVIF 之间转换图像"
+  },
   "runButton": {
     "message": "比较"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "主题"
+  },
+  "toolTabsAriaLabel": {
+    "message": "工具"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "格式化"
+  },
+  "jsonMinifyButton": {
+    "message": "压缩"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "复制"
+  },
+  "jsonInputLabel": {
+    "message": "JSON 输入"
+  },
+  "jsonOutputLabel": {
+    "message": "格式化输出"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript 类型"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "带语法高亮的 JSON 输出"
+  },
+  "jsonEmptyError": {
+    "message": "请先粘贴 JSON。"
+  },
+  "jsonParseError": {
+    "message": "无效的 JSON"
+  },
+  "jsonFormatOk": {
+    "message": "已格式化。"
+  },
+  "jsonMinifyOk": {
+    "message": "已压缩。"
+  },
+  "jsonTypeExportOk": {
+    "message": "类型已导出。"
+  },
+  "toolTabImage": {
+    "message": "图像"
+  },
+  "imgTargetFormatLabel": {
+    "message": "输出格式"
+  },
+  "imgQualityLabel": {
+    "message": "质量"
+  },
+  "imgBackgroundLabel": {
+    "message": "背景"
+  },
+  "imgConvertButton": {
+    "message": "转换"
+  },
+  "imgDownloadButton": {
+    "message": "下载"
+  },
+  "imgSourceLabel": {
+    "message": "源图像"
+  },
+  "imgOutputLabel": {
+    "message": "转换后的图像"
+  },
+  "imgDropTitle": {
+    "message": "将图像拖放到此处"
+  },
+  "imgDropHint": {
+    "message": "或点击浏览 · PNG、JPEG、WebP、GIF、BMP、AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "添加图像"
+  },
+  "imgOutputEmpty": {
+    "message": "转换后的图像将显示在此处"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "转换后图像预览"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "未知"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "请先添加图像。"
+  },
+  "imgInvalidFile": {
+    "message": "请选择有效的图像文件。"
+  },
+  "imgDecodeError": {
+    "message": "无法读取此图像。"
+  },
+  "imgUnsupportedFormat": {
+    "message": "您的浏览器不支持此输出格式。"
+  },
+  "imgConverting": {
+    "message": "正在转换…"
+  },
+  "imgConvertOk": {
+    "message": "已转换。"
+  },
+  "imgConvertError": {
+    "message": "转换失败。"
+  },
+  "imgLoadedOk": {
+    "message": "图像已加载。"
   }
 }

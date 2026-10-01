@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Vertaa kahta tekstiä rivi riviltä - + lisätty - - poistettu"
   },
+  "subtitleJson": {
+    "message": "Muotoile, tiivistä ja vahvista JSON sekä vie TypeScript-tyypit"
+  },
+  "subtitleImage": {
+    "message": "Muunna kuvia PNG-, JPEG-, WebP- ja AVIF-muotojen välillä"
+  },
   "runButton": {
     "message": "Vertaa"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Teema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Työkalut"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Muotoile"
+  },
+  "jsonMinifyButton": {
+    "message": "Tiivistä"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopioi"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-syöte"
+  },
+  "jsonOutputLabel": {
+    "message": "Muotoiltu tuloste"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript-tyypit"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Syntaksivärjätty JSON-tuloste"
+  },
+  "jsonEmptyError": {
+    "message": "Liitä JSON ensin."
+  },
+  "jsonParseError": {
+    "message": "Virheellinen JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Muotoiltu."
+  },
+  "jsonMinifyOk": {
+    "message": "Tiivistetty."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tyypit viety."
+  },
+  "toolTabImage": {
+    "message": "Kuva"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Tulostusmuoto"
+  },
+  "imgQualityLabel": {
+    "message": "Laatu"
+  },
+  "imgBackgroundLabel": {
+    "message": "Tausta"
+  },
+  "imgConvertButton": {
+    "message": "Muunna"
+  },
+  "imgDownloadButton": {
+    "message": "Lataa"
+  },
+  "imgSourceLabel": {
+    "message": "Lähdekuva"
+  },
+  "imgOutputLabel": {
+    "message": "Muunnettu kuva"
+  },
+  "imgDropTitle": {
+    "message": "Pudota kuva tähän"
+  },
+  "imgDropHint": {
+    "message": "tai napsauta selataksesi · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Lisää kuva"
+  },
+  "imgOutputEmpty": {
+    "message": "Muunnettu kuva näkyy tässä"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Muunnetun kuvan esikatselu"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Tuntematon"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Lisää kuva ensin."
+  },
+  "imgInvalidFile": {
+    "message": "Valitse kelvollinen kuvatiedosto."
+  },
+  "imgDecodeError": {
+    "message": "Tätä kuvaa ei voitu lukea."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Tätä tulostusmuotoa ei tueta selaimessasi."
+  },
+  "imgConverting": {
+    "message": "Muunnetaan…"
+  },
+  "imgConvertOk": {
+    "message": "Muunnettu."
+  },
+  "imgConvertError": {
+    "message": "Muunnos epäonnistui."
+  },
+  "imgLoadedOk": {
+    "message": "Kuva ladattu."
   }
 }

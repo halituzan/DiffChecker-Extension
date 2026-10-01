@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "השווה שני טקסטים שורה אחר שורה - + הוספה - - הוסר"
   },
+  "subtitleJson": {
+    "message": "עצבו, כווצו ואמתו JSON וייצאו סוגי TypeScript"
+  },
+  "subtitleImage": {
+    "message": "המירו תמונות בין PNG, JPEG, WebP ו-AVIF"
+  },
   "runButton": {
     "message": "לְהַשְׁווֹת"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "נוֹשֵׂא"
+  },
+  "toolTabsAriaLabel": {
+    "message": "כלים"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "עיצוב"
+  },
+  "jsonMinifyButton": {
+    "message": "כיווץ"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "העתקה"
+  },
+  "jsonInputLabel": {
+    "message": "קלט JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "פלט מעוצב"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "סוגי TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "פלט JSON עם הדגשת תחביר"
+  },
+  "jsonEmptyError": {
+    "message": "הדביקו תחילה JSON."
+  },
+  "jsonParseError": {
+    "message": "JSON לא חוקי"
+  },
+  "jsonFormatOk": {
+    "message": "עוצב."
+  },
+  "jsonMinifyOk": {
+    "message": "כווץ."
+  },
+  "jsonTypeExportOk": {
+    "message": "הסוגים יוצאו."
+  },
+  "toolTabImage": {
+    "message": "תמונה"
+  },
+  "imgTargetFormatLabel": {
+    "message": "פורמט פלט"
+  },
+  "imgQualityLabel": {
+    "message": "איכות"
+  },
+  "imgBackgroundLabel": {
+    "message": "רקע"
+  },
+  "imgConvertButton": {
+    "message": "המרה"
+  },
+  "imgDownloadButton": {
+    "message": "הורדה"
+  },
+  "imgSourceLabel": {
+    "message": "תמונת מקור"
+  },
+  "imgOutputLabel": {
+    "message": "תמונה מומרת"
+  },
+  "imgDropTitle": {
+    "message": "שחררו כאן תמונה"
+  },
+  "imgDropHint": {
+    "message": "או לחצו לעיון · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "הוספת תמונה"
+  },
+  "imgOutputEmpty": {
+    "message": "התמונה המומרת תופיע כאן"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "תצוגה מקדימה של התמונה המומרת"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "לא ידוע"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "הוסיפו תחילה תמונה."
+  },
+  "imgInvalidFile": {
+    "message": "בחרו קובץ תמונה חוקי."
+  },
+  "imgDecodeError": {
+    "message": "לא ניתן לקרוא תמונה זו."
+  },
+  "imgUnsupportedFormat": {
+    "message": "פורמט הפלט הזה אינו נתמך בדפדפן שלכם."
+  },
+  "imgConverting": {
+    "message": "ממיר…"
+  },
+  "imgConvertOk": {
+    "message": "הומר."
+  },
+  "imgConvertError": {
+    "message": "ההמרה נכשלה."
+  },
+  "imgLoadedOk": {
+    "message": "התמונה נטענה."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Συγκρίνετε δύο κείμενα γραμμή προς γραμμή - + προστέθηκε - - αφαιρέθηκε"
   },
+  "subtitleJson": {
+    "message": "Μορφοποιήστε, συμπιέστε και επικυρώστε JSON και εξάγετε τύπους TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Μετατρέψτε εικόνες μεταξύ PNG, JPEG, WebP και AVIF"
+  },
   "runButton": {
     "message": "Συγκρίνω"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Θέμα"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Εργαλεία"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Μορφοποίηση"
+  },
+  "jsonMinifyButton": {
+    "message": "Συμπίεση"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Αντιγραφή"
+  },
+  "jsonInputLabel": {
+    "message": "Είσοδος JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Μορφοποιημένη έξοδος"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Τύποι TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Έξοδος JSON με επισήμανση σύνταξης"
+  },
+  "jsonEmptyError": {
+    "message": "Επικολλήστε πρώτα JSON."
+  },
+  "jsonParseError": {
+    "message": "Μη έγκυρο JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Μορφοποιήθηκε."
+  },
+  "jsonMinifyOk": {
+    "message": "Συμπιέστηκε."
+  },
+  "jsonTypeExportOk": {
+    "message": "Οι τύποι εξήχθησαν."
+  },
+  "toolTabImage": {
+    "message": "Εικόνα"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Μορφή εξόδου"
+  },
+  "imgQualityLabel": {
+    "message": "Ποιότητα"
+  },
+  "imgBackgroundLabel": {
+    "message": "Φόντο"
+  },
+  "imgConvertButton": {
+    "message": "Μετατροπή"
+  },
+  "imgDownloadButton": {
+    "message": "Λήψη"
+  },
+  "imgSourceLabel": {
+    "message": "Αρχική εικόνα"
+  },
+  "imgOutputLabel": {
+    "message": "Μετατρεπόμενη εικόνα"
+  },
+  "imgDropTitle": {
+    "message": "Αφήστε μια εικόνα εδώ"
+  },
+  "imgDropHint": {
+    "message": "ή κάντε κλικ για περιήγηση · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Προσθήκη εικόνας"
+  },
+  "imgOutputEmpty": {
+    "message": "Η μετατρεπόμενη εικόνα θα εμφανιστεί εδώ"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Προεπισκόπηση μετατρεπόμενης εικόνας"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Άγνωστο"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Προσθέστε πρώτα μια εικόνα."
+  },
+  "imgInvalidFile": {
+    "message": "Επιλέξτε έγκυρο αρχείο εικόνας."
+  },
+  "imgDecodeError": {
+    "message": "Δεν ήταν δυνατή η ανάγνωση αυτής της εικόνας."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Αυτή η μορφή εξόδου δεν υποστηρίζεται στο πρόγραμμα περιήγησής σας."
+  },
+  "imgConverting": {
+    "message": "Μετατροπή…"
+  },
+  "imgConvertOk": {
+    "message": "Μετατράπηκε."
+  },
+  "imgConvertError": {
+    "message": "Η μετατροπή απέτυχε."
+  },
+  "imgLoadedOk": {
+    "message": "Η εικόνα φορτώθηκε."
   }
 }

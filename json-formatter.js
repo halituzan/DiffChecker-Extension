@@ -10,14 +10,19 @@
   const jsonOutputLines = document.getElementById("json-output-lines");
   const jsonFormat = document.getElementById("json-format");
   const jsonMinify = document.getElementById("json-minify");
+  const jsonTypeExport = document.getElementById("json-type-export");
   const jsonCopy = document.getElementById("json-copy");
   const jsonClear = document.getElementById("json-clear");
   const jsonStatus = document.getElementById("json-status");
+  const jsonOutputLabel = document.getElementById("json-output-label");
 
   if (!jsonInput || !jsonOutputCode) return;
 
   const JSON_TOKEN_RE =
     /("(?:\\.|[^"\\])*")(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?|[{}\[\],:]/g;
+
+  const TS_TOKEN_RE =
+    /\b(export|interface|type)\b|\b(string|number|boolean|null|unknown|any)\b|("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*')|\b[A-Z][A-Za-z0-9_]*\b|[{}\[\]:;|&?]|\/\/[^\n]*/g;
 
   function t(key, fallback) {
     if (window.DiffCheckerI18n && typeof window.DiffCheckerI18n.t === "function") {
@@ -75,6 +80,48 @@
     return pieces.join("");
   }
 
+  function highlightTypeScript(text) {
+    const s = String(text ?? "");
+    if (!s) return "";
+    const pieces = [];
+    let last = 0;
+    let m;
+    TS_TOKEN_RE.lastIndex = 0;
+    while ((m = TS_TOKEN_RE.exec(s)) !== null) {
+      if (m.index > last) {
+        pieces.push(escapeHtml(s.slice(last, m.index)));
+      }
+      const token = m[0];
+      if (token.startsWith("//")) {
+        pieces.push('<span class="tok-comment">' + escapeHtml(token) + "</span>");
+      } else if (m[1]) {
+        pieces.push('<span class="tok-kw">' + escapeHtml(token) + "</span>");
+      } else if (m[2]) {
+        pieces.push('<span class="tok-bool">' + escapeHtml(token) + "</span>");
+      } else if (m[3]) {
+        pieces.push('<span class="tok-str">' + escapeHtml(token) + "</span>");
+      } else if (/^[A-Z]/.test(token)) {
+        pieces.push('<span class="tok-key">' + escapeHtml(token) + "</span>");
+      } else {
+        pieces.push('<span class="tok-punct">' + escapeHtml(token) + "</span>");
+      }
+      last = m.index + m[0].length;
+    }
+    if (last < s.length) {
+      pieces.push(escapeHtml(s.slice(last)));
+    }
+    return pieces.join("");
+  }
+
+  function setOutputLabel(mode) {
+    if (!jsonOutputLabel) return;
+    if (mode === "types") {
+      jsonOutputLabel.textContent = t("jsonTypeOutputLabel", "TypeScript types");
+    } else {
+      jsonOutputLabel.textContent = t("jsonOutputLabel", "Formatted output");
+    }
+  }
+
   function buildLineNumbers(text) {
     const lineCount = text ? String(text).split(/\r\n|\r|\n/).length : 1;
     const lines = new Array(lineCount);
@@ -102,11 +149,18 @@
     jsonStatus.classList.toggle("json-status--error", !!isError);
   }
 
-  function setOutput(plainText) {
+  function setOutput(plainText, mode) {
     const text = plainText || "";
-    jsonOutputCode.innerHTML = text ? highlightJson(text) : "";
+    const outputMode = mode === "types" ? "types" : "json";
+    jsonOutputCode.innerHTML = text
+      ? outputMode === "types"
+        ? highlightTypeScript(text)
+        : highlightJson(text)
+      : "";
     jsonOutput.dataset.plain = text;
+    jsonOutput.dataset.mode = outputMode;
     syncOutputLines(text);
+    setOutputLabel(outputMode);
     if (jsonCopy) jsonCopy.disabled = !text;
   }
 
@@ -127,13 +181,156 @@
     }
   }
 
+  function toPascalCase(name) {
+    const cleaned = String(name || "")
+      .replace(/[^A-Za-z0-9]+/g, " ")
+      .trim();
+    if (!cleaned) return "Item";
+    const parts = cleaned.split(/\s+/);
+    const pascal = parts
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join("");
+    return /^[A-Za-z_]/.test(pascal) ? pascal : "T" + pascal;
+  }
+
+  function isValidIdentifier(key) {
+    return /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(key);
+  }
+
+  function formatPropertyKey(key) {
+    return isValidIdentifier(key) ? key : JSON.stringify(String(key));
+  }
+
+  function uniqueInterfaceName(base, usedNames) {
+    let name = toPascalCase(base);
+    if (!usedNames.has(name)) {
+      usedNames.add(name);
+      return name;
+    }
+    let i = 2;
+    while (usedNames.has(name + i)) i++;
+    const unique = name + i;
+    usedNames.add(unique);
+    return unique;
+  }
+
+  function inferPrimitive(value) {
+    if (value === null) return "null";
+    if (typeof value === "string") return "string";
+    if (typeof value === "boolean") return "boolean";
+    if (typeof value === "number") return Number.isFinite(value) ? "number" : "number";
+    return "unknown";
+  }
+
+  function mergeUnionTypes(types) {
+    const set = new Set();
+    types.forEach((type) => {
+      if (!type) return;
+      String(type)
+        .split("|")
+        .map((part) => part.trim())
+        .filter(Boolean)
+        .forEach((part) => set.add(part));
+    });
+    const list = Array.from(set);
+    if (!list.length) return "unknown";
+    if (list.length === 1) return list[0];
+    const order = ["string", "number", "boolean", "null", "unknown"];
+    list.sort((a, b) => {
+      const ia = order.indexOf(a);
+      const ib = order.indexOf(b);
+      if (ia === -1 && ib === -1) return a.localeCompare(b);
+      if (ia === -1) return 1;
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
+    return list.join(" | ");
+  }
+
+  function buildTypesFromJson(data) {
+    const interfaces = [];
+    const usedNames = new Set(["Root"]);
+    const shapeCache = new Map();
+
+    function interfaceSignature(props) {
+      return Object.keys(props)
+        .sort()
+        .map((key) => key + ":" + props[key])
+        .join("|");
+    }
+
+    function inferObject(obj, preferredName) {
+      const propTypes = {};
+      Object.keys(obj).forEach((key) => {
+        propTypes[key] = inferValue(obj[key], toPascalCase(key));
+      });
+      const signature = interfaceSignature(propTypes);
+      if (shapeCache.has(signature)) {
+        return shapeCache.get(signature);
+      }
+
+      const interfaceName = uniqueInterfaceName(preferredName || "Object", usedNames);
+      shapeCache.set(signature, interfaceName);
+      const lines = Object.keys(obj).map(
+        (key) => "  " + formatPropertyKey(key) + ": " + propTypes[key] + ";"
+      );
+      interfaces.push(
+        "export interface " +
+          interfaceName +
+          " {\n" +
+          (lines.length ? lines.join("\n") + "\n" : "") +
+          "}"
+      );
+      return interfaceName;
+    }
+
+    function inferArray(arr, preferredName) {
+      if (!arr.length) return "unknown[]";
+      const elementTypes = arr.map((item, index) =>
+        inferValue(item, (preferredName || "Item") + (index === 0 ? "" : String(index + 1)))
+      );
+      const merged = mergeUnionTypes(elementTypes);
+      const needsParens = merged.includes("|");
+      return (needsParens ? "(" + merged + ")" : merged) + "[]";
+    }
+
+    function inferValue(value, preferredName) {
+      if (Array.isArray(value)) {
+        return inferArray(value, preferredName);
+      }
+      if (value !== null && typeof value === "object") {
+        return inferObject(value, preferredName);
+      }
+      return inferPrimitive(value);
+    }
+
+    let rootType;
+    if (Array.isArray(data)) {
+      rootType = inferArray(data, "Item");
+      return (
+        interfaces.join("\n\n") +
+        (interfaces.length ? "\n\n" : "") +
+        "export type Root = " +
+        rootType +
+        ";"
+      );
+    }
+    if (data !== null && typeof data === "object") {
+      usedNames.delete("Root");
+      rootType = inferObject(data, "Root");
+      return interfaces.join("\n\n");
+    }
+    rootType = inferPrimitive(data);
+    return "export type Root = " + rootType + ";";
+  }
+
   function formatJson() {
     const data = parseInput();
     if (data === null) return;
     const pretty = JSON.stringify(data, null, 2);
     jsonInput.value = pretty;
     syncInputLines();
-    setOutput(pretty);
+    setOutput(pretty, "json");
     setStatus(t("jsonFormatOk", "Formatted."), false);
   }
 
@@ -143,8 +340,16 @@
     const mini = JSON.stringify(data);
     jsonInput.value = mini;
     syncInputLines();
-    setOutput(mini);
+    setOutput(mini, "json");
     setStatus(t("jsonMinifyOk", "Minified."), false);
+  }
+
+  function exportTypes() {
+    const data = parseInput();
+    if (data === null) return;
+    const types = buildTypesFromJson(data);
+    setOutput(types, "types");
+    setStatus(t("jsonTypeExportOk", "Types exported."), false);
   }
 
   async function copyJson() {
@@ -177,7 +382,7 @@
 
   const TOOL_SUBTITLE_KEYS = {
     diff: ["subtitle", "Compare two texts line by line - + added - - removed"],
-    json: ["subtitleJson", "Format, minify and validate JSON"],
+    json: ["subtitleJson", "Format, minify, validate JSON and export TypeScript types"],
     image: ["subtitleImage", "Convert images between PNG, JPEG, WebP and AVIF"]
   };
 
@@ -235,6 +440,7 @@
 
   if (jsonFormat) jsonFormat.addEventListener("click", formatJson);
   if (jsonMinify) jsonMinify.addEventListener("click", minifyJson);
+  if (jsonTypeExport) jsonTypeExport.addEventListener("click", exportTypes);
   if (jsonCopy) jsonCopy.addEventListener("click", copyJson);
   if (jsonClear) jsonClear.addEventListener("click", clearJson);
 
@@ -254,6 +460,10 @@
     if (jsonCopy && !jsonCopy.disabled) {
       jsonCopy.textContent = t("jsonCopyButton", "Copy");
     }
+    if (jsonTypeExport) {
+      jsonTypeExport.textContent = t("jsonTypeExportButton", "Type Export");
+    }
+    setOutputLabel(jsonOutput && jsonOutput.dataset.mode === "types" ? "types" : "json");
     updateToolSubtitle(document.body.getAttribute("data-tool") || "diff");
   });
 

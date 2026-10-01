@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "So sánh hai văn bản từng dòng - + đã thêm - - đã xóa"
   },
+  "subtitleJson": {
+    "message": "Định dạng, thu gọn và xác thực JSON rồi xuất kiểu TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Chuyển đổi ảnh giữa PNG, JPEG, WebP và AVIF"
+  },
   "runButton": {
     "message": "So sánh"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "chủ đề"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Công cụ"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Định dạng"
+  },
+  "jsonMinifyButton": {
+    "message": "Thu gọn"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Sao chép"
+  },
+  "jsonInputLabel": {
+    "message": "Đầu vào JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Đầu ra đã định dạng"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Kiểu TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Đầu ra JSON có tô sáng cú pháp"
+  },
+  "jsonEmptyError": {
+    "message": "Hãy dán JSON trước."
+  },
+  "jsonParseError": {
+    "message": "JSON không hợp lệ"
+  },
+  "jsonFormatOk": {
+    "message": "Đã định dạng."
+  },
+  "jsonMinifyOk": {
+    "message": "Đã thu gọn."
+  },
+  "jsonTypeExportOk": {
+    "message": "Đã xuất kiểu."
+  },
+  "toolTabImage": {
+    "message": "Ảnh"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Định dạng đầu ra"
+  },
+  "imgQualityLabel": {
+    "message": "Chất lượng"
+  },
+  "imgBackgroundLabel": {
+    "message": "Nền"
+  },
+  "imgConvertButton": {
+    "message": "Chuyển đổi"
+  },
+  "imgDownloadButton": {
+    "message": "Tải xuống"
+  },
+  "imgSourceLabel": {
+    "message": "Ảnh nguồn"
+  },
+  "imgOutputLabel": {
+    "message": "Ảnh đã chuyển đổi"
+  },
+  "imgDropTitle": {
+    "message": "Thả ảnh vào đây"
+  },
+  "imgDropHint": {
+    "message": "hoặc nhấp để duyệt · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Thêm ảnh"
+  },
+  "imgOutputEmpty": {
+    "message": "Ảnh đã chuyển đổi sẽ hiện ở đây"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Xem trước ảnh đã chuyển đổi"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Không rõ"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Hãy thêm ảnh trước."
+  },
+  "imgInvalidFile": {
+    "message": "Chọn tệp ảnh hợp lệ."
+  },
+  "imgDecodeError": {
+    "message": "Không đọc được ảnh này."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Định dạng đầu ra này không được hỗ trợ trên trình duyệt của bạn."
+  },
+  "imgConverting": {
+    "message": "Đang chuyển đổi…"
+  },
+  "imgConvertOk": {
+    "message": "Đã chuyển đổi."
+  },
+  "imgConvertError": {
+    "message": "Chuyển đổi thất bại."
+  },
+  "imgLoadedOk": {
+    "message": "Đã tải ảnh."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Bandingkan dua teks baris demi baris - + ditambah - - dialih keluar"
   },
+  "subtitleJson": {
+    "message": "Format, minify dan sahkan JSON serta eksport jenis TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Tukar imej antara PNG, JPEG, WebP dan AVIF"
+  },
   "runButton": {
     "message": "Bandingkan"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Alat"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Format"
+  },
+  "jsonMinifyButton": {
+    "message": "Minify"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Salin"
+  },
+  "jsonInputLabel": {
+    "message": "Input JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Output berformat"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Jenis TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Output JSON dengan sorotan sintaks"
+  },
+  "jsonEmptyError": {
+    "message": "Tampal JSON dahulu."
+  },
+  "jsonParseError": {
+    "message": "JSON tidak sah"
+  },
+  "jsonFormatOk": {
+    "message": "Diformat."
+  },
+  "jsonMinifyOk": {
+    "message": "Diminify."
+  },
+  "jsonTypeExportOk": {
+    "message": "Jenis dieksport."
+  },
+  "toolTabImage": {
+    "message": "Imej"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Format output"
+  },
+  "imgQualityLabel": {
+    "message": "Kualiti"
+  },
+  "imgBackgroundLabel": {
+    "message": "Latar belakang"
+  },
+  "imgConvertButton": {
+    "message": "Tukar"
+  },
+  "imgDownloadButton": {
+    "message": "Muat turun"
+  },
+  "imgSourceLabel": {
+    "message": "Imej sumber"
+  },
+  "imgOutputLabel": {
+    "message": "Imej ditukar"
+  },
+  "imgDropTitle": {
+    "message": "Lepaskan imej di sini"
+  },
+  "imgDropHint": {
+    "message": "atau klik untuk melayari · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Tambah imej"
+  },
+  "imgOutputEmpty": {
+    "message": "Imej yang ditukar akan muncul di sini"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Pratonton imej yang ditukar"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Tidak diketahui"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Tambah imej dahulu."
+  },
+  "imgInvalidFile": {
+    "message": "Pilih fail imej yang sah."
+  },
+  "imgDecodeError": {
+    "message": "Imej ini tidak dapat dibaca."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Format output ini tidak disokong dalam pelayar anda."
+  },
+  "imgConverting": {
+    "message": "Menukar…"
+  },
+  "imgConvertOk": {
+    "message": "Ditukar."
+  },
+  "imgConvertError": {
+    "message": "Penukaran gagal."
+  },
+  "imgLoadedOk": {
+    "message": "Imej dimuatkan."
   }
 }

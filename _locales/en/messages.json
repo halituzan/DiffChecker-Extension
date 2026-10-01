@@ -30,7 +30,7 @@
     "message": "Compare two texts line by line - + added - - removed"
   },
   "subtitleJson": {
-    "message": "Format, minify and validate JSON"
+    "message": "Format, minify, validate JSON and export TypeScript types"
   },
   "subtitleImage": {
     "message": "Convert images between PNG, JPEG, WebP and AVIF"
@@ -170,6 +170,9 @@
   "jsonMinifyButton": {
     "message": "Minify"
   },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
   "jsonCopyButton": {
     "message": "Copy"
   },
@@ -178,6 +181,9 @@
   },
   "jsonOutputLabel": {
     "message": "Formatted output"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript types"
   },
   "jsonInputPlaceholder": {
     "message": "{\"name\": \"Diff Checker\"}"
@@ -196,6 +202,9 @@
   },
   "jsonMinifyOk": {
     "message": "Minified."
+  },
+  "jsonTypeExportOk": {
+    "message": "Types exported."
   },
   "toolTabImage": {
     "message": "Image"

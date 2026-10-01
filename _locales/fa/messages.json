@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "دو متن را خط به خط مقایسه کنید - + اضافه شده - - حذف شده است"
   },
+  "subtitleJson": {
+    "message": "JSON را قالب‌بندی، فشرده و اعتبارسنجی کنید و انواع TypeScript را صادر کنید"
+  },
+  "subtitleImage": {
+    "message": "تصاویر را بین PNG، JPEG، WebP و AVIF تبدیل کنید"
+  },
   "runButton": {
     "message": "مقایسه کنید"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "تم"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ابزارها"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "قالب‌بندی"
+  },
+  "jsonMinifyButton": {
+    "message": "فشرده‌سازی"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "کپی"
+  },
+  "jsonInputLabel": {
+    "message": "ورودی JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "خروجی قالب‌بندی‌شده"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "انواع TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "خروجی JSON با برجسته‌سازی نحو"
+  },
+  "jsonEmptyError": {
+    "message": "ابتدا JSON را جای‌گذاری کنید."
+  },
+  "jsonParseError": {
+    "message": "JSON نامعتبر"
+  },
+  "jsonFormatOk": {
+    "message": "قالب‌بندی شد."
+  },
+  "jsonMinifyOk": {
+    "message": "فشرده شد."
+  },
+  "jsonTypeExportOk": {
+    "message": "انواع صادر شد."
+  },
+  "toolTabImage": {
+    "message": "تصویر"
+  },
+  "imgTargetFormatLabel": {
+    "message": "قالب خروجی"
+  },
+  "imgQualityLabel": {
+    "message": "کیفیت"
+  },
+  "imgBackgroundLabel": {
+    "message": "پس‌زمینه"
+  },
+  "imgConvertButton": {
+    "message": "تبدیل"
+  },
+  "imgDownloadButton": {
+    "message": "دانلود"
+  },
+  "imgSourceLabel": {
+    "message": "تصویر مبدأ"
+  },
+  "imgOutputLabel": {
+    "message": "تصویر تبدیل‌شده"
+  },
+  "imgDropTitle": {
+    "message": "یک تصویر اینجا رها کنید"
+  },
+  "imgDropHint": {
+    "message": "یا برای مرور کلیک کنید · PNG، JPEG، WebP، GIF، BMP، AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "افزودن تصویر"
+  },
+  "imgOutputEmpty": {
+    "message": "تصویر تبدیل‌شده اینجا نمایش داده می‌شود"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "پیش‌نمایش تصویر تبدیل‌شده"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "ناشناخته"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "ابتدا یک تصویر اضافه کنید."
+  },
+  "imgInvalidFile": {
+    "message": "یک فایل تصویر معتبر انتخاب کنید."
+  },
+  "imgDecodeError": {
+    "message": "خواندن این تصویر ممکن نشد."
+  },
+  "imgUnsupportedFormat": {
+    "message": "این قالب خروجی در مرورگر شما پشتیبانی نمی‌شود."
+  },
+  "imgConverting": {
+    "message": "در حال تبدیل…"
+  },
+  "imgConvertOk": {
+    "message": "تبدیل شد."
+  },
+  "imgConvertError": {
+    "message": "تبدیل ناموفق بود."
+  },
+  "imgLoadedOk": {
+    "message": "تصویر بارگذاری شد."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "രണ്ട് വാചകങ്ങൾ വരിയായി താരതമ്യം ചെയ്യുക - + ചേർത്തു - - നീക്കംചെയ്തു"
   },
+  "subtitleJson": {
+    "message": "JSON ഫോർമാറ്റ് ചെയ്യുക, മിനിഫൈ ചെയ്യുക, സാധൂകരിക്കുക, TypeScript തരങ്ങൾ എക്സ്പോർട്ട് ചെയ്യുക"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP, AVIF എന്നിവയ്ക്കിടയിൽ ചിത്രങ്ങൾ പരിവർത്തനം ചെയ്യുക"
+  },
   "runButton": {
     "message": "താരതമ്യം ചെയ്യുക"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "തീം"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ടൂളുകൾ"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ഫോർമാറ്റ്"
+  },
+  "jsonMinifyButton": {
+    "message": "മിനിഫൈ"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "കോപ്പി"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ഇൻപുട്ട്"
+  },
+  "jsonOutputLabel": {
+    "message": "ഫോർമാറ്റ് ചെയ്ത ഔട്ട്പുട്ട്"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript തരങ്ങൾ"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "സിന്റാക്സ് ഹൈലൈറ്റ് ചെയ്ത JSON ഔട്ട്പുട്ട്"
+  },
+  "jsonEmptyError": {
+    "message": "ആദ്യം JSON പേസ്റ്റ് ചെയ്യുക."
+  },
+  "jsonParseError": {
+    "message": "അസാധുവായ JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ഫോർമാറ്റ് ചെയ്തു."
+  },
+  "jsonMinifyOk": {
+    "message": "മിനിഫൈ ചെയ്തു."
+  },
+  "jsonTypeExportOk": {
+    "message": "തരങ്ങൾ എക്സ്പോർട്ട് ചെയ്തു."
+  },
+  "toolTabImage": {
+    "message": "ചിത്രം"
+  },
+  "imgTargetFormatLabel": {
+    "message": "ഔട്ട്പുട്ട് ഫോർമാറ്റ്"
+  },
+  "imgQualityLabel": {
+    "message": "ഗുണനിലവാരം"
+  },
+  "imgBackgroundLabel": {
+    "message": "പശ്ചാത്തലം"
+  },
+  "imgConvertButton": {
+    "message": "പരിവർത്തനം"
+  },
+  "imgDownloadButton": {
+    "message": "ഡൗൺലോഡ്"
+  },
+  "imgSourceLabel": {
+    "message": "ഉറവിട ചിത്രം"
+  },
+  "imgOutputLabel": {
+    "message": "പരിവർത്തനം ചെയ്ത ചിത്രം"
+  },
+  "imgDropTitle": {
+    "message": "ഇവിടെ ഒരു ചിത്രം ഇാക്കുക"
+  },
+  "imgDropHint": {
+    "message": "അല്ലെങ്കിൽ ബ്രൗസ് ചെയ്യാൻ ക്ലിക്ക് ചെയ്യുക · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "ചിത്രം ചേർക്കുക"
+  },
+  "imgOutputEmpty": {
+    "message": "പരിവർത്തനം ചെയ്ത ചിത്രം ഇവിടെ കാണിക്കും"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "പരിവർത്തനം ചെയ്ത ചിത്രത്തിന്റെ പ്രിവ്യൂ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "അജ്ഞാതം"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "ആദ്യം ഒരു ചിത്രം ചേർക്കുക."
+  },
+  "imgInvalidFile": {
+    "message": "സാധുവായ ഒരു ചിത്ര ഫയൽ തിരഞ്ഞെടുക്കുക."
+  },
+  "imgDecodeError": {
+    "message": "ഈ ചിത്രം വായിക്കാനായില്ല."
+  },
+  "imgUnsupportedFormat": {
+    "message": "ഈ ഔട്ട്പുട്ട് ഫോർമാറ്റ് നിങ്ങളുടെ ബ്രൗസറിൽ പിന്തുണയ്ക്കുന്നില്ല."
+  },
+  "imgConverting": {
+    "message": "പരിവർത്തനം ചെയ്യുന്നു…"
+  },
+  "imgConvertOk": {
+    "message": "പരിവർത്തനം ചെയ്തു."
+  },
+  "imgConvertError": {
+    "message": "പരിവർത്തനം പരാജയപ്പെട്ടു."
+  },
+  "imgLoadedOk": {
+    "message": "ചിത്രം ലോഡ് ചെയ്തു."
   }
 }

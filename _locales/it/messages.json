@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Confronta due testi riga per riga - + aggiunto - - rimosso"
   },
+  "subtitleJson": {
+    "message": "Formatta, minimizza e convalida JSON ed esporta tipi TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Converti immagini tra PNG, JPEG, WebP e AVIF"
+  },
   "runButton": {
     "message": "Confrontare"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Strumenti"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatta"
+  },
+  "jsonMinifyButton": {
+    "message": "Minimizza"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Copia"
+  },
+  "jsonInputLabel": {
+    "message": "Input JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Output formattato"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Tipi TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Output JSON con evidenziazione della sintassi"
+  },
+  "jsonEmptyError": {
+    "message": "Incolla prima il JSON."
+  },
+  "jsonParseError": {
+    "message": "JSON non valido"
+  },
+  "jsonFormatOk": {
+    "message": "Formattato."
+  },
+  "jsonMinifyOk": {
+    "message": "Minimizzato."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipi esportati."
+  },
+  "toolTabImage": {
+    "message": "Immagine"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Formato di output"
+  },
+  "imgQualityLabel": {
+    "message": "Qualità"
+  },
+  "imgBackgroundLabel": {
+    "message": "Sfondo"
+  },
+  "imgConvertButton": {
+    "message": "Converti"
+  },
+  "imgDownloadButton": {
+    "message": "Scarica"
+  },
+  "imgSourceLabel": {
+    "message": "Immagine di origine"
+  },
+  "imgOutputLabel": {
+    "message": "Immagine convertita"
+  },
+  "imgDropTitle": {
+    "message": "Trascina un'immagine qui"
+  },
+  "imgDropHint": {
+    "message": "o fai clic per sfogliare · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Aggiungi immagine"
+  },
+  "imgOutputEmpty": {
+    "message": "L'immagine convertita apparirà qui"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Anteprima dell'immagine convertita"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Sconosciuto"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Aggiungi prima un'immagine."
+  },
+  "imgInvalidFile": {
+    "message": "Seleziona un file immagine valido."
+  },
+  "imgDecodeError": {
+    "message": "Impossibile leggere questa immagine."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Questo formato di output non è supportato nel tuo browser."
+  },
+  "imgConverting": {
+    "message": "Conversione…"
+  },
+  "imgConvertOk": {
+    "message": "Convertito."
+  },
+  "imgConvertError": {
+    "message": "Conversione non riuscita."
+  },
+  "imgLoadedOk": {
+    "message": "Immagine caricata."
   }
 }

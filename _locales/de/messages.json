@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Zwei Texte Zeile für Zeile vergleichen - + hinzugefügt - - entfernt"
   },
+  "subtitleJson": {
+    "message": "JSON formatieren, minimieren, validieren und TypeScript-Typen exportieren"
+  },
+  "subtitleImage": {
+    "message": "Bilder zwischen PNG, JPEG, WebP und AVIF konvertieren"
+  },
   "runButton": {
     "message": "Vergleichen"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Thema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Werkzeuge"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatieren"
+  },
+  "jsonMinifyButton": {
+    "message": "Minimieren"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopieren"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-Eingabe"
+  },
+  "jsonOutputLabel": {
+    "message": "Formatierte Ausgabe"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript-Typen"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON-Ausgabe mit Syntaxhervorhebung"
+  },
+  "jsonEmptyError": {
+    "message": "Zuerst JSON einfügen."
+  },
+  "jsonParseError": {
+    "message": "Ungültiges JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formatiert."
+  },
+  "jsonMinifyOk": {
+    "message": "Minimiert."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typen exportiert."
+  },
+  "toolTabImage": {
+    "message": "Bild"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Ausgabeformat"
+  },
+  "imgQualityLabel": {
+    "message": "Qualität"
+  },
+  "imgBackgroundLabel": {
+    "message": "Hintergrund"
+  },
+  "imgConvertButton": {
+    "message": "Konvertieren"
+  },
+  "imgDownloadButton": {
+    "message": "Herunterladen"
+  },
+  "imgSourceLabel": {
+    "message": "Quellbild"
+  },
+  "imgOutputLabel": {
+    "message": "Konvertiertes Bild"
+  },
+  "imgDropTitle": {
+    "message": "Bild hier ablegen"
+  },
+  "imgDropHint": {
+    "message": "oder klicken zum Durchsuchen · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Bild hinzufügen"
+  },
+  "imgOutputEmpty": {
+    "message": "Das konvertierte Bild erscheint hier"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Vorschau des konvertierten Bildes"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Unbekannt"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Zuerst ein Bild hinzufügen."
+  },
+  "imgInvalidFile": {
+    "message": "Wählen Sie eine gültige Bilddatei."
+  },
+  "imgDecodeError": {
+    "message": "Dieses Bild konnte nicht gelesen werden."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Dieses Ausgabeformat wird in Ihrem Browser nicht unterstützt."
+  },
+  "imgConverting": {
+    "message": "Wird konvertiert…"
+  },
+  "imgConvertOk": {
+    "message": "Konvertiert."
+  },
+  "imgConvertError": {
+    "message": "Konvertierung fehlgeschlagen."
+  },
+  "imgLoadedOk": {
+    "message": "Bild geladen."
   }
 }

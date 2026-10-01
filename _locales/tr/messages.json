@@ -30,10 +30,10 @@
     "message": "İki metni satır satır karşılaştırın - + eklendi - - kaldırıldı"
   },
   "subtitleJson": {
-    "message": "JSON bicimlendir, sıkıştır ve dogrula"
+    "message": "JSON biçimlendir, sıkıştır, doğrula ve TypeScript tipi üret"
   },
   "subtitleImage": {
-    "message": "Gorselleri PNG, JPEG, WebP ve AVIF arasinda donustur"
+    "message": "Görselleri PNG, JPEG, WebP ve AVIF arasında dönüştür"
   },
   "runButton": {
     "message": "Karşılaştırmak"
@@ -156,7 +156,7 @@
     "message": "Tema"
   },
   "toolTabsAriaLabel": {
-    "message": "Araclar"
+    "message": "Araçlar"
   },
   "toolTabDiff": {
     "message": "Diff"
@@ -165,43 +165,52 @@
     "message": "JSON"
   },
   "jsonFormatButton": {
-    "message": "Bicimlendir"
+    "message": "Biçimlendir"
   },
   "jsonMinifyButton": {
     "message": "Sıkıştır"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
   },
   "jsonCopyButton": {
     "message": "Kopyala"
   },
   "jsonInputLabel": {
-    "message": "JSON girisi"
+    "message": "JSON girişi"
   },
   "jsonOutputLabel": {
-    "message": "Bicimlendirilmis cikti"
+    "message": "Biçimlendirilmiş çıktı"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript tipleri"
   },
   "jsonInputPlaceholder": {
     "message": "{\"name\": \"Diff Checker\"}"
   },
   "jsonOutputAriaLabel": {
-    "message": "Renklendirilmis JSON cikti"
+    "message": "Sözdizimi vurgulu JSON çıktısı"
   },
   "jsonEmptyError": {
-    "message": "Once JSON yapistirin."
+    "message": "Önce JSON yapıştırın."
   },
   "jsonParseError": {
-    "message": "Gecersiz JSON"
+    "message": "Geçersiz JSON"
   },
   "jsonFormatOk": {
-    "message": "Bicimlendirildi."
+    "message": "Biçimlendirildi."
   },
   "jsonMinifyOk": {
-    "message": "Sıkıştırildi."
+    "message": "Sıkıştırıldı."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipler oluşturuldu."
   },
   "toolTabImage": {
-    "message": "Gorsel"
+    "message": "Görsel"
   },
   "imgTargetFormatLabel": {
-    "message": "Cikti formati"
+    "message": "Çıktı formatı"
   },
   "imgQualityLabel": {
     "message": "Kalite"
@@ -210,31 +219,31 @@
     "message": "Arka plan"
   },
   "imgConvertButton": {
-    "message": "Donustur"
+    "message": "Dönüştür"
   },
   "imgDownloadButton": {
-    "message": "Indir"
+    "message": "İndir"
   },
   "imgSourceLabel": {
-    "message": "Kaynak gorsel"
+    "message": "Kaynak görsel"
   },
   "imgOutputLabel": {
-    "message": "Donusturulmus gorsel"
+    "message": "Dönüştürülmüş görsel"
   },
   "imgDropTitle": {
-    "message": "Gorseli buraya birakin"
+    "message": "Görseli buraya bırakın"
   },
   "imgDropHint": {
-    "message": "veya tiklayarak secin · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+    "message": "veya tıklayarak seçin · PNG, JPEG, WebP, GIF, BMP, AVIF…"
   },
   "imgDropAriaLabel": {
-    "message": "Gorsel ekle"
+    "message": "Görsel ekle"
   },
   "imgOutputEmpty": {
-    "message": "Donusturulmus gorsel burada gorunecek"
+    "message": "Dönüştürülmüş görsel burada görünecek"
   },
   "imgOutputPreviewAriaLabel": {
-    "message": "Donusturulmus gorsel onizlemesi"
+    "message": "Dönüştürülmüş görsel önizlemesi"
   },
   "imgFormatPng": {
     "message": "PNG"
@@ -258,27 +267,27 @@
     "message": "$1 × $2 · $3 · $4"
   },
   "imgEmptyError": {
-    "message": "Once bir gorsel ekleyin."
+    "message": "Önce bir görsel ekleyin."
   },
   "imgInvalidFile": {
-    "message": "Gecerli bir gorsel dosyasi secin."
+    "message": "Geçerli bir görsel dosyası seçin."
   },
   "imgDecodeError": {
-    "message": "Bu gorsel okunamadi."
+    "message": "Bu görsel okunamadı."
   },
   "imgUnsupportedFormat": {
-    "message": "Bu cikti formati tarayicinizda desteklenmiyor."
+    "message": "Bu çıktı formatı tarayıcınızda desteklenmiyor."
   },
   "imgConverting": {
-    "message": "Donusturuluyor…"
+    "message": "Dönüştürülüyor…"
   },
   "imgConvertOk": {
-    "message": "Donusturuldu."
+    "message": "Dönüştürüldü."
   },
   "imgConvertError": {
-    "message": "Donusum basarisiz."
+    "message": "Dönüşüm başarısız."
   },
   "imgLoadedOk": {
-    "message": "Gorsel yuklendi."
+    "message": "Görsel yüklendi."
   }
 }

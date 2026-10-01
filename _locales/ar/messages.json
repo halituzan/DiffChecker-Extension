@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "قارن بين نصين سطرًا بسطر - + تمت الإضافة - - تمت الإزالة"
   },
+  "subtitleJson": {
+    "message": "نسّق JSON وقلّصه وتحقق منه وصدر أنواع TypeScript"
+  },
+  "subtitleImage": {
+    "message": "حوّل الصور بين PNG وJPEG وWebP وAVIF"
+  },
   "runButton": {
     "message": "يقارن"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "سمة"
+  },
+  "toolTabsAriaLabel": {
+    "message": "الأدوات"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "تنسيق"
+  },
+  "jsonMinifyButton": {
+    "message": "ضغط"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "نسخ"
+  },
+  "jsonInputLabel": {
+    "message": "إدخال JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "المخرجات المنسقة"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "أنواع TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "مخرجات JSON مع تمييز البناء"
+  },
+  "jsonEmptyError": {
+    "message": "الصق JSON أولاً."
+  },
+  "jsonParseError": {
+    "message": "JSON غير صالح"
+  },
+  "jsonFormatOk": {
+    "message": "تم التنسيق."
+  },
+  "jsonMinifyOk": {
+    "message": "تم الضغط."
+  },
+  "jsonTypeExportOk": {
+    "message": "تم تصدير الأنواع."
+  },
+  "toolTabImage": {
+    "message": "صورة"
+  },
+  "imgTargetFormatLabel": {
+    "message": "صيغة الإخراج"
+  },
+  "imgQualityLabel": {
+    "message": "الجودة"
+  },
+  "imgBackgroundLabel": {
+    "message": "الخلفية"
+  },
+  "imgConvertButton": {
+    "message": "تحويل"
+  },
+  "imgDownloadButton": {
+    "message": "تنزيل"
+  },
+  "imgSourceLabel": {
+    "message": "الصورة المصدر"
+  },
+  "imgOutputLabel": {
+    "message": "الصورة المحوّلة"
+  },
+  "imgDropTitle": {
+    "message": "أسقط صورة هنا"
+  },
+  "imgDropHint": {
+    "message": "أو انقر للتصفح · PNG، JPEG، WebP، GIF، BMP، AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "إضافة صورة"
+  },
+  "imgOutputEmpty": {
+    "message": "ستظهر الصورة المحوّلة هنا"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "معاينة الصورة المحوّلة"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "غير معروف"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "أضف صورة أولاً."
+  },
+  "imgInvalidFile": {
+    "message": "اختر ملف صورة صالحاً."
+  },
+  "imgDecodeError": {
+    "message": "تعذّر قراءة هذه الصورة."
+  },
+  "imgUnsupportedFormat": {
+    "message": "صيغة الإخراج هذه غير مدعومة في متصفحك."
+  },
+  "imgConverting": {
+    "message": "جارٍ التحويل…"
+  },
+  "imgConvertOk": {
+    "message": "تم التحويل."
+  },
+  "imgConvertError": {
+    "message": "فشل التحويل."
+  },
+  "imgLoadedOk": {
+    "message": "تم تحميل الصورة."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "دو متنوں کا لائن بہ لائن موازنہ کریں - + شامل - - ہٹا دیا گیا۔"
   },
+  "subtitleJson": {
+    "message": "JSON فارمیٹ، منی فائی اور تصدیق کریں اور TypeScript اقسام برآمد کریں"
+  },
+  "subtitleImage": {
+    "message": "PNG، JPEG، WebP اور AVIF کے درمیان تصاویر تبدیل کریں"
+  },
   "runButton": {
     "message": "موازنہ کریں۔"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "تھیم"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ٹولز"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "فارمیٹ"
+  },
+  "jsonMinifyButton": {
+    "message": "منی فائی"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "کاپی"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ان پٹ"
+  },
+  "jsonOutputLabel": {
+    "message": "فارمیٹ شدہ آؤٹ پٹ"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript اقسام"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "نحوی نمایاں JSON آؤٹ پٹ"
+  },
+  "jsonEmptyError": {
+    "message": "پہلے JSON چسپاں کریں۔"
+  },
+  "jsonParseError": {
+    "message": "غلط JSON"
+  },
+  "jsonFormatOk": {
+    "message": "فارمیٹ ہو گیا۔"
+  },
+  "jsonMinifyOk": {
+    "message": "منی فائی ہو گیا۔"
+  },
+  "jsonTypeExportOk": {
+    "message": "اقسام برآمد ہو گئیں۔"
+  },
+  "toolTabImage": {
+    "message": "تصویر"
+  },
+  "imgTargetFormatLabel": {
+    "message": "آؤٹ پٹ فارمیٹ"
+  },
+  "imgQualityLabel": {
+    "message": "معیار"
+  },
+  "imgBackgroundLabel": {
+    "message": "پس منظر"
+  },
+  "imgConvertButton": {
+    "message": "تبدیل کریں"
+  },
+  "imgDownloadButton": {
+    "message": "ڈاؤن لوڈ"
+  },
+  "imgSourceLabel": {
+    "message": "ماخذ تصویر"
+  },
+  "imgOutputLabel": {
+    "message": "تبدیل شدہ تصویر"
+  },
+  "imgDropTitle": {
+    "message": "یہاں تصویر چھوڑیں"
+  },
+  "imgDropHint": {
+    "message": "یا براؤز کرنے کے لیے کلک کریں · PNG، JPEG، WebP، GIF، BMP، AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "تصویر شامل کریں"
+  },
+  "imgOutputEmpty": {
+    "message": "تبدیل شدہ تصویر یہاں دکھائی دے گی"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "تبدیل شدہ تصویر کا پیش نظارہ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "نامعلوم"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "پہلے ایک تصویر شامل کریں۔"
+  },
+  "imgInvalidFile": {
+    "message": "درست تصویر فائل منتخب کریں۔"
+  },
+  "imgDecodeError": {
+    "message": "یہ تصویر پڑھی نہیں جا سکی۔"
+  },
+  "imgUnsupportedFormat": {
+    "message": "یہ آؤٹ پٹ فارمیٹ آپ کے براؤزر میں معاونت یافتہ نہیں۔"
+  },
+  "imgConverting": {
+    "message": "تبدیل ہو رہا ہے…"
+  },
+  "imgConvertOk": {
+    "message": "تبدیل ہو گیا۔"
+  },
+  "imgConvertError": {
+    "message": "تبدیلی ناکام۔"
+  },
+  "imgLoadedOk": {
+    "message": "تصویر لوڈ ہو گئی۔"
   }
 }

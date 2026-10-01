@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Primerjaj dve besedili vrstico za vrstico - + dodano - - odstranjeno"
   },
+  "subtitleJson": {
+    "message": "Formatirajte, minificirajte in preverite JSON ter izvozite tipe TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Pretvorite slike med PNG, JPEG, WebP in AVIF"
+  },
   "runButton": {
     "message": "Primerjaj"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Orodja"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatiraj"
+  },
+  "jsonMinifyButton": {
+    "message": "Minificiraj"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopiraj"
+  },
+  "jsonInputLabel": {
+    "message": "Vnos JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Formatiran izhod"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Tipi TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Izhod JSON z označevanjem skladnje"
+  },
+  "jsonEmptyError": {
+    "message": "Najprej prilepite JSON."
+  },
+  "jsonParseError": {
+    "message": "Neveljaven JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formatirano."
+  },
+  "jsonMinifyOk": {
+    "message": "Minificirano."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipi izvoženi."
+  },
+  "toolTabImage": {
+    "message": "Slika"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Izhodni format"
+  },
+  "imgQualityLabel": {
+    "message": "Kakovost"
+  },
+  "imgBackgroundLabel": {
+    "message": "Ozadje"
+  },
+  "imgConvertButton": {
+    "message": "Pretvori"
+  },
+  "imgDownloadButton": {
+    "message": "Prenesi"
+  },
+  "imgSourceLabel": {
+    "message": "Izvorna slika"
+  },
+  "imgOutputLabel": {
+    "message": "Pretvorjena slika"
+  },
+  "imgDropTitle": {
+    "message": "Spustite sliko sem"
+  },
+  "imgDropHint": {
+    "message": "ali kliknite za brskanje · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Dodaj sliko"
+  },
+  "imgOutputEmpty": {
+    "message": "Pretvorjena slika se bo prikazala tukaj"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Predogled pretvorjene slike"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Neznano"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Najprej dodajte sliko."
+  },
+  "imgInvalidFile": {
+    "message": "Izberite veljavno slikovno datoteko."
+  },
+  "imgDecodeError": {
+    "message": "Te slike ni bilo mogoče prebrati."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Ta izhodni format v vašem brskalniku ni podprt."
+  },
+  "imgConverting": {
+    "message": "Pretvarjanje…"
+  },
+  "imgConvertOk": {
+    "message": "Pretvorjeno."
+  },
+  "imgConvertError": {
+    "message": "Pretvorba ni uspela."
+  },
+  "imgLoadedOk": {
+    "message": "Slika naložena."
   }
 }

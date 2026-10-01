@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Compara dos textos línia per línia - + afegit - - eliminat"
   },
+  "subtitleJson": {
+    "message": "Formata, minimitza i valida JSON i exporta tipus TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Converteix imatges entre PNG, JPEG, WebP i AVIF"
+  },
   "runButton": {
     "message": "Compara"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Eines"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatar"
+  },
+  "jsonMinifyButton": {
+    "message": "Minimitzar"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Copia"
+  },
+  "jsonInputLabel": {
+    "message": "Entrada JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Sortida formatada"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Tipus TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Sortida JSON amb ressaltat de sintaxi"
+  },
+  "jsonEmptyError": {
+    "message": "Enganxa JSON primer."
+  },
+  "jsonParseError": {
+    "message": "JSON no vàlid"
+  },
+  "jsonFormatOk": {
+    "message": "Formatat."
+  },
+  "jsonMinifyOk": {
+    "message": "Minimitzat."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipus exportats."
+  },
+  "toolTabImage": {
+    "message": "Imatge"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Format de sortida"
+  },
+  "imgQualityLabel": {
+    "message": "Qualitat"
+  },
+  "imgBackgroundLabel": {
+    "message": "Fons"
+  },
+  "imgConvertButton": {
+    "message": "Convertir"
+  },
+  "imgDownloadButton": {
+    "message": "Baixa"
+  },
+  "imgSourceLabel": {
+    "message": "Imatge d'origen"
+  },
+  "imgOutputLabel": {
+    "message": "Imatge convertida"
+  },
+  "imgDropTitle": {
+    "message": "Deixa anar una imatge aquí"
+  },
+  "imgDropHint": {
+    "message": "o fes clic per explorar · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Afegeix imatge"
+  },
+  "imgOutputEmpty": {
+    "message": "La imatge convertida apareixerà aquí"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Previsualització de la imatge convertida"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Desconegut"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Afegeix una imatge primer."
+  },
+  "imgInvalidFile": {
+    "message": "Selecciona un fitxer d'imatge vàlid."
+  },
+  "imgDecodeError": {
+    "message": "No s'ha pogut llegir aquesta imatge."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Aquest format de sortida no és compatible amb el teu navegador."
+  },
+  "imgConverting": {
+    "message": "S'està convertint…"
+  },
+  "imgConvertOk": {
+    "message": "Convertit."
+  },
+  "imgConvertError": {
+    "message": "La conversió ha fallat."
+  },
+  "imgLoadedOk": {
+    "message": "Imatge carregada."
   }
 }

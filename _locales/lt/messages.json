@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Palyginkite du tekstus eilutė po eilutės - + pridėta - - pašalinta"
   },
+  "subtitleJson": {
+    "message": "Formatuokite, sumažinkite ir tikrinkite JSON bei eksportuokite TypeScript tipus"
+  },
+  "subtitleImage": {
+    "message": "Konvertuokite vaizdus tarp PNG, JPEG, WebP ir AVIF"
+  },
   "runButton": {
     "message": "Palyginti"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Įrankiai"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatuoti"
+  },
+  "jsonMinifyButton": {
+    "message": "Sumažinti"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopijuoti"
+  },
+  "jsonInputLabel": {
+    "message": "JSON įvestis"
+  },
+  "jsonOutputLabel": {
+    "message": "Formatuota išvestis"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript tipai"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Sintakse paryškinta JSON išvestis"
+  },
+  "jsonEmptyError": {
+    "message": "Pirmiausia įklijuokite JSON."
+  },
+  "jsonParseError": {
+    "message": "Netinkamas JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Suformatuota."
+  },
+  "jsonMinifyOk": {
+    "message": "Sumažinta."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipai eksportuoti."
+  },
+  "toolTabImage": {
+    "message": "Vaizdas"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Išvesties formatas"
+  },
+  "imgQualityLabel": {
+    "message": "Kokybė"
+  },
+  "imgBackgroundLabel": {
+    "message": "Fonas"
+  },
+  "imgConvertButton": {
+    "message": "Konvertuoti"
+  },
+  "imgDownloadButton": {
+    "message": "Atsisiųsti"
+  },
+  "imgSourceLabel": {
+    "message": "Šaltinio vaizdas"
+  },
+  "imgOutputLabel": {
+    "message": "Konvertuotas vaizdas"
+  },
+  "imgDropTitle": {
+    "message": "Numeskite vaizdą čia"
+  },
+  "imgDropHint": {
+    "message": "arba spustelėkite, kad naršytumėte · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Pridėti vaizdą"
+  },
+  "imgOutputEmpty": {
+    "message": "Konvertuotas vaizdas bus rodomas čia"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Konvertuoto vaizdo peržiūra"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Nežinoma"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Pirmiausia pridėkite vaizdą."
+  },
+  "imgInvalidFile": {
+    "message": "Pasirinkite tinkamą vaizdo failą."
+  },
+  "imgDecodeError": {
+    "message": "Šio vaizdo nepavyko nuskaityti."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Šis išvesties formatas jūsų naršyklėje nepalaikomas."
+  },
+  "imgConverting": {
+    "message": "Konvertuojama…"
+  },
+  "imgConvertOk": {
+    "message": "Konvertuota."
+  },
+  "imgConvertError": {
+    "message": "Konvertavimas nepavyko."
+  },
+  "imgLoadedOk": {
+    "message": "Vaizdas įkeltas."
   }
 }

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "இரண்டு உரைகளை வரிக்கு வரி ஒப்பிடுக - + சேர்க்கப்பட்ட - - நீக்கப்பட்டது"
   },
+  "subtitleJson": {
+    "message": "JSON ஐ வடிவமைத்து, சுருக்கி, சரிபார்த்து TypeScript வகைகளை ஏற்றுமதி செய்யுங்கள்"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP மற்றும் AVIF இடையே படங்களை மாற்றுங்கள்"
+  },
   "runButton": {
     "message": "ஒப்பிடு"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "தீம்"
+  },
+  "toolTabsAriaLabel": {
+    "message": "கருவிகள்"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "வடிவமை"
+  },
+  "jsonMinifyButton": {
+    "message": "சுருக்கு"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "நகலெடு"
+  },
+  "jsonInputLabel": {
+    "message": "JSON உள்ளீடு"
+  },
+  "jsonOutputLabel": {
+    "message": "வடிவமைக்கப்பட்ட வெளியீடு"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript வகைகள்"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "தொடரியல் சிறப்புறுத்தப்பட்ட JSON வெளியீடு"
+  },
+  "jsonEmptyError": {
+    "message": "முதலில் JSON ஐ ஒட்டவும்."
+  },
+  "jsonParseError": {
+    "message": "செல்லாத JSON"
+  },
+  "jsonFormatOk": {
+    "message": "வடிவமைக்கப்பட்டது."
+  },
+  "jsonMinifyOk": {
+    "message": "சுருக்கப்பட்டது."
+  },
+  "jsonTypeExportOk": {
+    "message": "வகைகள் ஏற்றுமதி செய்யப்பட்டன."
+  },
+  "toolTabImage": {
+    "message": "படம்"
+  },
+  "imgTargetFormatLabel": {
+    "message": "வெளியீட்டு வடிவம்"
+  },
+  "imgQualityLabel": {
+    "message": "தரம்"
+  },
+  "imgBackgroundLabel": {
+    "message": "பின்னணி"
+  },
+  "imgConvertButton": {
+    "message": "மாற்று"
+  },
+  "imgDownloadButton": {
+    "message": "பதிவிறக்கு"
+  },
+  "imgSourceLabel": {
+    "message": "மூலப் படம்"
+  },
+  "imgOutputLabel": {
+    "message": "மாற்றப்பட்ட படம்"
+  },
+  "imgDropTitle": {
+    "message": "இங்கே ஒரு படத்தை விடுங்கள்"
+  },
+  "imgDropHint": {
+    "message": "அல்லது உலாவ கிளிக் செய்யுங்கள் · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "படம் சேர்"
+  },
+  "imgOutputEmpty": {
+    "message": "மாற்றப்பட்ட படம் இங்கே தோன்றும்"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "மாற்றப்பட்ட படத்தின் முன்னோட்டம்"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "தெரியாதது"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "முதலில் ஒரு படத்தைச் சேர்க்கவும்."
+  },
+  "imgInvalidFile": {
+    "message": "செல்லுபடியான படக் கோப்பைத் தேர்ந்தெடுக்கவும்."
+  },
+  "imgDecodeError": {
+    "message": "இந்தப் படத்தைப் படிக்க முடியவில்லை."
+  },
+  "imgUnsupportedFormat": {
+    "message": "இந்த வெளியீட்டு வடிவம் உங்கள் உலாவியில் ஆதரிக்கப்படவில்லை."
+  },
+  "imgConverting": {
+    "message": "மாற்றுகிறது…"
+  },
+  "imgConvertOk": {
+    "message": "மாற்றப்பட்டது."
+  },
+  "imgConvertError": {
+    "message": "மாற்றம் தோல்வியடைந்தது."
+  },
+  "imgLoadedOk": {
+    "message": "படம் ஏற்றப்பட்டது."
   }
 }

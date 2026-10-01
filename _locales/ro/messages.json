@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Comparați două texte rând cu rând - + adăugat - - eliminat"
   },
+  "subtitleJson": {
+    "message": "Formatați, minificați și validați JSON și exportați tipuri TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Convertiți imagini între PNG, JPEG, WebP și AVIF"
+  },
   "runButton": {
     "message": "Comparaţie"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Temă"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Instrumente"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formatare"
+  },
+  "jsonMinifyButton": {
+    "message": "Minificare"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Copiere"
+  },
+  "jsonInputLabel": {
+    "message": "Intrare JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Ieșire formatată"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Tipuri TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Ieșire JSON cu evidențiere sintactică"
+  },
+  "jsonEmptyError": {
+    "message": "Lipiți mai întâi JSON."
+  },
+  "jsonParseError": {
+    "message": "JSON nevalid"
+  },
+  "jsonFormatOk": {
+    "message": "Formatat."
+  },
+  "jsonMinifyOk": {
+    "message": "Minificat."
+  },
+  "jsonTypeExportOk": {
+    "message": "Tipuri exportate."
+  },
+  "toolTabImage": {
+    "message": "Imagine"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Format de ieșire"
+  },
+  "imgQualityLabel": {
+    "message": "Calitate"
+  },
+  "imgBackgroundLabel": {
+    "message": "Fundal"
+  },
+  "imgConvertButton": {
+    "message": "Conversie"
+  },
+  "imgDownloadButton": {
+    "message": "Descărcare"
+  },
+  "imgSourceLabel": {
+    "message": "Imagine sursă"
+  },
+  "imgOutputLabel": {
+    "message": "Imagine convertită"
+  },
+  "imgDropTitle": {
+    "message": "Plasați o imagine aici"
+  },
+  "imgDropHint": {
+    "message": "sau faceți clic pentru a răsfoi · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Adăugați imagine"
+  },
+  "imgOutputEmpty": {
+    "message": "Imaginea convertită va apărea aici"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Previzualizare imagine convertită"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Necunoscut"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Adăugați mai întâi o imagine."
+  },
+  "imgInvalidFile": {
+    "message": "Selectați un fișier imagine valid."
+  },
+  "imgDecodeError": {
+    "message": "Această imagine nu a putut fi citită."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Acest format de ieșire nu este acceptat în browserul dvs."
+  },
+  "imgConverting": {
+    "message": "Se convertește…"
+  },
+  "imgConvertOk": {
+    "message": "Convertit."
+  },
+  "imgConvertError": {
+    "message": "Conversia a eșuat."
+  },
+  "imgLoadedOk": {
+    "message": "Imagine încărcată."
   }
 }

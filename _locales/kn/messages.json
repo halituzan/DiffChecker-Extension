@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "ಎರಡು ಪಠ್ಯಗಳನ್ನು ಸಾಲಿನಿಂದ ಹೋಲಿಸಿ - + ಸೇರಿಸಲಾಗಿದೆ - - ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
   },
+  "subtitleJson": {
+    "message": "JSON ಅನ್ನು ಫಾರ್ಮ್ಯಾಟ್, ಮಿನಿಫೈ ಮತ್ತು ಪರಿಶೀಲಿಸಿ ಹಾಗೂ TypeScript ಪ್ರಕಾರಗಳನ್ನು ರಫ್ತು ಮಾಡಿ"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP ಮತ್ತು AVIF ನಡುವೆ ಚಿತ್ರಗಳನ್ನು ಪರಿವರ್ತಿಸಿ"
+  },
   "runButton": {
     "message": "ಹೋಲಿಸಿ"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "ಥೀಮ್"
+  },
+  "toolTabsAriaLabel": {
+    "message": "ಉಪಕರಣಗಳು"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ಫಾರ್ಮ್ಯಾಟ್"
+  },
+  "jsonMinifyButton": {
+    "message": "ಮಿನಿಫೈ"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "ನಕಲಿಸಿ"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ಇನ್‌ಪುಟ್"
+  },
+  "jsonOutputLabel": {
+    "message": "ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿದ ಔಟ್‌ಪುಟ್"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript ಪ್ರಕಾರಗಳು"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್ ಮಾಡಿದ JSON ಔಟ್‌ಪುಟ್"
+  },
+  "jsonEmptyError": {
+    "message": "ಮೊದಲು JSON ಅಂಟಿಸಿ."
+  },
+  "jsonParseError": {
+    "message": "ಅಮಾನ್ಯ JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ಫಾರ್ಮ್ಯಾಟ್ ಆಯಿತು."
+  },
+  "jsonMinifyOk": {
+    "message": "ಮಿನಿಫೈ ಆಯಿತು."
+  },
+  "jsonTypeExportOk": {
+    "message": "ಪ್ರಕಾರಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಯಿತು."
+  },
+  "toolTabImage": {
+    "message": "ಚಿತ್ರ"
+  },
+  "imgTargetFormatLabel": {
+    "message": "ಔಟ್‌ಪುಟ್ ಫಾರ್ಮ್ಯಾಟ್"
+  },
+  "imgQualityLabel": {
+    "message": "ಗುಣಮಟ್ಟ"
+  },
+  "imgBackgroundLabel": {
+    "message": "ಹಿನ್ನೆಲೆ"
+  },
+  "imgConvertButton": {
+    "message": "ಪರಿವರ್ತಿಸಿ"
+  },
+  "imgDownloadButton": {
+    "message": "ಡೌನ್‌ಲೋಡ್"
+  },
+  "imgSourceLabel": {
+    "message": "ಮೂಲ ಚಿತ್ರ"
+  },
+  "imgOutputLabel": {
+    "message": "ಪರಿವರ್ತಿತ ಚಿತ್ರ"
+  },
+  "imgDropTitle": {
+    "message": "ಇಲ್ಲಿ ಚಿತ್ರವನ್ನು ಬಿಡಿ"
+  },
+  "imgDropHint": {
+    "message": "ಅಥವಾ ಬ್ರೌಸ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "ಚಿತ್ರ ಸೇರಿಸಿ"
+  },
+  "imgOutputEmpty": {
+    "message": "ಪರಿವರ್ತಿತ ಚಿತ್ರ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "ಪರಿವರ್ತಿತ ಚಿತ್ರದ ಪೂರ್ವವೀಕ್ಷಣೆ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "ಅಜ್ಞಾತ"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "ಮೊದಲು ಚಿತ್ರ ಸೇರಿಸಿ."
+  },
+  "imgInvalidFile": {
+    "message": "ಮಾನ್ಯ ಚಿತ್ರ ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "imgDecodeError": {
+    "message": "ಈ ಚಿತ್ರವನ್ನು ಓದಲಾಗಲಿಲ್ಲ."
+  },
+  "imgUnsupportedFormat": {
+    "message": "ಈ ಔಟ್‌ಪುಟ್ ಫಾರ್ಮ್ಯಾಟ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."
+  },
+  "imgConverting": {
+    "message": "ಪರಿವರ್ತಿಸಲಾಗುತ್ತಿದೆ…"
+  },
+  "imgConvertOk": {
+    "message": "ಪರಿವರ್ತಿಸಲಾಯಿತು."
+  },
+  "imgConvertError": {
+    "message": "ಪರಿವರ್ತನೆ ವಿಫಲವಾಯಿತು."
+  },
+  "imgLoadedOk": {
+    "message": "ಚಿತ್ರ ಲೋಡ್ ಆಯಿತು."
   }
 }

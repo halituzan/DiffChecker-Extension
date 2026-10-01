@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "दोन मजकुरांची ओळीनुसार तुलना करा - + जोडले - - काढले"
   },
+  "subtitleJson": {
+    "message": "JSON फॉरमॅट, मिनिफाय आणि पडताळा तसेच TypeScript प्रकार निर्यात करा"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP आणि AVIF दरम्यान प्रतिमा रूपांतरित करा"
+  },
   "runButton": {
     "message": "तुलना करा"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "थीम"
+  },
+  "toolTabsAriaLabel": {
+    "message": "साधने"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "फॉरमॅट"
+  },
+  "jsonMinifyButton": {
+    "message": "मिनिफाय"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "कॉपी"
+  },
+  "jsonInputLabel": {
+    "message": "JSON इनपुट"
+  },
+  "jsonOutputLabel": {
+    "message": "फॉरमॅट केलेले आउटपुट"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript प्रकार"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "सिंटॅक्स हायलाइट केलेले JSON आउटपुट"
+  },
+  "jsonEmptyError": {
+    "message": "आधी JSON पेस्ट करा."
+  },
+  "jsonParseError": {
+    "message": "अवैध JSON"
+  },
+  "jsonFormatOk": {
+    "message": "फॉरमॅट झाले."
+  },
+  "jsonMinifyOk": {
+    "message": "मिनिफाय झाले."
+  },
+  "jsonTypeExportOk": {
+    "message": "प्रकार निर्यात झाले."
+  },
+  "toolTabImage": {
+    "message": "प्रतिमा"
+  },
+  "imgTargetFormatLabel": {
+    "message": "आउटपुट फॉरमॅट"
+  },
+  "imgQualityLabel": {
+    "message": "गुणवत्ता"
+  },
+  "imgBackgroundLabel": {
+    "message": "पार्श्वभूमी"
+  },
+  "imgConvertButton": {
+    "message": "रूपांतरित करा"
+  },
+  "imgDownloadButton": {
+    "message": "डाउनलोड"
+  },
+  "imgSourceLabel": {
+    "message": "स्रोत प्रतिमा"
+  },
+  "imgOutputLabel": {
+    "message": "रूपांतरित प्रतिमा"
+  },
+  "imgDropTitle": {
+    "message": "येथे प्रतिमा टाका"
+  },
+  "imgDropHint": {
+    "message": "किंवा ब्राउझ करण्यासाठी क्लिक करा · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "प्रतिमा जोडा"
+  },
+  "imgOutputEmpty": {
+    "message": "रूपांतरित प्रतिमा येथे दिसेल"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "रूपांतरित प्रतिमेचे पूर्वावलोकन"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "अज्ञात"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "आधी एक प्रतिमा जोडा."
+  },
+  "imgInvalidFile": {
+    "message": "वैध प्रतिमा फाइल निवडा."
+  },
+  "imgDecodeError": {
+    "message": "ही प्रतिमा वाचता आली नाही."
+  },
+  "imgUnsupportedFormat": {
+    "message": "हे आउटपुट फॉरमॅट तुमच्या ब्राउझरमध्ये समर्थित नाही."
+  },
+  "imgConverting": {
+    "message": "रूपांतर होत आहे…"
+  },
+  "imgConvertOk": {
+    "message": "रूपांतर झाले."
+  },
+  "imgConvertError": {
+    "message": "रूपांतर अयशस्वी."
+  },
+  "imgLoadedOk": {
+    "message": "प्रतिमा लोड झाली."
   }
 }

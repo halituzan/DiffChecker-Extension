@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Sammenlign to tekster linje for linje - + lagt til - - fjernet"
   },
+  "subtitleJson": {
+    "message": "Formater, minifiser og valider JSON, og eksporter TypeScript-typer"
+  },
+  "subtitleImage": {
+    "message": "Konverter bilder mellom PNG, JPEG, WebP og AVIF"
+  },
   "runButton": {
     "message": "Sammenligne"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Verktøy"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formater"
+  },
+  "jsonMinifyButton": {
+    "message": "Minifiser"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopier"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-inndata"
+  },
+  "jsonOutputLabel": {
+    "message": "Formatert utdata"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript-typer"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON-utdata med syntaksutheving"
+  },
+  "jsonEmptyError": {
+    "message": "Lim inn JSON først."
+  },
+  "jsonParseError": {
+    "message": "Ugyldig JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formatert."
+  },
+  "jsonMinifyOk": {
+    "message": "Minifisert."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typer eksportert."
+  },
+  "toolTabImage": {
+    "message": "Bilde"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Utdataformat"
+  },
+  "imgQualityLabel": {
+    "message": "Kvalitet"
+  },
+  "imgBackgroundLabel": {
+    "message": "Bakgrunn"
+  },
+  "imgConvertButton": {
+    "message": "Konverter"
+  },
+  "imgDownloadButton": {
+    "message": "Last ned"
+  },
+  "imgSourceLabel": {
+    "message": "Kildebilde"
+  },
+  "imgOutputLabel": {
+    "message": "Konvertert bilde"
+  },
+  "imgDropTitle": {
+    "message": "Slipp et bilde her"
+  },
+  "imgDropHint": {
+    "message": "eller klikk for å bla · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Legg til bilde"
+  },
+  "imgOutputEmpty": {
+    "message": "Det konverterte bildet vises her"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Forhåndsvisning av konvertert bilde"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Ukjent"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Legg til et bilde først."
+  },
+  "imgInvalidFile": {
+    "message": "Velg en gyldig bildefil."
+  },
+  "imgDecodeError": {
+    "message": "Dette bildet kunne ikke leses."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Dette utdataformatet støttes ikke i nettleseren din."
+  },
+  "imgConverting": {
+    "message": "Konverterer…"
+  },
+  "imgConvertOk": {
+    "message": "Konvertert."
+  },
+  "imgConvertError": {
+    "message": "Konvertering mislyktes."
+  },
+  "imgLoadedOk": {
+    "message": "Bilde lastet."
   }
 }

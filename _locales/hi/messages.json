@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "दो पाठों की पंक्ति दर पंक्ति तुलना करें - + जोड़ा गया - - हटाया गया"
   },
+  "subtitleJson": {
+    "message": "JSON को फ़ॉर्मैट, मिनिफ़ाई और सत्यापित करें तथा TypeScript प्रकार निर्यात करें"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP और AVIF के बीच छवियाँ बदलें"
+  },
   "runButton": {
     "message": "तुलना करना"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "विषय"
+  },
+  "toolTabsAriaLabel": {
+    "message": "टूल्स"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "फ़ॉर्मैट"
+  },
+  "jsonMinifyButton": {
+    "message": "मिनिफ़ाई"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "कॉपी"
+  },
+  "jsonInputLabel": {
+    "message": "JSON इनपुट"
+  },
+  "jsonOutputLabel": {
+    "message": "फ़ॉर्मैट किया गया आउटपुट"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript प्रकार"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "सिंटैक्स हाइलाइट किया गया JSON आउटपुट"
+  },
+  "jsonEmptyError": {
+    "message": "पहले JSON पेस्ट करें।"
+  },
+  "jsonParseError": {
+    "message": "अमान्य JSON"
+  },
+  "jsonFormatOk": {
+    "message": "फ़ॉर्मैट हो गया।"
+  },
+  "jsonMinifyOk": {
+    "message": "मिनिफ़ाई हो गया।"
+  },
+  "jsonTypeExportOk": {
+    "message": "प्रकार निर्यात हो गए।"
+  },
+  "toolTabImage": {
+    "message": "छवि"
+  },
+  "imgTargetFormatLabel": {
+    "message": "आउटपुट फ़ॉर्मैट"
+  },
+  "imgQualityLabel": {
+    "message": "गुणवत्ता"
+  },
+  "imgBackgroundLabel": {
+    "message": "पृष्ठभूमि"
+  },
+  "imgConvertButton": {
+    "message": "कन्वर्ट"
+  },
+  "imgDownloadButton": {
+    "message": "डाउनलोड"
+  },
+  "imgSourceLabel": {
+    "message": "स्रोत छवि"
+  },
+  "imgOutputLabel": {
+    "message": "कन्वर्ट की गई छवि"
+  },
+  "imgDropTitle": {
+    "message": "यहाँ एक छवि छोड़ें"
+  },
+  "imgDropHint": {
+    "message": "या ब्राउज़ करने के लिए क्लिक करें · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "छवि जोड़ें"
+  },
+  "imgOutputEmpty": {
+    "message": "कन्वर्ट की गई छवि यहाँ दिखेगी"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "कन्वर्ट की गई छवि का पूर्वावलोकन"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "अज्ञात"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "पहले एक छवि जोड़ें।"
+  },
+  "imgInvalidFile": {
+    "message": "एक मान्य छवि फ़ाइल चुनें।"
+  },
+  "imgDecodeError": {
+    "message": "यह छवि पढ़ी नहीं जा सकी।"
+  },
+  "imgUnsupportedFormat": {
+    "message": "यह आउटपुट फ़ॉर्मैट आपके ब्राउज़र में समर्थित नहीं है।"
+  },
+  "imgConverting": {
+    "message": "कन्वर्ट हो रहा है…"
+  },
+  "imgConvertOk": {
+    "message": "कन्वर्ट हो गया।"
+  },
+  "imgConvertError": {
+    "message": "कन्वर्ज़न विफल।"
+  },
+  "imgLoadedOk": {
+    "message": "छवि लोड हो गई।"
   }
 }

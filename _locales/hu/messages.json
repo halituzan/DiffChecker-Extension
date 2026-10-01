@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Hasonlítson össze két szöveget soronként - + hozzáadva - - eltávolítva"
   },
+  "subtitleJson": {
+    "message": "JSON formázása, tömörítése és ellenőrzése, valamint TypeScript típusok exportálása"
+  },
+  "subtitleImage": {
+    "message": "Képek átalakítása PNG, JPEG, WebP és AVIF között"
+  },
   "runButton": {
     "message": "Hasonlítsa össze"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Téma"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Eszközök"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Formázás"
+  },
+  "jsonMinifyButton": {
+    "message": "Tömörítés"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Másolás"
+  },
+  "jsonInputLabel": {
+    "message": "JSON bemenet"
+  },
+  "jsonOutputLabel": {
+    "message": "Formázott kimenet"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript típusok"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Szintaxiskiemelt JSON kimenet"
+  },
+  "jsonEmptyError": {
+    "message": "Először illesszen be JSON-t."
+  },
+  "jsonParseError": {
+    "message": "Érvénytelen JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Formázva."
+  },
+  "jsonMinifyOk": {
+    "message": "Tömörítve."
+  },
+  "jsonTypeExportOk": {
+    "message": "Típusok exportálva."
+  },
+  "toolTabImage": {
+    "message": "Kép"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Kimeneti formátum"
+  },
+  "imgQualityLabel": {
+    "message": "Minőség"
+  },
+  "imgBackgroundLabel": {
+    "message": "Háttér"
+  },
+  "imgConvertButton": {
+    "message": "Átalakítás"
+  },
+  "imgDownloadButton": {
+    "message": "Letöltés"
+  },
+  "imgSourceLabel": {
+    "message": "Forráskép"
+  },
+  "imgOutputLabel": {
+    "message": "Átalakított kép"
+  },
+  "imgDropTitle": {
+    "message": "Húzzon ide egy képet"
+  },
+  "imgDropHint": {
+    "message": "vagy kattintson a tallózáshoz · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Kép hozzáadása"
+  },
+  "imgOutputEmpty": {
+    "message": "Az átalakított kép itt jelenik meg"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Átalakított kép előnézete"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Ismeretlen"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Először adjon hozzá egy képet."
+  },
+  "imgInvalidFile": {
+    "message": "Válasszon érvényes képfájlt."
+  },
+  "imgDecodeError": {
+    "message": "Ez a kép nem olvasható."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Ez a kimeneti formátum nem támogatott a böngészőjében."
+  },
+  "imgConverting": {
+    "message": "Átalakítás…"
+  },
+  "imgConvertOk": {
+    "message": "Átalakítva."
+  },
+  "imgConvertError": {
+    "message": "Az átalakítás sikertelen."
+  },
+  "imgLoadedOk": {
+    "message": "Kép betöltve."
   }
 }

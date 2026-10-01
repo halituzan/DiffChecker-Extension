@@ -564,6 +564,11 @@ body[data-tool="image"] [data-panel]:not([data-panel="image"]) {
   color: var(--syntax-punct);
 }
 
+.tok-comment {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .header-icon-btn {
   display: inline-flex;
   align-items: center;
@@ -1552,16 +1557,20 @@ body.popup #json-minify {
   order: 3;
 }
 
-body.popup #json-copy {
+body.popup #json-type-export {
   order: 4;
 }
 
-body.popup #json-clear {
+body.popup #json-copy {
   order: 5;
 }
 
-body.popup .json-status {
+body.popup #json-clear {
   order: 6;
+}
+
+body.popup .json-status {
+  order: 7;
   flex: 1 1 auto;
   min-width: 0;
   margin-left: 0;

@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "రెండు వచనాలను లైన్ వారీగా సరిపోల్చండి - + జోడించబడింది - - తీసివేయబడింది"
   },
+  "subtitleJson": {
+    "message": "JSON ను ఫార్మాట్, మినిఫై మరియు ధృవీకరించి TypeScript రకాలను ఎగుమతి చేయండి"
+  },
+  "subtitleImage": {
+    "message": "PNG, JPEG, WebP మరియు AVIF మధ్య చిత్రాలను మార్చండి"
+  },
   "runButton": {
     "message": "సరిపోల్చండి"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "థీమ్"
+  },
+  "toolTabsAriaLabel": {
+    "message": "సాధనాలు"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "ఫార్మాట్"
+  },
+  "jsonMinifyButton": {
+    "message": "మినిఫై"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "కాపీ"
+  },
+  "jsonInputLabel": {
+    "message": "JSON ఇన్‌పుట్"
+  },
+  "jsonOutputLabel": {
+    "message": "ఫార్మాట్ చేసిన అవుట్‌పుట్"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript రకాలు"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "సింటాక్స్ హైలైట్ చేసిన JSON అవుట్‌పుట్"
+  },
+  "jsonEmptyError": {
+    "message": "ముందుగా JSON ను అతికించండి."
+  },
+  "jsonParseError": {
+    "message": "చెల్లని JSON"
+  },
+  "jsonFormatOk": {
+    "message": "ఫార్మాట్ అయింది."
+  },
+  "jsonMinifyOk": {
+    "message": "మినిఫై అయింది."
+  },
+  "jsonTypeExportOk": {
+    "message": "రకాలు ఎగుమతి అయ్యాయి."
+  },
+  "toolTabImage": {
+    "message": "చిత్రం"
+  },
+  "imgTargetFormatLabel": {
+    "message": "అవుట్‌పుట్ ఫార్మాట్"
+  },
+  "imgQualityLabel": {
+    "message": "నాణ్యత"
+  },
+  "imgBackgroundLabel": {
+    "message": "నేపథ్యం"
+  },
+  "imgConvertButton": {
+    "message": "మార్చు"
+  },
+  "imgDownloadButton": {
+    "message": "డౌన్‌లోడ్"
+  },
+  "imgSourceLabel": {
+    "message": "మూల చిత్రం"
+  },
+  "imgOutputLabel": {
+    "message": "మార్చబడిన చిత్రం"
+  },
+  "imgDropTitle": {
+    "message": "ఇక్కడ చిత్రాన్ని వదలండి"
+  },
+  "imgDropHint": {
+    "message": "లేదా బ్రౌజ్ చేయడానికి క్లిక్ చేయండి · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "చిత్రం జోడించు"
+  },
+  "imgOutputEmpty": {
+    "message": "మార్చబడిన చిత్రం ఇక్కడ కనిపిస్తుంది"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "మార్చబడిన చిత్రం యొక్క ప్రివ్యూ"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "తెలియదు"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "ముందుగా ఒక చిత్రం జోడించండి."
+  },
+  "imgInvalidFile": {
+    "message": "చెల్లుబాటు అయ్యే చిత్ర ఫైల్‌ను ఎంచుకోండి."
+  },
+  "imgDecodeError": {
+    "message": "ఈ చిత్రాన్ని చదవలేకపోయాము."
+  },
+  "imgUnsupportedFormat": {
+    "message": "ఈ అవుట్‌పుట్ ఫార్మాట్ మీ బ్రౌజర్‌లో మద్దతు లేదు."
+  },
+  "imgConverting": {
+    "message": "మారుస్తోంది…"
+  },
+  "imgConvertOk": {
+    "message": "మార్చబడింది."
+  },
+  "imgConvertError": {
+    "message": "మార్పు విఫలమైంది."
+  },
+  "imgLoadedOk": {
+    "message": "చిత్రం లోడ్ అయింది."
   }
 }

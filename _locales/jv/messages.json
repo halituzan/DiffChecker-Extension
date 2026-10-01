@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Mbandhingake rong teks kanthi baris - + ditambahake - - dibusak"
   },
+  "subtitleJson": {
+    "message": "Format, minify, lan validasi JSON sarta ekspor jinis TypeScript"
+  },
+  "subtitleImage": {
+    "message": "Konversi gambar antarane PNG, JPEG, WebP, lan AVIF"
+  },
   "runButton": {
     "message": "Mbandhingake"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Tema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Piranti"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Format"
+  },
+  "jsonMinifyButton": {
+    "message": "Minify"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Salin"
+  },
+  "jsonInputLabel": {
+    "message": "Input JSON"
+  },
+  "jsonOutputLabel": {
+    "message": "Output sing diformat"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "Jinis TypeScript"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "Output JSON kanthi sorotan sintaks"
+  },
+  "jsonEmptyError": {
+    "message": "Tempel JSON dhisik."
+  },
+  "jsonParseError": {
+    "message": "JSON ora sah"
+  },
+  "jsonFormatOk": {
+    "message": "Diformat."
+  },
+  "jsonMinifyOk": {
+    "message": "Diminify."
+  },
+  "jsonTypeExportOk": {
+    "message": "Jinis diekspor."
+  },
+  "toolTabImage": {
+    "message": "Gambar"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Format output"
+  },
+  "imgQualityLabel": {
+    "message": "Kualitas"
+  },
+  "imgBackgroundLabel": {
+    "message": "Latar mburi"
+  },
+  "imgConvertButton": {
+    "message": "Konversi"
+  },
+  "imgDownloadButton": {
+    "message": "Undhuh"
+  },
+  "imgSourceLabel": {
+    "message": "Gambar sumber"
+  },
+  "imgOutputLabel": {
+    "message": "Gambar sing dikonversi"
+  },
+  "imgDropTitle": {
+    "message": "Selehake gambar ing kene"
+  },
+  "imgDropHint": {
+    "message": "utawa klik kanggo njlajah · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Tambah gambar"
+  },
+  "imgOutputEmpty": {
+    "message": "Gambar sing dikonversi bakal muncul ing kene"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Pratinjau gambar sing dikonversi"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Ora dingerteni"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Tambahake gambar dhisik."
+  },
+  "imgInvalidFile": {
+    "message": "Pilih file gambar sing sah."
+  },
+  "imgDecodeError": {
+    "message": "Gambar iki ora bisa diwaca."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Format output iki ora didhukung ing browser sampeyan."
+  },
+  "imgConverting": {
+    "message": "Ngonversi…"
+  },
+  "imgConvertOk": {
+    "message": "Dikonversi."
+  },
+  "imgConvertError": {
+    "message": "Konversi gagal."
+  },
+  "imgLoadedOk": {
+    "message": "Gambar dimuat."
   }
 }

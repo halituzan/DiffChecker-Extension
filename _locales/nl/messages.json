@@ -29,6 +29,12 @@
   "subtitle": {
     "message": "Vergelijk twee teksten regel voor regel - + toegevoegd - - verwijderd"
   },
+  "subtitleJson": {
+    "message": "JSON opmaken, verkleinen en valideren en TypeScript-typen exporteren"
+  },
+  "subtitleImage": {
+    "message": "Afbeeldingen converteren tussen PNG, JPEG, WebP en AVIF"
+  },
   "runButton": {
     "message": "Vergelijken"
   },
@@ -148,5 +154,140 @@
   },
   "themeUiLabel": {
     "message": "Thema"
+  },
+  "toolTabsAriaLabel": {
+    "message": "Tools"
+  },
+  "toolTabDiff": {
+    "message": "Diff"
+  },
+  "toolTabJson": {
+    "message": "JSON"
+  },
+  "jsonFormatButton": {
+    "message": "Opmaak"
+  },
+  "jsonMinifyButton": {
+    "message": "Verkleinen"
+  },
+  "jsonTypeExportButton": {
+    "message": "Type Export"
+  },
+  "jsonCopyButton": {
+    "message": "Kopiëren"
+  },
+  "jsonInputLabel": {
+    "message": "JSON-invoer"
+  },
+  "jsonOutputLabel": {
+    "message": "Opgemaakte uitvoer"
+  },
+  "jsonTypeOutputLabel": {
+    "message": "TypeScript-typen"
+  },
+  "jsonInputPlaceholder": {
+    "message": "{\"name\": \"Diff Checker\"}"
+  },
+  "jsonOutputAriaLabel": {
+    "message": "JSON-uitvoer met syntaxiskleuring"
+  },
+  "jsonEmptyError": {
+    "message": "Plak eerst JSON."
+  },
+  "jsonParseError": {
+    "message": "Ongeldige JSON"
+  },
+  "jsonFormatOk": {
+    "message": "Opgemaakt."
+  },
+  "jsonMinifyOk": {
+    "message": "Verkleind."
+  },
+  "jsonTypeExportOk": {
+    "message": "Typen geëxporteerd."
+  },
+  "toolTabImage": {
+    "message": "Afbeelding"
+  },
+  "imgTargetFormatLabel": {
+    "message": "Uitvoerformaat"
+  },
+  "imgQualityLabel": {
+    "message": "Kwaliteit"
+  },
+  "imgBackgroundLabel": {
+    "message": "Achtergrond"
+  },
+  "imgConvertButton": {
+    "message": "Converteren"
+  },
+  "imgDownloadButton": {
+    "message": "Downloaden"
+  },
+  "imgSourceLabel": {
+    "message": "Bronafbeelding"
+  },
+  "imgOutputLabel": {
+    "message": "Geconverteerde afbeelding"
+  },
+  "imgDropTitle": {
+    "message": "Zet hier een afbeelding neer"
+  },
+  "imgDropHint": {
+    "message": "of klik om te bladeren · PNG, JPEG, WebP, GIF, BMP, AVIF…"
+  },
+  "imgDropAriaLabel": {
+    "message": "Afbeelding toevoegen"
+  },
+  "imgOutputEmpty": {
+    "message": "De geconverteerde afbeelding verschijnt hier"
+  },
+  "imgOutputPreviewAriaLabel": {
+    "message": "Voorbeeld van geconverteerde afbeelding"
+  },
+  "imgFormatPng": {
+    "message": "PNG"
+  },
+  "imgFormatJpeg": {
+    "message": "JPEG"
+  },
+  "imgFormatWebp": {
+    "message": "WebP"
+  },
+  "imgFormatAvif": {
+    "message": "AVIF"
+  },
+  "imgFormatUnknown": {
+    "message": "Onbekend"
+  },
+  "imgSourceInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgOutputInfo": {
+    "message": "$1 × $2 · $3 · $4"
+  },
+  "imgEmptyError": {
+    "message": "Voeg eerst een afbeelding toe."
+  },
+  "imgInvalidFile": {
+    "message": "Selecteer een geldig afbeeldingsbestand."
+  },
+  "imgDecodeError": {
+    "message": "Deze afbeelding kon niet worden gelezen."
+  },
+  "imgUnsupportedFormat": {
+    "message": "Dit uitvoerformaat wordt niet ondersteund in uw browser."
+  },
+  "imgConverting": {
+    "message": "Bezig met converteren…"
+  },
+  "imgConvertOk": {
+    "message": "Geconverteerd."
+  },
+  "imgConvertError": {
+    "message": "Conversie mislukt."
+  },
+  "imgLoadedOk": {
+    "message": "Afbeelding geladen."
   }
 }
